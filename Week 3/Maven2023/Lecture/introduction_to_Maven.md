@@ -26,3 +26,63 @@ When working with Maven, keep the following key points in mind:
 * Dependency Management: Regularly update dependencies to incorporate bug fixes, security patches, and new features.
 * Build Lifecycle: Understand the Maven build lifecycle and the phases involved in the build process (e.g., compile, test, package).
 Plugin Compatibility: Verify that Maven plugins used in the project are compatible with the project's Java version and other dependencies.
+
+
+# Maven Lecture Demo in IntelliJ
+
+## Introduction
+
+In this demo, we will explore how to use Maven in IntelliJ IDEA, a popular integrated development environment for Java development. Maven simplifies the build process and manages project dependencies efficiently.
+
+## Prerequisites
+
+Make sure you have IntelliJ IDEA installed on your system. You can download it from [here](https://www.jetbrains.com/idea/download/).
+
+## Demo Steps
+
+### Step 1: Create a New Maven Project
+
+1. Open IntelliJ IDEA and select "Create New Project" from the welcome screen.
+
+2. Choose "Maven" from the left-hand menu and click "Next."
+
+3. Select "Create from archetype" and choose "maven-archetype-quickstart" from the list.
+
+4. Fill in the GroupId and ArtifactId fields with appropriate values.
+
+5. Click "Next" and then "Finish" to create the project.
+
+### Step 2: Explore Project Structure
+
+1. IntelliJ IDEA automatically creates the project structure based on Maven conventions.
+
+2. Open the `pom.xml` file to view project configuration and dependencies.
+
+### Step 3: Add Dependencies
+
+1. To add dependencies, edit the `pom.xml` file.
+
+2. Add a dependency by specifying the `<dependency>` tag with `<groupId>`, `<artifactId>`, and `<version>`.
+
+### Step 4: Build the Project
+
+1. To build the project, navigate to the Maven tool window on the right-hand side of IntelliJ IDEA.
+
+2. Expand the lifecycle phase (`clean`, `compile`, `test`, `package`, etc.) you want to execute.
+
+3. Double-click on the desired phase to run it.
+
+### Step 5: Run the Project
+
+1. After building the project, run it by right-clicking on the main class file (usually `App.java`) and selecting "Run <classname>".
+
+### Step 6: Execute Maven Commands
+
+1. You can also execute Maven commands directly from IntelliJ IDEA's terminal.
+
+2. Open the terminal and type `mvn <command>` to execute Maven commands such as `mvn clean install`, `mvn test`, etc.
+
+## Conclusion
+
+In this demo, we learned how to create a new Maven project, manage dependencies, build the project, and run it using IntelliJ IDEA. Maven simplifies the development process and ensures consistency and reproducibility across projects.
+
