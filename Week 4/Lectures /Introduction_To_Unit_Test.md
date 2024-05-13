@@ -29,7 +29,7 @@ Let's consider a simple example application: a calculator that performs basic ar
 
 ### Demonstration: Unit Testing in IntelliJ IDEA
 
-## Step 1: Create a New Java Project
+### Step 1: Create a New Java Project
 
 1. Open IntelliJ IDEA and select "Create New Project" from the welcome screen.
 
@@ -62,6 +62,7 @@ public class Calculator {
         return a / b;
     }
 }
+
 ### Step 3: Write Unit Tests
 Create a new Java class named CalculatorTest for unit tests.
 
