@@ -8,8 +8,8 @@
 * Maven addresses several common challenges in Java development:
 
 * Dependency Management: Simplifies managing project dependencies by automatically downloading and including required libraries.
-Build Automation: Streamlines the build process, enabling developers to compile, test, package, and deploy projects with minimal effort.
-Consistent Project Structure: Enforces a standardized project structure, enhancing collaboration and understanding among developers.
+* Build Automation: Streamlines the build process, enabling developers to compile, test, package, and deploy projects with minimal effort.
+* Consistent Project Structure: Enforces a standardized project structure, enhancing collaboration and understanding among developers.
 * Reusability: Promotes code reusability by facilitating the creation and distribution of reusable components through repositories.
 
 # How to Add Maven to a New Project
