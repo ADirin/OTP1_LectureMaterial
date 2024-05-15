@@ -3,7 +3,7 @@
 
 # How Maven Works in IntelliJ IDEA
 * IntelliJ IDEA, a leading Java IDE, seamlessly integrates with Maven. It recognizes Maven projects and provides built-in support for executing Maven commands directly from the IDE. IntelliJ automatically downloads dependencies specified in the pom.xml file and manages the project's build lifecycle.
-* 
+  
 # Why Maven is Needed
 * Maven addresses several common challenges in Java development:
 
