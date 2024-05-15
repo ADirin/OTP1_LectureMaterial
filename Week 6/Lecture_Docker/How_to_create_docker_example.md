@@ -65,91 +65,85 @@ public class Calculator {
 
 
 ## Step 2: Version Control with GitHub
-1. Initialize a Git repository for your project.
-2. Commit your changes and push the project to a GitHub repository.
 
+1. **Initialize a Git repository for your project:**
+   - Open a terminal or command prompt and navigate to your project directory:
+     ```bash
+     cd /path/to/your/project
+     ```
+   - Initialize a new Git repository:
+     ```bash
+     git init
+     ```
+     This command initializes an empty Git repository in your project directory.
 
-* Open a terminal or command prompt and navigate to your project directory:
-       cd /path/to/your/project
-* Initialize a new Git repository:
-      git init
-This command initializes an empty Git repository in your project directory.
-
-* Add all files in your project directory to the staging area:
-      git add .
-This command stages all changes in the current directory for the next commit.
-
-* Commit the staged changes with a descriptive commit message:
-       git commit -m "Initial commit"
-Replace "Initial commit" with a meaningful message that describes the changes you've made in this commit.
-
-* Go to the GitHub website and log in to your account.
-
-* Click on the "+" icon in the top right corner of the page and select "New repository".
-
-* Fill in the repository name, description, and other settings as desired.
-
-* Click on the "Create repository" button to create the repository on GitHub.
-
-Copy the HTTPS or SSH URL of your GitHub repository.
-
-* In your terminal or command prompt, add the GitHub repository as a remote:
-    git remote add origin <repository-url>
-Replace <repository-url> with the URL you copied from GitHub.
-
-* Push your commits to the GitHub repository:
-    git push -u origin master
-
-This command pushes the commits in your local repository's master branch to the remote repository (GitHub).
+2. **Commit your changes and push the project to a GitHub repository:**
+   - Add all files in your project directory to the staging area:
+     ```bash
+     git add .
+     ```
+     This command stages all changes in the current directory for the next commit.
+   - Commit the staged changes with a descriptive commit message:
+     ```bash
+     git commit -m "Initial commit"
+     ```
+     Replace "Initial commit" with a meaningful message that describes the changes you've made in this commit.
+   - Go to the GitHub website and log in to your account.
+   - Click on the "+" icon in the top right corner of the page and select "New repository".
+   - Fill in the repository name, description, and other settings as desired.
+   - Click on the "Create repository" button to create the repository on GitHub.
+   - Copy the HTTPS or SSH URL of your GitHub repository.
+   - In your terminal or command prompt, add the GitHub repository as a remote:
+     ```bash
+     git remote add origin <repository-url>
+     ```
+     Replace `<repository-url>` with the URL you copied from GitHub.
+   - Push your commits to the GitHub repository:
+     ```bash
+     git push -u origin master
+     ```
+     This command pushes the commits in your local repository's master branch to the remote repository (GitHub).
 
 ## Step 3: Continuous Integration with Jenkins
-1. Set up a Jenkins server.
-2. Install necessary plugins like GitHub and Docker Pipeline.
-3. Create a Jenkins job that monitors the GitHub repository for changes.
-4. Configure the Jenkins job to build the Java project using Maven (assuming you're using Maven for building).
 
-### Install necessary plugins like GitHub and Docker Pipeline:
+1. **Set up a Jenkins server.**
+2. **Install necessary plugins like GitHub and Docker Pipeline:**
+   - In the Jenkins dashboard, navigate to "Manage Jenkins" -> "Manage Plugins" -> "Available" tab.
+   - Search for and select the following plugins to install:
+     - GitHub Plugin: Integrates Jenkins with GitHub repositories.
+     - Docker Pipeline Plugin: Allows Jenkins to use Docker containers as part of the build process.
+   - Click "Install without restart" to install the selected plugins.
+3. **Create a Jenkins job that monitors the GitHub repository for changes:**
+   - Click on "New Item" in the Jenkins dashboard to create a new job.
+   - Enter a name for your job (e.g., "Java CI") and select "Freestyle project" or "Pipeline" depending on your preference.
+   - Under the "General" tab, specify the GitHub project URL of your repository.
+   - Enable "GitHub project" and enter the GitHub project URL.
+   - Configure the job to build periodically or trigger builds based on GitHub webhook triggers (recommended for real-time builds).
+   - Configure any additional build triggers or parameters as needed.
+4. **Configure the Jenkins job to build the Java project using Maven:**
+   - If you're using a "Freestyle project":
+     - In the "Build" section, add a build step to execute Maven commands.
+     - Specify the Maven goals to build your Java project (e.g., clean install).
+   - If you're using a "Pipeline" job:
+     - Write a Jenkinsfile (or use the Pipeline Script) to define the build pipeline stages.
+     - Use the checkout step to clone the GitHub repository.
+     - Use the sh step to execute Maven commands to build your Java project.
+     - Here's an example Jenkinsfile:
 
-* In the Jenkins dashboard, navigate to "Manage Jenkins" -> "Manage Plugins" -> "Available" tab.
-* Search for and select the following plugins to install:
-** GitHub Plugin: Integrates Jenkins with GitHub repositories.
-** Docker Pipeline Plugin: Allows Jenkins to use Docker containers as part of the build process.
-* Click "Install without restart" to install the selected plugins.
-
-### Create a Jenkins job that monitors the GitHub repository for changes:
-* Click on "New Item" in the Jenkins dashboard to create a new job.
-* Enter a name for your job (e.g., "Java CI") and select "Freestyle project" or "Pipeline" depending on your preference.
-Under the "General" tab, specify the GitHub project URL of your repository.
-* Enable "GitHub project" and enter the GitHub project URL.
-* Configure the job to build periodically or trigger builds based on GitHub webhook triggers (recommended for real-time builds).
-* Configure any additional build triggers or parameters as needed.
-
-### Configure the Jenkins job to build the Java project using Maven:
-
-* If you're using a "Freestyle project":
-
-** In the "Build" section, add a build step to execute Maven commands.
-** Specify the Maven goals to build your Java project (e.g., clean install).
-
-* If you're using a "Pipeline" job:
-** Write a Jenkinsfile (or use the Pipeline Script) to define the build pipeline stages.
-** Use the checkout step to clone the GitHub repository.
-** Use the sh step to execute Maven commands to build your Java project.
-** Here's an example Jenkinsfile:
-
-pipeline {
-    agent any
-    stages {
-        stage('Build') {
-            steps {
-                git 'https://github.com/your-username/your-repository.git'
-                sh 'mvn clean install'
-            }
-        }
-    }
-}
-
-### Save your Jenkins job configuration and run a test build to verify the setup.
+       ```groovy
+       pipeline {
+           agent any
+           stages {
+               stage('Build') {
+                   steps {
+                       git 'https://github.com/your-username/your-repository.git'
+                       sh 'mvn clean install'
+                   }
+               }
+           }
+       }
+       ```
+5. **Save your Jenkins job configuration and run a test build to verify the setup.**
 
 Now, Jenkins will monitor your GitHub repository for changes and automatically trigger builds whenever changes are pushed. It will build your Java project using Maven, helping you maintain a continuous integration workflow.
 
