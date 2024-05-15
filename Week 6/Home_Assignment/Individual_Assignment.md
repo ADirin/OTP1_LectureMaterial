@@ -26,6 +26,7 @@ CMD ["java", "-jar", "target/interconversions.jar"]
 
 
 
+
 5. **GitHub and Jenkins Integration:**  
 Ensure that the latest modifications to your FarToCel project are pushed to GitHub. Configure Jenkins to automatically start building after a new commit is uploaded to the repository.
 
@@ -33,6 +34,11 @@ Ensure that the latest modifications to your FarToCel project are pushed to GitH
 Create an account on hub.docker.com if you haven't already.
 
 7. **Update Jenkins with Docker Plugins:**  
+Update Jenkins with Docker plugins following the instructions provided in the class and accompanying video clip in the Oma.
+
+Provide the link to your GitHub repository, screenshots of your Docker Hub repository, and Jenkins build reports as part of your submission.
+
+8. **Update Jenkins with Docker Plugins:**  
 Update Jenkins with Docker plugins following the instructions provided in the class and accompanying video clip in the Oma.
 
 Provide the link to your GitHub repository, screenshots of your Docker Hub repository, and Jenkins build reports as part of your submission.
