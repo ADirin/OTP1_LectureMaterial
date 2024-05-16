@@ -12,6 +12,23 @@ It serves as the single source of truth for what needs to be built, maintained, 
 The product backlog evolves over time as new insights are gained, priorities shift, and customer feedback is incorporated. 
 It is managed and maintained by the product owner.
 
+* Sample tasks in sprint backlog
+#### Task 1: Implement User Authentication
+
+- **Description:** Develop the functionality to allow users to authenticate and log in to the system.
+- **Assigned To:** @developer1
+- **Due Date:** 2024-05-31
+- **Status:** In Progress
+
+
+* Sample use stories 
+#### User Story 1: As a registered user, I want to be able to reset my password, so that I can regain access to my account if I forget my password.
+
+- **Acceptance Criteria:**
+  - The user should receive a password reset link via email.
+  - Clicking on the password reset link should take the user to a page where they can enter a new password.
+  - After resetting the password, the user should be able to log in with the new password.
+
 Product Owner:
 
 The product owner is a key role in Scrum responsible for representing the interests of stakeholders and maximizing the value delivered by the development team. 
