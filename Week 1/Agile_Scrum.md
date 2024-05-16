@@ -12,7 +12,8 @@ It serves as the single source of truth for what needs to be built, maintained, 
 The product backlog evolves over time as new insights are gained, priorities shift, and customer feedback is incorporated. 
 It is managed and maintained by the product owner.
 
-* Sample tasks in sprint backlog
+
+Sample tasks in sprint backlog
 ### Task 1: Implement User Authentication
 
 - **Description:** Develop the functionality to allow users to authenticate and log in to the system.
@@ -20,8 +21,7 @@ It is managed and maintained by the product owner.
 - **Due Date:** 2024-05-31
 - **Status:** In Progress
 
-
-* Sample use stories 
+Sample use stories 
 ### User Story 1: As a registered user, I want to be able to reset my password, so that I can regain access to my account if I forget my password.
 
 - **Acceptance Criteria:**
