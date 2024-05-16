@@ -5,7 +5,7 @@
 * Choose a Java framework for each tier (e.g., JavaFX for UI, Spring Boot for server-side, Hibernate for database).
 * Set up basic CRUD operations for the database layer.
 
->  The last lecture on week2 is online session and and each team conduct sprint review meeting, create sprint review report, and next sprint planning by updating the sprint backlog of the next sprint in Trello 
+>  **The last lecture on week2 is online session and and each team conduct sprint review meeting, create sprint review report, and next sprint planning by updating the sprint backlog of the next sprint in Trello 
 
 # Week 3-4 (Sprint 3-4): Implement UI for Project 1
 * Design and implement user interface components using JavaFX or a similar framework.
