@@ -15,6 +15,7 @@
 * Code coverage
 * Version contol 
 
+> *The last lecture on week4 is online session. Each team conduct sprint review meeting, create sprint review report, and plan the next sprint tasks and designate developer for each task. And finaly update accordingly Trello*
 
 # Week 5-6 (Sprint 5-6): Implement Server-side for Project 1
 * Set up Spring Boot project for the server-side layer.
