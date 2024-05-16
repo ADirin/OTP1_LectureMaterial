@@ -33,5 +33,5 @@ Artificial Intelligence (AI) is poised to revolutionize SecDevOps in several way
 ## Conclusion
 SecDevOps represents a paradigm shift in how organizations approach software development, emphasizing the importance of integrating security into every aspect of the DevOps process. By adopting SecDevOps principles and leveraging emerging technologies like AI, organizations can build more secure and resilient software applications while accelerating delivery and reducing risk.
 
-![SecDevOps Lifecycle]([https://www.example.com/secdevops_lifecycle.png](https://superadmins.com/secdevops-approach-to-sdlc/))
+![SecDevOps Lifecycle] (https://users.metropolia.fi/~amirdi/SEP1/SecDevOps/DeVSecOps.JPG)
 *Figure 1: SecDevOps Lifecycle*
