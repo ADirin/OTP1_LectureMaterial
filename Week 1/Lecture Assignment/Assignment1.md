@@ -16,6 +16,6 @@ During spring planning
 * During this meeting, the team will present their progress,
 * Discuss any challenges encountered, and receive feedback. 
 * Adjustments to the sprint backlog and report the sprint activities. 
-  -This includes detailing the number of tasks implemented,
-  -challenges faced,
-  -and strategies planned to overcome these challenges in the upcoming sprints.
+  - This includes detailing the number of tasks implemented,
+  - challenges faced,
+  - and strategies planned to overcome these challenges in the upcoming sprints.
