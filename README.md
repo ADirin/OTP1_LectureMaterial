@@ -10,6 +10,6 @@
 - **Week 8:** This week is dedicated to exams and project presentations by each group.
 
 
-![Sample Image](images/Thecourse.JPG)
+![Sample Image](Images/Thecourse.JPG)
 
 At the end of each sprint, the lecturers will be available online. All team members must participate and share their implementation with the product owner (teacher).
