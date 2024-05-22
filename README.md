@@ -1,4 +1,4 @@
-**Note:** This is a generic version of the course material. The details of the topics and assignments will be elaborated upon during the compulsory face-to-face lectures. It is important to emphasize that in this course we focus on the process, not merely the project implementation. This means that in each sprint, we apply software engineering principles and methodologies to implement the project.
+**Note:** This is a generic version of the course material. The details of the topics and assignments will be elaborated upon during the **<ins>compulsory *face-to-face* lectures</ina>**. It is important to emphasize that in this course we focus on the process, not merely the project implementation. This means that in each sprint, we apply software engineering principles and methodologies to implement the project.
 
 - **Week 1:** We cover the basics of the software development lifecycle (SDLC) theory, initiate the project, and start Sprint 1.
 - **Week 2:** We delve into DevOps principles.
