@@ -14,7 +14,8 @@ Key Features and Functionality:
 * [Feature 1]
 * [Feature 2]
 * [Feature 3]
-...
+* ...
+
 **Goals and Objectives:**
 
 * Increase user adoption rates by [percentage] within [timeframe].
