@@ -3,8 +3,8 @@
 ## Introduction to SDLC
 
 Software Development Life Cycle (SDLC) is a structured process for developing software applications. It encompasses all the stages involved in software development from conception to deployment and maintenance.
+![SDLC](../Images/SDLC_Final.gif)
 
-![SDLC](../Images/SDLC.png)
 
 ## Importance of SDLC
 
@@ -40,6 +40,6 @@ Scrum is one of the most widely used Agile methodologies. It follows a framework
 - **Artifacts**: Product Backlog, Sprint Backlog, and Increment
 
 Scrum promotes transparency, inspection, and adaptation, enabling teams to deliver high-quality software products efficiently.
-
+![SDLC](../Images/SDLC.png)
 --- 
 
