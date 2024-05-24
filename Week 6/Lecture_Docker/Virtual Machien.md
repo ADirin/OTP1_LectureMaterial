@@ -42,3 +42,5 @@ Choose the amount of RAM to allocate to the virtual machine. Ensure that you all
 4. In terminal:
    ```sh
    docker pull yourRepo/imagename
+5. Use the command docker images to list your images.
+6. Use the Image ID to run the image in the Linux environment.
