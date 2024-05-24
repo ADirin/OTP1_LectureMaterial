@@ -9,7 +9,7 @@ In this course, we follow the agile process. In each sprint, the team should pla
 
 The following figure depicts the process that we utilize in this course for the project (weight 50%)
 
-![Scrum](../Images/Scrum1.gif)
+![Scrum](../Images/Scrum_1.gif)
 
 
 During spring planning 
