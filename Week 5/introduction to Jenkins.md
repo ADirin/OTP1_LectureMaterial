@@ -1,8 +1,7 @@
 # Introduction to Jenkins
 
-https://www.youtube.com/watch?v=txMyeqPDuqk
+[![Jenkins Need You](https://img.youtube.com/vi/txMyeqPDuqk/0.jpg)](https://www.youtube.com/watch?v=txMyeqPDuqk)
 
-[![Jenkins Need You](https://img.youtube.com/vi/txMyeqPDuqk.jpg)](https://www.youtube.com/watch?v=txMyeqPDuqk)
 
 ## What is Jenkins?
 
