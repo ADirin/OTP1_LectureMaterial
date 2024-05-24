@@ -7,9 +7,6 @@ The first four sprints will focus on the DevOps concept, and in the remaining fo
 # Sprints Implementation process (**Important Read Carefully**)
 In this course, we follow the agile process. In each sprint, the team should plan the forthcoming sprint tasks (Sprint planning). 
 
-The following figure depicts the process that we utilize in this course for the project (weight 50%)
-
-![Scrum](OTP1_LectureMaterial/Images/Scrum_1.gif)
 
 
 During spring planning 
@@ -26,3 +23,7 @@ During spring planning
   - This includes detailing the number of tasks implemented,
   - challenges faced,
   - and strategies planned to overcome these challenges in the upcoming sprints.
+
+  **The following figure depicts the process that we utilize in this course for the project (weight 50%)**
+
+![Scrum](OTP1_LectureMaterial/Images/Scrum_1.gif)
