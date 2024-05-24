@@ -1,5 +1,5 @@
 
-![Tcourse and the project implementation](Images/ThecourseOutlines.jpg)
+![Tcourse and the project implementation](/Images/ThecourseOutlines.jpg)
 
 # Week 1-2 (Sprint 1-2): Project Planning and Setup
 * Define project requirements and specifications.
