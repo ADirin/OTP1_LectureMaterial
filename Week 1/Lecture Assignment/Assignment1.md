@@ -24,6 +24,7 @@ During spring planning
   - challenges faced,
   - and strategies planned to overcome these challenges in the upcoming sprints.
 
-  **The following figure depicts the process that we utilize in this course for the project (weight 50%)**
+  **The following figure depicts the process we use in this course for the project (worth 50%):**
 
-![Scrum](OTP1_LectureMaterial/Images/Scrum_1.gif)
+
+![Scrum process diagram](../Images/Scrum_1.gif)
