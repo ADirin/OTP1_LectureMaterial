@@ -1,6 +1,8 @@
 # Introduction to Maven
 * Maven is a powerful build automation tool primarily used for Java projects. It simplifies managing dependencies, building, and distributing Java-based projects. Maven uses a declarative approach to describe project structure, dependencies, and build processes, allowing developers to focus on coding rather than project configuration.
 
+> ![dependency](/Images/giphy.gif)
+> 
 # How Maven Works in IntelliJ IDEA
 * IntelliJ IDEA, a leading Java IDE, seamlessly integrates with Maven. It recognizes Maven projects and provides built-in support for executing Maven commands directly from the IDE. IntelliJ automatically downloads dependencies specified in the pom.xml file and manages the project's build lifecycle.
   
