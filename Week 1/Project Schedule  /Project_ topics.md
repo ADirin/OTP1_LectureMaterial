@@ -4,23 +4,6 @@
 * Manage inventory, orders, and user accounts.
 * Implement a recommendation engine based on user preferences and purchase history.
 
-< sample design:
------------------------------------------------------------
-| Logo | Search Bar        | Home | Categories | Account |
------------------------------------------------------------
-|                      Main Banner                         |
------------------------------------------------------------
-| Categories: Fiction | Non-Fiction | Sci-Fi | ...        |
------------------------------------------------------------
-| Recommendations:                                       |
-| [Book 1] [Book 2] [Book 3] [Book 4]                     |
------------------------------------------------------------
-| Bestsellers:                                           |
-| [Book 1] [Book 2] [Book 3] [Book 4]                     |
------------------------------------------------------------
-| Footer: About Us | Contact Us | Help | Privacy Policy   |
------------------------------------------------------------
-
 
 2. E-Learning Platform:
 * Provide courses on various subjects with video lectures, quizzes, and assignments.
