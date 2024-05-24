@@ -1,5 +1,5 @@
 
-![Scrum and Agile process](/Images/ScrumandAgile.JPG)
+![Scrum and Agile process](/Images/ScrumandAgile.jpg)
 
 # Introduction to Scrum, Agile, Product Backlog, Product Owner, and Scrum Master
 
