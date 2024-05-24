@@ -125,7 +125,7 @@ There are numerous tools and approaches available to assist with software projec
 ### Approaches
 
 1. **Waterfall Model**: A linear approach where each phase of the project must be completed before the next begins.
-2. **Agile Methodology**: An iterative approach that focuses on continuous improvement and customer feedback.
+2. <ins>**Agile Methodology**</ins>: An iterative approach that focuses on continuous improvement and customer feedback.
 3. **Scrum**: An agile framework that uses time-boxed iterations called sprints.
 4. **Kanban**: A visual approach to managing tasks and workflows.
 5. **Lean Software Development**: Focuses on eliminating waste and optimizing processes.
