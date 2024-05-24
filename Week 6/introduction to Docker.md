@@ -3,7 +3,7 @@
 ## Introduction
 Docker has revolutionized the way software is developed, deployed, and managed by providing a lightweight, portable, and efficient solution for containerization. In this learning material, we will explore the fundamentals of Docker, why it's essential, how to install Docker on various platforms, how to effectively use Docker containers, and provide a practical example using Java applications.
 
-> ![How Docker Works](/Images/HoWDockersWords.gif)
+> ![How Docker Works](/Images/HoWDockersWorks.gif)
 
 
 ## Table of Contents
