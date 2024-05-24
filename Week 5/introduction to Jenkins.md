@@ -1,5 +1,9 @@
 # Introduction to Jenkins
 
+https://www.youtube.com/watch?v=txMyeqPDuqk
+
+[![Jenkins Need You](https://img.youtube.com/vi/txMyeqPDuqk.jpg)](https://www.youtube.com/watch?v=txMyeqPDuqk)
+
 ## What is Jenkins?
 
 Jenkins is an open-source automation server used to automate various tasks related to building, testing, and deploying software. It allows developers to continuously integrate and deliver code changes, facilitating collaboration and speeding up the software development process.
