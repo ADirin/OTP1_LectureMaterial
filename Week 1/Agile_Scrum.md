@@ -1,5 +1,8 @@
 
 ![Scrum and Agile process](/Images/ScrumandAgile.jpg)
+[![Scrum Process](https://img.youtube.com/vi/sOV9foKyulY/0.jpg)](https://www.youtube.com/watch?v=sOV9foKyulY&t=18s)
+
+
 
 # Introduction to Scrum, Agile, Product Backlog, Product Owner, and Scrum Master
 
