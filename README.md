@@ -13,3 +13,6 @@
 ![Sample Image](Images/ThecourseOutlines.JPG)
 
 At the end of each sprint, the lecturers will be available online. All team members must participate and share their implementation with the product owner (teacher).
+> **For the project implementation, we follow the agile method as defined in the Agile Manifesto. Therefore, the project implementation is accepted *if and only if* you demonstrate that you followed the agile process as described in the following figure**
+
+![Project Implementation](Images/Scrum.gif)
