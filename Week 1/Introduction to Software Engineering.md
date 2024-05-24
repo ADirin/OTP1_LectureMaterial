@@ -4,6 +4,8 @@ and maintaining software systems. It involves various processes, methodologies, 
 In this introduction, we will explore the fundamental concepts of software engineering, including software engineering processes, 
 disciplines, and the software development life cycle (SDLC).
 
+> [Software Engineering](Images/software-engineering-introduction.png)
+
 # Software Engineering Processes:
 Software engineering processes are a set of activities that guide the creation of software products.
 These processes ensure that software is developed systematically, meeting quality standards, deadlines, and budget constraints. 
