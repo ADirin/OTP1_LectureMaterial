@@ -1,6 +1,11 @@
 
 # Importance of Unit Testing
 
+
+![Unit Test](/Images/UNITTEST.gif)
+
+
+
 ## Introduction
 
 In software development, unit testing is a crucial practice aimed at verifying that individual units or components of the code function correctly. These units are typically small and isolated, such as functions or methods. Unit testing ensures that each unit behaves as expected, helping to detect and prevent bugs early in the development process.
