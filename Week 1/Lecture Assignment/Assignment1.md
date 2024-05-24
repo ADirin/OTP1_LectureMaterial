@@ -27,4 +27,4 @@ During spring planning
   **The following figure depicts the process we use in this course for the project (worth 50%):**
 
 
-![Scrum process diagram](../Images/Scrum_1.gif)
+![Scrum process diagram](Images/Scrum_1.gif)
