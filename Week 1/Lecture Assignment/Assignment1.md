@@ -6,7 +6,14 @@ The first four sprints will focus on the DevOps concept, and in the remaining fo
 
 # Sprints Implementation process (**Important Read Carefully**)
 In this course, we follow the agile process. In each sprint, the team should plan the forthcoming sprint tasks (Sprint planning). 
+
+The following figure depicts the process that we utilize in this course for the project (weight 50%)
+
+![SDLC](../Images/Scrum1.gif)
+
+
 During spring planning 
+
 1. The team  must update Trello with the sprint backlog,
 2. define tasks for each member,
 3. and allocate a Scrum Master. 
