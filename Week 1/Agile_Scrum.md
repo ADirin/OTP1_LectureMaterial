@@ -1,3 +1,6 @@
+
+![Scrum and Agile process](/Images/ScrumandAgile.JPG)
+
 # Introduction to Scrum, Agile, Product Backlog, Product Owner, and Scrum Master
 
 Scrum is an agile framework that facilitates iterative and incremental development of software products.
