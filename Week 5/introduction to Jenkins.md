@@ -25,8 +25,8 @@ With Jenkins, developers can automate the deployment of applications to various 
 
 Jenkins offers a wide range of plugins that extend its functionality, allowing users to integrate with other tools and technologies seamlessly. This flexibility makes Jenkins suitable for a variety of software development workflows and environments.
 
-> ** figure ilustrate the use of Jenkins
->  ![How ro use Jenkins] (/Images/Jenkins.gif)
+> **figure ilustrate the use of Jenkins*
+>  ![How ro use Jenkins](Images/Jenkins.gif)
 
 ## How to Use Jenkins
 
