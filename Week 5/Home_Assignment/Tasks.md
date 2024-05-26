@@ -100,18 +100,48 @@ public class AccountTest {
 }
 ```
 
-Jenkins Integration
-Objective
+## Jenkins Integration
+#### Objective
 Automate the build and test process using Jenkins.
 
-Steps
-Set Up Jenkins:
+*Steps
+1. Set Up Jenkins:
 
-Install Jenkins on your local machine or server.
-Install the necessary plugins for Java and Git integration.
-Create a Jenkins Pipeline:
+* Install Jenkins on your local machine or server.
+* Install the necessary plugins for Java and Git integration.
 
-Set up a new Jenkins job and configure it as a pipeline.
-Add Jenkinsfile:
+2. Create a Jenkins Pipeline:
 
-Create a Jenkinsfile in your repository with the following content:
+* Set up a new Jenkins job and configure it as a pipeline.
+
+3. Add Jenkinsfile:
+* Create a Jenkinsfile in your repository with the following content:
+
+  > pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                sh 'javac Account.java AccountTest.java'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore AccountTest'
+            }
+        }
+    }
+}
+4. Run the Pipeline:
+* Trigger the pipeline manually or set it up to trigger on each commit.
+
+## Resources
+* Jenkins Official Documentation
+* JUnit Official Documentation
+
+## Recommended Video
+For a visual guide on setting up Jenkins, watch this YouTube video:
+
+Introduction to Jenkins
+
