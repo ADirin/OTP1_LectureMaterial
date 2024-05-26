@@ -116,8 +116,8 @@ Automate the build and test process using Jenkins.
 
 3. Add Jenkinsfile:
 * Create a Jenkinsfile in your repository with the following content:
-
-  > pipeline {
+  ```groovy
+   pipeline {
     agent any
 
     stages {
@@ -133,6 +133,7 @@ Automate the build and test process using Jenkins.
         }
     }
 }
+```
 4. Run the Pipeline:
 * Trigger the pipeline manually or set it up to trigger on each commit.
 
@@ -145,3 +146,5 @@ For a visual guide on setting up Jenkins, watch this YouTube video:
 
 Introduction to Jenkins
 
+
+This Markdown document includes the assignment steps, example code, Jenkins integration steps, resources, and a recommended video link.
