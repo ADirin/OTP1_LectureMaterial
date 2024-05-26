@@ -56,4 +56,62 @@ public class Account {
         return this.balance;
     }
 }
+```
+### AccountTest.java
 
+```java
+import static org.junit.Assert.assertEquals;
+import org.junit.Before;
+import org.junit.Test;
+
+public class AccountTest {
+    private Account account;
+
+    @Before
+    public void setUp() {
+        account = new Account();
+    }
+
+    @Test
+    public void testInitialBalance() {
+        assertEquals(0.0, account.getBalance(), 0.01);
+    }
+
+    @Test
+    public void testDeposit() {
+        account.deposit(100.0);
+        assertEquals(100.0, account.getBalance(), 0.01);
+    }
+
+    @Test
+    public void testWithdraw() {
+        account.deposit(100.0);
+        double amountWithdrawn = account.withdraw(50.0);
+        assertEquals(50.0, amountWithdrawn, 0.01);
+        assertEquals(50.0, account.getBalance(), 0.01);
+    }
+
+    @Test
+    public void testWithdrawInsufficientFunds() {
+        double amountWithdrawn = account.withdraw(50.0);
+        assertEquals(0.0, amountWithdrawn, 0.01);
+        assertEquals(0.0, account.getBalance(), 0.01);
+    }
+}
+```
+
+Jenkins Integration
+Objective
+Automate the build and test process using Jenkins.
+
+Steps
+Set Up Jenkins:
+
+Install Jenkins on your local machine or server.
+Install the necessary plugins for Java and Git integration.
+Create a Jenkins Pipeline:
+
+Set up a new Jenkins job and configure it as a pipeline.
+Add Jenkinsfile:
+
+Create a Jenkinsfile in your repository with the following content:
