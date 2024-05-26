@@ -190,3 +190,10 @@ pipeline {
 ```
 Run the Pipeline
 Trigger the pipeline manually or set it up to trigger on each commit.
+
+## Resources
+
+- [Jenkins Official Documentation](https://www.jenkins.io/doc/)
+- [JUnit Official Documentation](https://junit.org/junit4/)
+- [DockerHub](https://hub.docker.com/)
+
