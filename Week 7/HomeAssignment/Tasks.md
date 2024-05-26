@@ -240,7 +240,9 @@ spec:
 ```
 6. Apply the Deployment:
 Deploy the application to Minikube:
-
+> <ins>**Note**<ins> Prior to the deployment:
+> 1. Ensure that the Docker image is pushed to a Docker registry accessible by Minikube.
+> 2. Add steps to verify the deployment after applying it to Minikube to ensure it's running correctly.
 ```sh
 kubectl apply -f deployment.yaml
 ```
