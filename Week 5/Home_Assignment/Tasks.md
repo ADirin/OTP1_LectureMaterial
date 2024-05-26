@@ -132,19 +132,18 @@ Automate the build and test process using Jenkins.
             }
         }
     }
-}
-```
+    } ```
+
 4. Run the Pipeline:
 * Trigger the pipeline manually or set it up to trigger on each commit.
 
-## Resources
-* Jenkins Official Documentation
-* JUnit Official Documentation
+ ## Resources
+
+- [Jenkins Official Documentation](https://www.jenkins.io/doc/)
+- [JUnit Official Documentation](https://junit.org/junit4/)
 
 ## Recommended Video
+
 For a visual guide on setting up Jenkins, watch this YouTube video:
 
-Introduction to Jenkins
-
-
-This Markdown document includes the assignment steps, example code, Jenkins integration steps, resources, and a recommended video link.
+[![Introduction to Jenkins](https://img.youtube.com/vi/FX322RVNGj4/0.jpg)](https://www.youtube.com/watch?v=FX322RVNGj4)
