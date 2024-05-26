@@ -143,7 +143,6 @@ Automate the build and test process using Jenkins.
 - [JUnit Official Documentation](https://junit.org/junit4/)
 
 ## Recommended Video
-
 For a visual guide on setting up Jenkins, watch this YouTube video:
 
 [![Introduction to Jenkins](https://img.youtube.com/vi/FX322RVNGj4/0.jpg)](https://www.youtube.com/watch?v=FX322RVNGj4)
