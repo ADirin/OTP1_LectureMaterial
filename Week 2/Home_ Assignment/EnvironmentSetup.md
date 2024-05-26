@@ -49,4 +49,7 @@ Below is a basic setup guideline for installing Git, Jenkins, Docker, and Kubern
      - Follow the instructions to unlock Jenkins, providing the initial administrator password.
    - **Installation Complete:**
      - Continue with the Jenkins setup by installing additional plugins and configuring global settings.
-     - **Note**  Jenkins works only jdk 11, 17 and 21 make sure you have install one of these JDK (do not forget to update the class path) 
+     - **Note**
+     - Jenkins works only jdk 11, 17 and 21 make sure you have install one of these JDK (do not forget to update the class path)
+     - further instuction how to run jenkin in the lecture
+       
