@@ -143,8 +143,8 @@ Automate the build and test process using Jenkins.
   ```
  
 
-> Note: use sh instead on bat in linux environmenty
-> _Follow the lecture examples for futther Jenkins setup_
+ > **Note**: use _sh_ instead of _bat_ in linux environmenty
+ > _Follow the lecture examples for futther Jenkins setup_
 
 
 4. Run the Pipeline:
