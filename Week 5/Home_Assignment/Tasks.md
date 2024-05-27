@@ -123,16 +123,18 @@ Automate the build and test process using Jenkins.
     stages {
         stage('Build') {
             steps {
-                sh 'javac Account.java AccountTest.java'
+                bat 'javac Account.java AccountTest.java'
             }
         }
         stage('Test') {
             steps {
-                sh 'java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore AccountTest'
+                bat 'java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore AccountTest'
             }
         }
     }
     } ```
+
+  > use sh instead on bat in linux environment
 
 4. Run the Pipeline:
 * Trigger the pipeline manually or set it up to trigger on each commit.
