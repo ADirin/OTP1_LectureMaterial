@@ -88,7 +88,7 @@ right jdk and pluging versions.
 ```
 
 3. **Run Application and Tests:**
-   - Launch `Main.java` and verify from the output that there are errors in the implementation.
+   - first Verify  that there are no errors in the implementation (code)/.
    - Run the JUnit tests:
      - Right-click on the project name in the Project Explorer.
      - Select `Run As` | `JUnit Test`.
@@ -99,6 +99,7 @@ right jdk and pluging versions.
      - Right-click on the project name in the Package Explorer.
      - From the `Coverage As` menu, choose either "1 Java Application" or "2 JUnit Test".
    - The coverage summary appears on the `Coverage` tab at the bottom of the screen.
+   - An alternative approach is to run MVN CLEAN Test
 
 ### PART 2 OF THE TASK: JUnit 5
 
