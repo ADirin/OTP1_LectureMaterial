@@ -118,6 +118,7 @@ Automate the build and test process using Jenkins.
 
 3. Add Jenkinsfile:
 * Create a Jenkinsfile in your repository with the following content:
+
   ```groovy
    pipeline {
     agent any
@@ -125,18 +126,27 @@ Automate the build and test process using Jenkins.
     stages {
         stage('Build') {
             steps {
-                bat 'javac Account.java AccountTest.java'
+                dir('C:\\Users\\amirdi\\IdeaProjects\\UnitTest') {
+                    bat 'mvn compile' // Compile source code using Maven
+                }
             }
         }
         stage('Test') {
             steps {
-                bat 'java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore AccountTest'
+                dir('C:\\Users\\amirdi\\IdeaProjects\\UnitTest') {
+                    bat 'mvn test' // Run tests using Maven
+                }
             }
         }
     }
-    } ```
+}
+```
+ 
 
-  > use sh instead on bat in linux environment
+  > use sh instead on bat in linux environmenty
+<ins>Follow the lecture examples for futther Jenkins setup<ins>
+
+
 
 4. Run the Pipeline:
 * Trigger the pipeline manually or set it up to trigger on each commit.
