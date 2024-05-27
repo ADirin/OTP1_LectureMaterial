@@ -18,7 +18,7 @@ The objective of this assignment is to familiarize yourself with Eclipse's JUnit
 
 > Important to note that you need to add proper reporting plugins, e.g., JACOCO in POM.XML, here is an example of such POM.XML file, make sure that you have the
 right jdk and pluging versions.
-> ```xml
+ ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -84,7 +84,8 @@ right jdk and pluging versions.
     </build>
 </project>
 
-> ```
+
+```
 
 3. **Run Application and Tests:**
    - Launch `Main.java` and verify from the output that there are errors in the implementation.
