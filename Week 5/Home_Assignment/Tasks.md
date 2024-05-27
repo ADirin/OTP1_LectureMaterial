@@ -98,8 +98,10 @@ public class AccountTest {
         assertEquals(0.0, account.getBalance(), 0.01);
     }
 }
-```
 
+```
+> Note: To ensure that AccountTest.java runs properly, you need to add the relevant dependencies and plugins, such as JUnit and JaCoCo, in your POM.xml. It is recommended to run *mvn clean* and *mvn verify* locally and esure that there is not error in the code or in the POM.
+ 
 ## Jenkins Integration
 #### Objective
 Automate the build and test process using Jenkins.
