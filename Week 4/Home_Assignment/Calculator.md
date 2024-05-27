@@ -16,6 +16,8 @@ The objective of this assignment is to familiarize yourself with Eclipse's JUnit
 
 ### PART 1 OF THE TASK: Coverage
 
+> Important to note that you need to add proper reporting plugins, e.g., JACOCO in POM.XML
+
 3. **Run Application and Tests:**
    - Launch `Main.java` and verify from the output that there are errors in the implementation.
    - Run the JUnit tests:
