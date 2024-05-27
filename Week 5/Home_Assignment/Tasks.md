@@ -143,7 +143,7 @@ Automate the build and test process using Jenkins.
   ```
  
 
- > **Note**: use _sh_ instead of _bat_ in linux environmenty.
+ > *Note*: use _sh_ instead of _bat_ in linux environmenty.
 >  _Follow the lecture examples for futther Jenkins setup_
 
 
