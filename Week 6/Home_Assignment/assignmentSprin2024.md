@@ -312,6 +312,10 @@ pipeline {
 Run the Pipeline
 Trigger the pipeline manually or set it up to trigger on each commit.
 
+## Check the docker desktop
+-You should have the unittest-image:latest in your docker desktop
+
+
 ## Resources
 
 - [Jenkins Official Documentation](https://www.jenkins.io/doc/)
