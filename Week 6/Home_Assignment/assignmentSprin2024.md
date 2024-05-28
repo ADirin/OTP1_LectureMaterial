@@ -273,34 +273,40 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage('Checkout SCM') {
             steps {
                 checkout scm
             }
         }
+        
         stage('Build') {
             steps {
-                sh 'mvn clean package'
+                bat 'mvn clean package'
             }
         }
+        
         stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build("unittest-image")
+                    docker.build('unittest-image')
                 }
             }
         }
+        
         stage('Run Docker Container') {
             steps {
                 script {
-                    docker.image("unittest-image").inside {
-                        sh 'java -jar /app/testimage.jar'
+                    docker.image('unittest-image').inside('-v C:/Users/amirdi/.jenkins/workspace/assignment6:/workspace -w /workspace') {
+                        // Commands to run inside the Docker container
+                        sh 'ls'
+                        sh 'java -jar /workspace/target/testimage.jar'
                     }
                 }
             }
         }
     }
 }
+
 
 ```
 Run the Pipeline
