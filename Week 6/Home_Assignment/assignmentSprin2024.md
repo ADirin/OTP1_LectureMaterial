@@ -1,4 +1,4 @@
-# Docker Assignment: Bank Account Functionality
+# Docker / Jenkins Assignment: Bank Account Functionality (INDIVIDUAL, Final version)
 
 ## Objective
 
@@ -56,6 +56,21 @@ public class Account {
         return this.balance;
     }
 }
+
+```
+> Add the main class which helps to test the docker in intelliJ
+## MainClass.java
+```java
+public class MainClass {
+    public static void main(String[] args) {
+        Account account = new Account();
+        account.deposit(100.0);
+        System.out.println("Balance after deposit: " + account.getBalance());
+        account.withdraw(50.0);
+        System.out.println("Balance after withdrawal: " + account.getBalance());
+    }
+}
+
 ```
 ## AccountTest.java
 ```java
@@ -99,6 +114,102 @@ public class AccountTest {
 }
 
 ```
+## Update the POM.XML
+
+```xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>UnitTest</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.release>17</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>2.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.11.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>testimage</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>MainClass</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <release>17</release>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.9</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                        <phase>verify</phase>
+                    </execution>
+                </executions>
+                <configuration>
+                    <excludes>
+                        <exclude>sun/util/resources/**</exclude>
+                        <exclude>sun/text/resources/**</exclude>
+                        <exclude>sun/util/cldr/**</exclude>
+                        <exclude>sun/util/resources/provider/LocaleDataProvider</exclude>
+                        <exclude>sun/text/resources/cldr/ext/FormatData_fi</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+
+```
 
 ## Docker Integration
 
@@ -114,36 +225,36 @@ Package the application into a Docker container and automate the build and test 
 In the root directory of your project (Intellij project), create a `Dockerfile` with the following content:
 
 ```Dockerfile
-# Use an official OpenJDK runtime as a parent image
-FROM openjdk:11-jdk-slim
+# Use the OpenJDK 17 JDK Alpine base image
+FROM openjdk:17-jdk-alpine
 
-# Label the maintainer of the image
-LABEL authors="amirdi"
-
-# Set the working directory in the container
+# Set the working directory
 WORKDIR /app
 
-# Copy the current directory contents into the container at /app
-COPY . /app
+# Copy the compiled JAR file from the target directory
+COPY target/*.jar /app/
 
-# Download necessary JAR files for JUnit 5 and Hamcrest
-RUN apt-get update && \
-    apt-get install -y wget && \
-    wget -O junit-platform-console-standalone-1.8.2.jar https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.8.2/junit-platform-console-standalone-1.8.2.jar
-
-# Ensure the source files are in the /app directory
-RUN ls -la /app
-
-# Print the contents of the app directory for debugging
-RUN echo "Listing /app directory:" && ls -R /app
-
-# Compile the application
-RUN javac -cp .:/app/junit-platform-console-standalone-1.8.2.jar /app/src/main/java/Account.java /app/src/test/java/AccountTest.java
-
-# Define the command to run the application
-CMD ["java", "-jar", "junit-platform-console-standalone-1.8.2.jar", "-cp", "/app/src/main/java:/app/src/test/java", "--scan-classpath"]
-
+# Set the command to run your Java application
+CMD ["java", "-jar", "/app/testimage.jar"]
 ```
+
+## Build and Run the Docker Image
+
+```sh
+docker build -t unittest-image .
+```
+
+## RUN the image
+
+```sh
+docker run --rm unittest-image
+```
+
+> Step 8: Push to GitHub and Set Up Jenkins
+_Push your project to your GitHub repository.
+_Set up Jenkins to monitor your GitHub repository and run the pipeline when changes are pushed.
+
+
 #### Set Up Jenkins
 
 - Install Jenkins on your local machine or server.
@@ -161,40 +272,36 @@ Create a `Jenkinsfile` in your repository with the following content:
 pipeline {
     agent any
 
-    environment {
-        DOCKER_CREDENTIALS_ID = 'your-docker-credentials-id'
-        DOCKER_IMAGE = 'your-dockerhub-username/bank-account'
-    }
-
     stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
         stage('Build') {
             steps {
-                sh 'javac Account.java AccountTest.java'
+                sh 'mvn clean package'
             }
         }
-        stage('Test') {
-            steps {
-                sh 'java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore AccountTest'
-            }
-        }
-        stage('Docker Build') {
+        stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build(DOCKER_IMAGE)
+                    docker.build("unittest-image")
                 }
             }
         }
-        stage('Docker Push') {
+        stage('Run Docker Container') {
             steps {
                 script {
-                    docker.withRegistry('https://index.docker.io/v1/', DOCKER_CREDENTIALS_ID) {
-                        docker.image(DOCKER_IMAGE).push()
+                    docker.image("unittest-image").inside {
+                        sh 'java -jar /app/testimage.jar'
                     }
                 }
             }
         }
     }
 }
+
 ```
 Run the Pipeline
 Trigger the pipeline manually or set it up to trigger on each commit.
