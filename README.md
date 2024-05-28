@@ -2,6 +2,9 @@
 > In SEP 1 we follow the DevOps approach so remember the follow figure very well.
 > ![DevOps introduction](Images/DevOps.gif)
 
+
+>  See Example of DevOps solution: https://github.com/ADirin/DevOpsExample
+
 - **Week 1:** We cover the basics of the software development lifecycle (SDLC) theory, initiate the project, and start Sprint 1.
 - **Week 2:** We delve into DevOps principles.
 - **Week 3:** We cover the concept of Maven.
