@@ -1,6 +1,6 @@
 # Docker and Minikube Assignment: Bank Account Functionality
 > Clone last week's (Week6) solutions for this week assignment and make the following modifications:
-1. Go to the hub.docker.com and create an account
+1. Go to the hub.docker.com and create an account and a repo which you need to add the pipeline bellow, for example. 'amirdirin/assign7-fall2024_final' in the pipeline below
 1. Update your Jenkins file in github as:
 ```sh
 pipeline {
