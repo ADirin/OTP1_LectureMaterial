@@ -54,7 +54,7 @@ pipeline {
 * fix any problem which you encountere
 * When everything goes well then check the hun.docker.com
 
-  ![hub.docker](Images/hub_image_2)
+  ![hub.docker](/Images/hub_image_2.PNG)
   
 # Assignment 7 continues
 ## Objective
