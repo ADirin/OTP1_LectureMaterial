@@ -5,47 +5,45 @@
 ```sh
 pipeline {
     agent any
+    
+    environment {
+        DOCKERHUB_CREDENTIALS_ID = 'docker-hub-credentials'
+        DOCKERHUB_REPO = 'amirdirin/assign7_fall2024'
+        DOCKER_IMAGE_TAG = 'latest'
+    }
 
     stages {
-        stage('Checkout SCM') {
+        stage('Checkout') {
             steps {
-                checkout scm
-            }
-        }
-        
-        stage('Build') {
-            steps {
-                bat 'mvn clean package'
+                script {
+                    retry(3) {
+                        git branch: 'master', url: 'https://github.com/ADirin/OTP1_Assign7_Fall2024.git'
+                    }
+                }
             }
         }
         
         stage('Build Docker Image') {
             steps {
+                echo 'Starting Build Docker Image'
                 script {
-                    docker.build('unittest-image')
-                }
-            }
-        }
-        
-        stage('Run Docker Container') {
-            steps {
-                script {
-                    docker.image('unittest-image').inside('-v C:/Users/amirdi/.jenkins/workspace/assignment6:/workspace -w /workspace') {
-                        // Commands to run inside the Docker container
-                        sh 'ls'
-                        sh 'java -jar /workspace/target/testimage.jar'
+                    timeout(time: 10, unit: 'MINUTES') {
+                        docker.build("${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}", '--progress=plain')
                     }
+                    echo 'Completed Build Docker Image'
                 }
             }
         }
-        
+
         stage('Push Docker Image to Docker Hub') {
             steps {
+                echo 'Starting Push Docker Image to Docker Hub'
                 script {
-                    docker.withRegistry('https://hub.docker.com', 'docker-hub-credentials') {
-                        docker.image('unittest-image').push('latest')
+                    docker.withRegistry('https://index.docker.io/v1/', DOCKERHUB_CREDENTIALS_ID) {
+                        docker.image("${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}").push()
                     }
                 }
+                echo 'Completed Push Docker Image to Docker Hub'
             }
         }
     }
