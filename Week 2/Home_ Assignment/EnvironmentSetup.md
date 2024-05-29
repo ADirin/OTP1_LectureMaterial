@@ -2,6 +2,8 @@ Below is a basic setup guideline for installing Git, Jenkins, Docker, and Kubern
 
 ### 1. Install Git:
    - **Download Git:**
+![GIT](git-github.gif)
+
      - Visit the official Git website: [Git Downloads](https://git-scm.com/downloads)
      - Download the latest version for Windows.
    - **Installation:**
@@ -12,6 +14,9 @@ Below is a basic setup guideline for installing Git, Jenkins, Docker, and Kubern
      - Open a command prompt and type `git --version` to ensure Git is installed and accessible.
 
 ### 2. Install Docker:
+
+![Docker](docker_3.gif)
+
    - **Download Docker Desktop:**
      - Visit the official Docker website: [Docker Desktop](https://www.docker.com/products/docker-desktop)
      - Download the Docker Desktop for Windows.
@@ -24,6 +29,7 @@ Below is a basic setup guideline for installing Git, Jenkins, Docker, and Kubern
      - Run `docker run hello-world` to test a basic Docker container.
 
 ### 3. Install Kubernetes (Minikube):
+![Minikube](minikube.gif)
    - **Download Minikube:**
      - Visit the official Minikube GitHub repository: [Minikube Releases](https://github.com/kubernetes/minikube/releases)
      - Download the latest Minikube executable (.exe) file.
@@ -38,6 +44,8 @@ Below is a basic setup guideline for installing Git, Jenkins, Docker, and Kubern
      - Run `kubectl get nodes` to confirm that Minikube is running.
 
 ### 4. Install Jenkins:
+![Jenkins](jenkins_1.gif)
+
    - **Download Jenkins:**
      - Visit the official Jenkins website: [Jenkins Downloads](https://www.jenkins.io/download/)
      - Download the Windows installer package (usually a .zip or .msi file).
