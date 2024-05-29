@@ -1,5 +1,5 @@
 # Docker and Minikube Assignment: Bank Account Functionality
-> CLone last Week6 solutions for this assignment do the follwoing modifications
+> Clone last week's (Week6) solutions for this week assignment and make the following modifications:
 1. Go to the hub.docker.com and create an account
 1. Update your Jenkins file in github as:
 ```sh
