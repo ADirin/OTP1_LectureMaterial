@@ -8,8 +8,8 @@ pipeline {
     
     environment {
         DOCKERHUB_CREDENTIALS_ID = 'docker-hub-credentials'
-        DOCKERHUB_REPO = 'amirdirin/assign7_fall2024'
-        DOCKER_IMAGE_TAG = 'latest'
+        DOCKERHUB_REPO = 'amirdirin/assign7-fall2024_final'
+        DOCKER_IMAGE_TAG = 'latest' // Correct tag to use
     }
 
     stages {
@@ -17,7 +17,7 @@ pipeline {
             steps {
                 script {
                     retry(3) {
-                        git branch: 'master', url: 'https://github.com/ADirin/OTP1_Assign7_Fall2024.git'
+                        git branch: 'teh5', url: 'https://github.com/ADirin/OTP1_Assign7_Fall2024.git'
                     }
                 }
             }
@@ -28,7 +28,7 @@ pipeline {
                 echo 'Starting Build Docker Image'
                 script {
                     timeout(time: 10, unit: 'MINUTES') {
-                        docker.build("${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}", '--progress=plain')
+                        bat "docker build -t ${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG} --progress=plain ."
                     }
                     echo 'Completed Build Docker Image'
                 }
@@ -40,7 +40,7 @@ pipeline {
                 echo 'Starting Push Docker Image to Docker Hub'
                 script {
                     docker.withRegistry('https://index.docker.io/v1/', DOCKERHUB_CREDENTIALS_ID) {
-                        docker.image("${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}").push()
+                        bat "docker push ${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}"
                     }
                 }
                 echo 'Completed Push Docker Image to Docker Hub'
@@ -48,7 +48,6 @@ pipeline {
         }
     }
 }
-
 ```
 
 ## Cretae a jenkins workspace and connect to the repo which you have cloned the week 6 solution and modified the Jenkinsfile based on the above given scripts
