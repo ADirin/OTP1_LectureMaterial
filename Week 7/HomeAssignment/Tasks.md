@@ -52,6 +52,9 @@ pipeline {
 
 ## Cretae a jenkins workspace and connect to the repo which you have cloned the week 6 solution and modified the Jenkinsfile based on the above given scripts
 * fix any problem which you encountere
+* When everything goes well then check the hun.docker.com
+
+  ![hub.docker](Images/hub_image_2)
   
 # Assignment 7 continues
 ## Objective
