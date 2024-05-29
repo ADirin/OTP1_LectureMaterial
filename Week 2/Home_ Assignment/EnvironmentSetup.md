@@ -15,7 +15,7 @@ Below is a basic setup guideline for installing Git, Jenkins, Docker, and Kubern
 
 ### 2. Install Docker:
 
-![Docker](docker_3.gif)
+![Docker](/Images/docker_3.gif)
 
    - **Download Docker Desktop:**
      - Visit the official Docker website: [Docker Desktop](https://www.docker.com/products/docker-desktop)
@@ -29,7 +29,7 @@ Below is a basic setup guideline for installing Git, Jenkins, Docker, and Kubern
      - Run `docker run hello-world` to test a basic Docker container.
 
 ### 3. Install Kubernetes (Minikube):
-![Minikube](minikube.gif)
+![Minikube](/Images/minikube.gif)
    - **Download Minikube:**
      - Visit the official Minikube GitHub repository: [Minikube Releases](https://github.com/kubernetes/minikube/releases)
      - Download the latest Minikube executable (.exe) file.
@@ -44,7 +44,7 @@ Below is a basic setup guideline for installing Git, Jenkins, Docker, and Kubern
      - Run `kubectl get nodes` to confirm that Minikube is running.
 
 ### 4. Install Jenkins:
-![Jenkins](jenkins_1.gif)
+![Jenkins](/Images/jenkins_1.gif)
 
    - **Download Jenkins:**
      - Visit the official Jenkins website: [Jenkins Downloads](https://www.jenkins.io/download/)
