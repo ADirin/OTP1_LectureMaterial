@@ -55,6 +55,24 @@ pipeline {
 * When everything goes well then check the hun.docker.com
 
   ![hub.docker](/Images/hub_image_2.PNG)
+
+# Why We Have Docker Hub
+1. Centralized Repository:
+
+_Docker Hub serves as a centralized repository for storing and distributing Docker images. 
+_It simplifies the process of sharing images between different environments (development, testing, production).
+
+2. Version Control:
+_Docker Hub supports versioning, allowing you to manage different versions of your images.
+
+3. Collaboration:
+_Teams can collaborate by sharing images publicly or privately, facilitating easier collaboration and integration.
+
+4. Automation:
+_Docker Hub can automatically build images from source code in a repository (e.g., GitHub), and trigger automated testing.
+
+5. Security:
+_Docker Hub provides security features like image vulnerability scanning and access controls for private repositories.
   
 # Assignment 7 continues
 ## Objective
