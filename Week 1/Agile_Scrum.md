@@ -79,7 +79,8 @@ The product owner collaborates closely with stakeholders to gather feedback, def
 - **Due Date:** Ongoing
 - **Status:** In Progress
 
-![the scrum team](Images/the-team.gif)
+![the scrum team](/Images/the-team.gif)
+
 # Scrum Master:
 
 The Scrum master is a servant-leader role responsible for facilitating the Scrum process, removing impediments, and enabling the development team to achieve their goals. 
