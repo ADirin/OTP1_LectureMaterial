@@ -73,6 +73,16 @@ pipeline {
 
 5. Security:
   - Docker Hub provides security features like image vulnerability scanning and access controls for private repositories.
+
+# How to Use Docker Images from Docker Hub
+## Pulling an Image:
+To use an image from Docker Hub, you can pull it to your local machine using the docker pull command.
+```sh
+docker pull amirdirin/assign7_fall2024:latest
+
+```
+![hub.docker](/Images/hub_use.PNG)
+
   
 # Assignment 7 continues
 ## Objective
