@@ -2,7 +2,7 @@ Below is a basic setup guideline for installing Git, Jenkins, Docker, and Kubern
 
 ### 1. Install Git:
    - **Download Git:**
-![GIT](git-github.gif)
+![GIT](/Images/git-github.gif)
 
      - Visit the official Git website: [Git Downloads](https://git-scm.com/downloads)
      - Download the latest version for Windows.
