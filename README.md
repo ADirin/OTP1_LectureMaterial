@@ -23,3 +23,12 @@ At the end of each sprint, the lecturers will be available online. All team memb
 > **For the project implementation, we follow the agile method as defined in the Agile Manifesto. Therefore, the project implementation is accepted *if and only if* you demonstrate that you followed the agile process as described in the following figure**
 
 ![Project Implementation](Images/Scrum.gif)
+
+# Sprint Schedule
+
+|   Sprint   |   Start Date   |       End Date       | Sprint Review Meeting |
+|:----------:|:--------------:|:--------------------:|:---------------------:|
+|  Sprint 1  | 2024-08-19     | 2024-09-01 06:00     | 2024-09-01 06:00      |
+|  Sprint 2  | 2024-09-02 06:00 | 2024-09-15 12:00     | 2024-09-15 12:00      |
+|  Sprint 3  | 2024-09-16 12:00 | 2024-09-29 18:00     | 2024-09-29 18:00      |
+|  Sprint 4  | 2024-09-30 18:00 | 2024-10-14 00:00     | 2024-10-14 00:00      |
