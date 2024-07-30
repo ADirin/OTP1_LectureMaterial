@@ -27,4 +27,4 @@ Our vision is to [concisely summarize the purpose and value of the product]. We 
 
 
 **Submision**
-Only scrum master for sprint 1 must sumit the product vision as a PDF file in the dropbox in OMA
+The Scrum Master for Sprint 1 must submit the product vision as a PDF file in the OMA Dropbox within a week after the Scrum team is set up
