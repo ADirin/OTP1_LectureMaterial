@@ -27,4 +27,4 @@ Our vision is to [concisely summarize the purpose and value of the product]. We 
 
 __Submision__
 
-The Scrum Master for Sprint 1 must submit the product vision as a PDF file in the OMA Dropbox within a week after the Scrum team is set up
+The Scrum Master for Sprint 1 must submit the product vision as a PDF file in the OMA Dropbox __within a week after the Scrum team__ is set up
