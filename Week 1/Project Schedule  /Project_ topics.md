@@ -1,7 +1,7 @@
 # Three-Tier Java-Based Project Topics
 
 1. **Online Bookstore Management System**
-   - A system to manage an online bookstore, including user authentication, book catalog, shopping cart, and order history.
+    A system to manage an online bookstore, including user authentication, book catalog, shopping cart, and order history.
    - **Sprint 1**: User Authentication and Registration
    - **Sprint 2**: Catalog Management (CRUD for books)
    - **Sprint 3**: Shopping Cart and Checkout
