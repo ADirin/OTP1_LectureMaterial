@@ -1,16 +1,17 @@
 # Course Introduction: Fundamentals of Software Engineering
 
 Welcome to the Fundamentals of Software Engineering course! This project-based course provides a comprehensive introduction to software engineering principles, with a focus on practical application through a series of weekly lectures and project assignments. The course is designed to equip you with essential skills in software development, project management, and agile methodologies.
-
 # Student Competence Development Path
 
 Welcome to the **Fundamentals of Software Engineering** course! This document outlines the weekly schedule and the progression of competencies throughout the course.
 
 ## Weekly Schedule
 
+<!-- Container for the entire schedule -->
 <div style="display: flex; flex-direction: column; align-items: center;">
 
-    <div style="background-color: #fff; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
+    <!-- Week 1 -->
+    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
         <h2>Week 1:</h2>
         <p>Introduction to Software Engineering and Course Implementation</p>
         <ul>
@@ -20,9 +21,11 @@ Welcome to the **Fundamentals of Software Engineering** course! This document ou
         </ul>
     </div>
 
+    <!-- Arrow -->
     <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #007bff; margin: 10px 0;"></div>
 
-    <div style="background-color: #fff; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
+    <!-- Week 2 -->
+    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
         <h2>Week 2:</h2>
         <p>Introduction to DevOps</p>
         <ul>
@@ -31,9 +34,11 @@ Welcome to the **Fundamentals of Software Engineering** course! This document ou
         </ul>
     </div>
 
+    <!-- Arrow -->
     <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #007bff; margin: 10px 0;"></div>
 
-    <div style="background-color: #fff; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
+    <!-- Week 3 -->
+    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
         <h2>Week 3:</h2>
         <p>Managing Dependencies</p>
         <ul>
@@ -42,9 +47,11 @@ Welcome to the **Fundamentals of Software Engineering** course! This document ou
         </ul>
     </div>
 
+    <!-- Arrow -->
     <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #007bff; margin: 10px 0;"></div>
 
-    <div style="background-color: #fff; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
+    <!-- Week 4 -->
+    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
         <h2>Week 4:</h2>
         <p>Unit Testing</p>
         <ul>
@@ -53,9 +60,11 @@ Welcome to the **Fundamentals of Software Engineering** course! This document ou
         </ul>
     </div>
 
+    <!-- Arrow -->
     <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #007bff; margin: 10px 0;"></div>
 
-    <div style="background-color: #fff; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
+    <!-- Week 5 -->
+    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
         <h2>Week 5:</h2>
         <p>Introduction to Jenkins</p>
         <ul>
@@ -64,9 +73,11 @@ Welcome to the **Fundamentals of Software Engineering** course! This document ou
         </ul>
     </div>
 
+    <!-- Arrow -->
     <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #007bff; margin: 10px 0;"></div>
 
-    <div style="background-color: #fff; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
+    <!-- Week 6 -->
+    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
         <h2>Week 6:</h2>
         <p>Introduction to Docker</p>
         <ul>
@@ -75,9 +86,11 @@ Welcome to the **Fundamentals of Software Engineering** course! This document ou
         </ul>
     </div>
 
+    <!-- Arrow -->
     <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #007bff; margin: 10px 0;"></div>
 
-    <div style="background-color: #fff; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
+    <!-- Week 7 -->
+    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
         <h2>Week 7:</h2>
         <p>SecDevOps</p>
         <ul>
@@ -86,9 +99,11 @@ Welcome to the **Fundamentals of Software Engineering** course! This document ou
         </ul>
     </div>
 
+    <!-- Arrow -->
     <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #007bff; margin: 10px 0;"></div>
 
-    <div style="background-color: #fff; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
+    <!-- Week 8 -->
+    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
         <h2>Week 8:</h2>
         <p>Project Presentation and Exam</p>
         <ul>
