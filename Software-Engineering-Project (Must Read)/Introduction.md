@@ -5,115 +5,24 @@ Welcome to the Fundamentals of Software Engineering course! This project-based c
 
 Welcome to the **Fundamentals of Software Engineering** course! This document outlines the weekly schedule and the progression of competencies throughout the course.
 
-## Weekly Schedule
-
-<!-- Container for the entire schedule -->
-<div style="display: flex; flex-direction: column; align-items: center;">
-
-    <!-- Week 1 -->
-    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
-        <h2>Week 1:</h2>
-        <p>Introduction to Software Engineering and Course Implementation</p>
-        <ul>
-            <li>Fundamentals</li>
-            <li>Software Development</li>
-            <li>Course Overview</li>
-        </ul>
-    </div>
-
-    <!-- Arrow -->
-    <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #007bff; margin: 10px 0;"></div>
-
-    <!-- Week 2 -->
-    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
-        <h2>Week 2:</h2>
-        <p>Introduction to DevOps</p>
-        <ul>
-            <li>Continuous Integration</li>
-            <li>Delivery Practices</li>
-        </ul>
-    </div>
-
-    <!-- Arrow -->
-    <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #007bff; margin: 10px 0;"></div>
-
-    <!-- Week 3 -->
-    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
-        <h2>Week 3:</h2>
-        <p>Managing Dependencies</p>
-        <ul>
-            <li>Dependency Management</li>
-            <li>Version Control</li>
-        </ul>
-    </div>
-
-    <!-- Arrow -->
-    <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #007bff; margin: 10px 0;"></div>
-
-    <!-- Week 4 -->
-    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
-        <h2>Week 4:</h2>
-        <p>Unit Testing</p>
-        <ul>
-            <li>Writing Unit Tests</li>
-            <li>Importance of Testing</li>
-        </ul>
-    </div>
-
-    <!-- Arrow -->
-    <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #007bff; margin: 10px 0;"></div>
-
-    <!-- Week 5 -->
-    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
-        <h2>Week 5:</h2>
-        <p>Introduction to Jenkins</p>
-        <ul>
-            <li>Build Automation</li>
-            <li>Testing Automation</li>
-        </ul>
-    </div>
-
-    <!-- Arrow -->
-    <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #007bff; margin: 10px 0;"></div>
-
-    <!-- Week 6 -->
-    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
-        <h2>Week 6:</h2>
-        <p>Introduction to Docker</p>
-        <ul>
-            <li>Containerization</li>
-            <li>Role in Development</li>
-        </ul>
-    </div>
-
-    <!-- Arrow -->
-    <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #007bff; margin: 10px 0;"></div>
-
-    <!-- Week 7 -->
-    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
-        <h2>Week 7:</h2>
-        <p>SecDevOps</p>
-        <ul>
-            <li>Integrating Security</li>
-            <li>Security in DevOps</li>
-        </ul>
-    </div>
-
-    <!-- Arrow -->
-    <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #007bff; margin: 10px 0;"></div>
-
-    <!-- Week 8 -->
-    <div style="background-color: #f9f9f9; border: 2px solid #ddd; border-radius: 8px; padding: 16px; margin: 8px 0; width: 300px; text-align: center;">
-        <h2>Week 8:</h2>
-        <p>Project Presentation and Exam</p>
-        <ul>
-            <li>Present Final Project</li>
-            <li>Consolidate Learning</li>
-        </ul>
-    </div>
-
-</div>
-
+```mermaid
+graph TD
+    A[Week 1: Introduction to Software Engineering and Course Implementation] --> B[Week 2: Introduction to DevOps]
+    B --> C[Week 3: Managing Dependencies]
+    C --> D[Week 4: Unit Testing]
+    D --> E[Week 5: Introduction to Jenkins]
+    E --> F[Week 6: Introduction to Docker]
+    F --> G[Week 7: SecDevOps]
+    G --> H[Week 8: Project Presentation and Exam]
+    
+    A --> |Fundamentals, Software Development, Course Overview| A1[Competency Development]
+    B --> |Continuous Integration, Delivery Practices| B1[Competency Development]
+    C --> |Dependency Management, Version Control| C1[Competency Development]
+    D --> |Writing Unit Tests, Importance of Testing| D1[Competency Development]
+    E --> |Build Automation, Testing Automation| E1[Competency Development]
+    F --> |Containerization, Role in Development| F1[Competency Development]
+    G --> |Integrating Security, Security in DevOps| G1[Competency Development]
+    H --> |Present Final Project, Consolidate Learning| H1[Competency Development]
 
 
 ## Weekly Schedule
