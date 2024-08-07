@@ -23,7 +23,7 @@ graph TD
     F --> |Containerization, Role in Development| F1[Competency Development]
     G --> |Integrating Security, Security in DevOps| G1[Competency Development]
     H --> |Present Final Project, Consolidate Learning| H1[Competency Development]
-
+```
 
 ## Weekly Schedule
 
