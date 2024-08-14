@@ -3,6 +3,20 @@ Software Engineering is a discipline that encompasses the systematic and discipl
 and maintaining software systems. It involves various processes, methodologies, and techniques aimed at creating high-quality software efficiently. 
 In this introduction, we will explore the fundamental concepts of software engineering, including software engineering processes, 
 disciplines, and the software development life cycle (SDLC).
+# Software Engineering Disciplines:
+
+Software engineering encompasses various disciplines, each focusing on specific aspects of software development. 
+Some prominent software engineering disciplines include:
+
+1. Software Requirements Engineering: Focuses on eliciting, analyzing, documenting, and managing software requirements to ensure that the software meets stakeholders' needs.
+   
+2. Software Design and Architecture: Involves designing the structure and organization of software components to achieve desired functionality, performance, and maintainability.
+
+3. Software Testing and Quality Assurance: Focuses on verifying and validating software to ensure it meets quality standards and performs as expected.
+
+4. Software Maintenance and Evolution: Addresses the ongoing maintenance, enhancement, and evolution of software systems to adapt to changing requirements and environments.
+
+5. **Software Project Management**: Involves planning, organizing, and controlling software projects to ensure they are completed on time, within budget, and according to specifications.
 
 > ![Software Engineering](/Images/software-engineering-introduction.png)
 
@@ -28,20 +42,7 @@ Common software engineering processes include:
 6. Maintenance: Once deployed, the software requires ongoing maintenance to address issues, implement updates, and enhance functionality.
    Maintenance activities ensure the long-term viability of the software system.
    
-# Software Engineering Disciplines:
 
-Software engineering encompasses various disciplines, each focusing on specific aspects of software development. 
-Some prominent software engineering disciplines include:
-
-1. Software Requirements Engineering: Focuses on eliciting, analyzing, documenting, and managing software requirements to ensure that the software meets stakeholders' needs.
-   
-2. Software Design and Architecture: Involves designing the structure and organization of software components to achieve desired functionality, performance, and maintainability.
-
-3. Software Testing and Quality Assurance: Focuses on verifying and validating software to ensure it meets quality standards and performs as expected.
-
-4. Software Maintenance and Evolution: Addresses the ongoing maintenance, enhancement, and evolution of software systems to adapt to changing requirements and environments.
-
-5. **Software Project Management**: Involves planning, organizing, and controlling software projects to ensure they are completed on time, within budget, and according to specifications.
 
 # Software Development Life Cycle (SDLC):
 he Software Development Life Cycle (SDLC) is a framework that describes the stages involved in the development of software. 
