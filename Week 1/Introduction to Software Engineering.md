@@ -98,6 +98,8 @@ Effective project management in software engineering encompasses several key tas
 - **Risk Analysis**: Assess the likelihood and impact of each risk.
 - **Mitigation Planning**: Develop strategies to mitigate or manage risks.
 
+  > ![Software Engineering_Risk](/Images/risk.jpg)
+
 ### Communication
 - **Stakeholder Engagement**: Maintain regular communication with stakeholders.
 - **Team Meetings**: Conduct regular team meetings to discuss progress and issues.
