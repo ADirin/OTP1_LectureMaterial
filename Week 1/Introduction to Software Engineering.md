@@ -41,7 +41,7 @@ Some prominent software engineering disciplines include:
 
 4. Software Maintenance and Evolution: Addresses the ongoing maintenance, enhancement, and evolution of software systems to adapt to changing requirements and environments.
 
-5. Software Project Management: Involves planning, organizing, and controlling software projects to ensure they are completed on time, within budget, and according to specifications.
+5. **Software Project Management**: Involves planning, organizing, and controlling software projects to ensure they are completed on time, within budget, and according to specifications.
 
 # Software Development Life Cycle (SDLC):
 he Software Development Life Cycle (SDLC) is a framework that describes the stages involved in the development of software. 
