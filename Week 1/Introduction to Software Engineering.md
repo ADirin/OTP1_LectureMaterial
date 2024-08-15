@@ -116,7 +116,7 @@ Effective project management in software engineering encompasses several key tas
 - **Feedback**: Collect feedback post-deployment to improve future projects.
 
   > ![Software Engineering_delivery](/Images/delivery.jpg)
-  - *source: http://www.pmknowledgehub.com/category/project-management-processes/
+  - **source:** http://www.pmknowledgehub.com/category/project-management-processes/
 
 ## Existing Tools and Approaches for Managing Software Projects
 
@@ -125,11 +125,12 @@ There are numerous tools and approaches available to assist with software projec
 ### Tools
 
 1. **JIRA**: A popular tool for issue and project tracking, widely used in agile development.
-2. <ins>**Trello**<ins>: A visual project management tool using boards and cards.
-3. **Asana**: A tool for team collaboration and work management.
-4. **Microsoft Project**: A comprehensive project management software for planning and managing projects.
-5. **GitHub Projects**: Integrated with GitHub repositories, useful for managing development projects.
-6. **Slack**: A communication tool that helps keep the team connected and informed.
+   - https://www.atlassian.com/software/jira
+3. <ins>**Trello**<ins>: A visual project management tool using boards and cards.
+4. **Asana**: A tool for team collaboration and work management.
+5. **Microsoft Project**: A comprehensive project management software for planning and managing projects.
+6. **GitHub Projects**: Integrated with GitHub repositories, useful for managing development projects.
+7. **Slack**: A communication tool that helps keep the team connected and informed.
 
 ### Approaches
 
