@@ -140,7 +140,7 @@ There are numerous tools and approaches available to assist with software projec
 ### Approaches
 
 1. **Waterfall Model**: A linear approach where each phase of the project must be completed before the next begins.
-2. <ins>**Agile Methodology An iterative approach that focuses on continuous improvement and customer feedback.**<ins>: [Agile Scrum](Week%201/Agile_Scrum.md)
+2. <ins>**Agile Methodology An iterative approach that focuses on continuous improvement and customer feedback.**<ins>: [Agile Scrum](../Week%201/Agile_Scrum.md)
 
 3. <ins>**Scrum An agile framework that uses time-boxed iterations called sprints.**<ins>: [Agile Scrum](Week%201/Agile_Scrum.md)
 
