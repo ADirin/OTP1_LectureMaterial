@@ -126,12 +126,17 @@ There are numerous tools and approaches available to assist with software projec
 
 1. **JIRA**: A popular tool for issue and project tracking, widely used in agile development.
    - https://www.atlassian.com/software/jira
-3. <ins>**Trello**<ins>: A visual project management tool using boards and cards.
-4. **Asana**: A tool for team collaboration and work management.
-5. **Microsoft Project**: A comprehensive project management software for planning and managing projects.
-6. **GitHub Projects**: Integrated with GitHub repositories, useful for managing development projects.
-7. **Slack**: A communication tool that helps keep the team connected and informed.
-
+3. <ins>**Trello**<ins>: A visual project management tool using boards and cards. 
+   - https://trello.com/
+5. **Asana**: A tool for team collaboration and work management.
+   - https://asana.com/
+7. **Microsoft Project**: A comprehensive project management software for planning and managing projects.
+   - https://www.microsoft.com/en-us/microsoft-365/project/project-management-software
+9. **GitHub Projects**: Integrated with GitHub repositories, useful for managing development projects.
+   - https://github.com/features/issues
+11. **Slack**: A communication tool that helps keep the team connected and informed.
+   - https://slack.com/
+     
 ### Approaches
 
 1. **Waterfall Model**: A linear approach where each phase of the project must be completed before the next begins.
