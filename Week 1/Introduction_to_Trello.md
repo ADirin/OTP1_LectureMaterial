@@ -29,69 +29,34 @@ The following is a very basic description of how to create a Board.
   6. In Title, type your Project name e.g. Moving Office. This becomes the Board name. 
   7. Click Create.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-Creating Lists.
-You now have a new Board with three blank Lists. Figure 4
+## Creating Lists.
+You now have a new Board with three blank Lists. 
 By default there is a To Do, Doing & Done. You can delete any of these and/or add new lists. 
 Add Cards
-•	In the To Do list, click the Add a Card link. 
-•	Type a task. E.g. Organise Removalists.
-•	Click Add to create the card. A name box appears to add another Card
-•	Type a task. E.g. Organise Phones.
-•	Click Add to create the card. 
-•	When you have finished, click away from the list.
+  1. In the To Do list, click the Add a Card link. 
+  2. Type a task. E.g. Organise Removalists.
+  3. Click Add to create the card. A name box appears to add another Card
+  4. Type a task. E.g. Organise Phones.
+  5. Click Add to create the card. 
+  6. When you have finished, click away from the list.
 
-Move Cards
+## Move Cards
 As the Project progresses you can move the cards to Doing and when finished move it to Done. To move the card
-•	Click and Hold the card.
-•	Drag it to the next list. It will drop in place.
+  1. Click and Hold the card.
+  2. Drag it to the next list. It will drop in place.
 
-
-
-
-
- 
-
-Modify Cards
+## Modify Cards
 You can see and adjust actions of each card by using the “back” of the card. To see the back; 
-•	Click on the card.
+  1. Click on the card.
 
-
-
-Help
+## Help
 There are Help features in Trello itself, including a Tour (accessed from the 
 front page)
 
 There are many help videos on YouTube. Here are a few;
-http://www.youtube.com/watch?v=xWiunIolf4s	1 min Quick Intro
-http://www.youtube.com/watch?v=7najSDZcn-U	17 mins for more features
-http://www.youtube.com/watch?v=aaDf1RqeLfo	7 min from FogCreek about using groups
-
-http://www.grovo.com/trello This site has lots of videos but you need to register. It claims the videos/training is free.
+  - http://www.youtube.com/watch?v=xWiunIolf4s	1 min Quick Intro
+  - http://www.youtube.com/watch?v=7najSDZcn-U	17 mins for more features
+  - http://www.youtube.com/watch?v=aaDf1RqeLfo	7 min from FogCreek about using groups
+  - http://www.grovo.com/trello This site has lots of videos but you need to register. It claims the videos/training is free.
 
 
