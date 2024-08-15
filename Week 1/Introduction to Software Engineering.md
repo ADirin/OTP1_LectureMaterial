@@ -126,7 +126,7 @@ There are numerous tools and approaches available to assist with software projec
 
 1. **JIRA**: A popular tool for issue and project tracking, widely used in agile development.
    - https://www.atlassian.com/software/jira
-3. <ins>**Trello A visual project management tool using boards and cards.**<ins>: [introduction to Trello](../Week%201/)
+3. <ins>**Trello A visual project management tool using boards and cards.**<ins>: [introduction to Trello](../Week%201/Introduction_to_Trello.md)
    - https://trello.com/
 5. **Asana**: A tool for team collaboration and work management.
    - https://asana.com/
