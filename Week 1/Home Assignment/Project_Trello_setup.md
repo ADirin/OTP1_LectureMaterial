@@ -97,7 +97,7 @@ Create a Trello workspace for managing your project, including setting up a prod
 ## Deliverables
 
 - A Trello workspace named appropriately for your project.
-- A Trello board with the following lists: Product Backlog, Sprint 1, Sprint 2, Sprint 3, and Sprint 4.
+- A Trello boards with the following lists: Product Backlog, Sprint 1, Sprint 2, Sprint 3, and Sprint 4.
 - Populated Product Backlog list with tasks/features.
 - Sprint 1 through Sprint 4 lists with tasks assigned to each sprint.
 - Assigned tasks to team members and set due dates.
