@@ -1,7 +1,7 @@
 # Product Development Process: Example of a Fitness App
 
 
- ![Fitness App Screenshot](../images/productStage.jpg)
+ ![product stages](./images/productStage.jpg.png)
 
 
 ## 1. **Business Stage**
