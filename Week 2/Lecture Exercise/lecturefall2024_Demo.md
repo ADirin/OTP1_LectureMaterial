@@ -15,7 +15,7 @@ CREATE TABLE Accounts (
 ````
 -- Initial Data in Accounts Table
 
-´´´´sql
+````sql
 INSERT INTO Accounts (AccountID, AccountHolderName, Balance)
 VALUES (1, 'John Doe', 1000),
        (2, 'Jane Smith', 1500),
