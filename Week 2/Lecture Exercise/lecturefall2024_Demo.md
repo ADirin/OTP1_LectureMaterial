@@ -125,13 +125,81 @@ WHERE AccountID = 2;
 
 However, imagine a system failure occurs between these two operations.
 
+### After Successful Transaction (Commit)
+
+If the transaction completes successfully, the tables would be updated as follows:
+````sql
+
+START TRANSACTION;
+
+UPDATE Accounts
+SET Balance = Balance - 200
+WHERE AccountID = 1;
+
+-- Check for errors here; if none, continue
+-- In a script, you would check for success of the above command
+
+UPDATE Accounts
+SET Balance = Balance + 200
+WHERE AccountID = 2;
+
+-- Check for errors again; if none, commit
+COMMIT;
+
+-- If any errors were detected, instead of committing, you would:
+-- ROLLBACK;
+
+
+````
+
+**Accounts Table:**
+
+| AccountID | AccountHolderName | Balance |
+|-----------|-------------------|---------|
+| 1         | John Doe          | 800     |
+| 2         | Jane Smith        | 1700    |
+| 3         | Alice Johnson     | 2000    |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### After Transaction Failure (Rollback)
 
 Due to the failure, the database performs a rollback to maintain consistency:
 
 ````sql
--- Rollback all changes due to failure
+-- Start the transaction
+START TRANSACTION;
+
+-- Step 1: Deduct $200 from John Doe's account
+UPDATE Accounts
+SET Balance = Balance - 200
+WHERE AccountID = 1;
+
+-- Simulate an error: try to update a non-existent account
+-- This will cause an error because AccountID 999 doesn't exist
+UPDATE Accounts
+SET Balance = Balance + 200
+WHERE AccountID = 999;
+
+-- Since the above command fails, you should now rollback
 ROLLBACK;
+
+-- Check the results after rollback
+SELECT * FROM Accounts;
+
+-- Notice that no changes were made to the table, as the transaction was rolled back.
+
 
 -- Accounts Table After Rollback
 SELECT * FROM Accounts;
@@ -142,8 +210,8 @@ SELECT * FROM Accounts;
 
 | AccountID | AccountHolderName | Balance |
 |-----------|-------------------|---------|
-| 1         | John Doe          | 1000    |
-| 2         | Jane Smith        | 1500    |
+| 1         | John Doe          | 600   |
+| 2         | Jane Smith        | 1900    |
 | 3         | Alice Johnson     | 2000    |
 ````
 
@@ -167,25 +235,7 @@ SELECT * FROM Transactions;
 | 1             | 1             | 2           | 200    | Failed  |
 | 2             | 3             | 1           | 500    | Pending |
 
-### After Successful Transaction (Commit)
 
-If the transaction completes successfully, the tables would be updated as follows:
-````sql
-
--- Commit the transaction
-COMMIT;
--- Accounts Table After Commit
-SELECT * FROM Accounts;
-
-````
-
-**Accounts Table:**
-
-| AccountID | AccountHolderName | Balance |
-|-----------|-------------------|---------|
-| 1         | John Doe          | 800     |
-| 2         | Jane Smith        | 1700    |
-| 3         | Alice Johnson     | 2000    |
 
 **Transactions Table:**
 
