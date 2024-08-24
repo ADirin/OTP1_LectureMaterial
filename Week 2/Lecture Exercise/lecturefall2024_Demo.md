@@ -156,20 +156,9 @@ COMMIT;
 
 | AccountID | AccountHolderName | Balance |
 |-----------|-------------------|---------|
-| 1         | John Doe          | 800     |
-| 2         | Jane Smith        | 1700    |
+| 1         | John Doe          | 600     |
+| 2         | Jane Smith        | 1900    |
 | 3         | Alice Johnson     | 2000    |
-
-
-
-
-
-
-
-
-
-
-
 
 
 
