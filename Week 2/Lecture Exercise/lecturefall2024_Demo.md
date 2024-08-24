@@ -215,5 +215,5 @@ SELECT * FROM Transactions;
 
 ----------------------------------
 
-This Markdown includes SQL comments explaining each step of the transaction. You can copy this into a Markdown editor or a document that supports Markdown to view the formatted content.
+
 
