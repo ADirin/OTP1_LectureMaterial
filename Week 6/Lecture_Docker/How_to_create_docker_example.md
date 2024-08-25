@@ -156,16 +156,102 @@ Now, Jenkins will monitor your GitHub repository for changes and automatically t
 
 Here's an example Dockerfile:
 # Use an official OpenJDK runtime as a parent image
-FROM openjdk:11-jre-slim
+FROM maven:latest
 
 # Set the working directory in the container
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # Copy the application JAR file into the container at /usr/src/app
 COPY Calculator.jar .
 
 # Run the JAR file
 CMD ["java", "-jar", "Calculator.jar"]
+
+
+**Sampel Docker file
+````txt
+
+# Use an official OpenJDK runtime as a parent image with Java 21
+FROM maven:latest
+
+# Set the working directory
+WORKDIR /app
+
+# Copy the JAR file from the target directory
+COPY target/finalDemoApp.jar /app/appdemo.jar
+
+# Specify the command to run the JAR file
+CMD ["java", "-jar", "/app/appdemo.jar"]
+
+
+````
+**Sample POM.XML file 
+```` xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.example</groupId>
+  <artifactId>finalDemo_fall2024</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>finalDemo_fall2024</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <build>
+
+    <!-- Add this section to change the name of the JAR file -->
+    <finalName>finalDemoApp</finalName>
+
+    <plugins>
+      <!-- Compiler Plugin for setting the Java version -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <source>21</source> <!-- or your Java version -->
+          <target>21</target> <!-- or your Java version -->
+        </configuration>
+      </plugin>
+
+      <!-- JAR Plugin for configuring the manifest file -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.4.1</version>
+            <configuration>
+              <archive>
+                <manifest>
+                  <mainClass>org.example.App</mainClass>
+                </manifest>
+              </archive>
+            </configuration>
+          </plugin>
+
+
+
+    </plugins>
+  </build>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+
+
+````
+
 
 ## Step 5: Deployment
 1. Extend your Jenkins pipeline or job to include deployment steps using Docker commands to deploy the Docker image to a container runtime environment.
