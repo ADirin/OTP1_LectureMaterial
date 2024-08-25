@@ -143,6 +143,7 @@ public class Calculator {
            }
        }
        ```
+       *** - if youare using windows instead of sh you have to use bat--> bat 'mvn clean install'
 5. **Save your Jenkins job configuration and run a test build to verify the setup.**
 
 Now, Jenkins will monitor your GitHub repository for changes and automatically trigger builds whenever changes are pushed. It will build your Java project using Maven, helping you maintain a continuous integration workflow.
