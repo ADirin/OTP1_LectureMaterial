@@ -1,16 +1,17 @@
-JUnit Testing in IntelliJ: Lecture Exercise
-Objective
+# JUnit Testing in IntelliJ: Lecture Exercise
+## Objective
 Learn how to create and run unit tests using JUnit in IntelliJ IDEA by testing a TemperatureConverter class that converts temperatures between Fahrenheit and Celsius.
 
-Setup
-Step 1: Create the Project
-Open IntelliJ IDEA.
-Create a New Project:
-Go to File > New > Project.
-Select Java as the project type.
-Name your project (e.g., TemperatureConverterExercise) and set the location.
-Click Finish to create the project.
-Step 2: Create the TemperatureConverter Class
+### Setup
+#### Step 1: Create the Project
+1. Open IntelliJ IDEA.
+2. Create a New Project:
+- Go to File > New > Project.
+- Select Java as the project type.
+- Name your project (e.g., TemperatureConverterExercise) and set the location.
+- Click Finish to create the project.
+
+#### Step 2: Create the TemperatureConverter Class
 Create a new Java class:
 
 Right-click on the src directory and select New > Java Class.
