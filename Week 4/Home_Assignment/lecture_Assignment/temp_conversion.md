@@ -113,12 +113,12 @@ public void testIsExtremeTemperature() {
 
 
 ```
-Explanation of Test Methods:
+### Explanation of Test Methods:
 
-testFahrenheitToCelsius(): Tests the conversion from Fahrenheit to Celsius for common, extreme, and edge cases.
-testCelsiusToFahrenheit(): Tests the conversion from Celsius to Fahrenheit similarly.
-testIsExtremeTemperature(): Verifies whether the method correctly identifies extreme temperatures.
-Step 6: Running the Tests
-Run Tests:
-Right-click on the TemperatureConverterTest class and select Run 'TemperatureConverterTest'.
-Observe the results in the Run window. All tests should pass if the implementation is correct.
+- testFahrenheitToCelsius(): Tests the conversion from Fahrenheit to Celsius for common, extreme, and edge cases.
+- testCelsiusToFahrenheit(): Tests the conversion from Celsius to Fahrenheit similarly.
+- testIsExtremeTemperature(): Verifies whether the method correctly identifies extreme temperatures.
+#### Step 6: Running the Tests
+1. Run Tests:
+- Right-click on the TemperatureConverterTest class and select Run 'TemperatureConverterTest'.
+- Observe the results in the Run window. All tests should pass if the implementation is correct.
