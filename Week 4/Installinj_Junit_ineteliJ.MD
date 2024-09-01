@@ -2,6 +2,36 @@
 
 IntelliJ IDEA provides a streamlined way to set up and run JUnit tests. Follow these steps to configure JUnit in your IntelliJ IDEA project:
 
+## Option I
+1. **Open IntelliJ IDEA**:
+   - Launch IntelliJ IDEA and open your project.
+
+2. **Open Project Structure**:
+   - Navigate to `File` > `Project Structure` (or press `Ctrl + Alt + Shift + S` on Windows/Linux, or `Cmd + ;` on macOS).
+
+3. **Add JUnit Dependency**:
+
+   - **For Maven Projects**:
+     1. Select `Modules` from the left-hand menu.
+     2. Choose the module where you want to add the dependency.
+     3. Go to the `Dependencies` tab.
+     4. Click the `+` icon and select `Library`.
+     5. Choose `From Maven` and search for `junit:junit:4.13.2` (for JUnit 4) or `org.junit.jupiter:junit-jupiter-api:5.8.2` (for JUnit 5).
+     6. Select the appropriate version and click `OK`.
+
+   - **For Gradle Projects**:
+     1. Select `Modules` from the left-hand menu.
+     2. Choose the module where you want to add the dependency.
+     3. Go to the `Dependencies` tab.
+     4. Click the `+` icon and select `Library`.
+     5. Choose `From Maven` and search for `org.junit.jupiter:junit-jupiter-api:5.8.2` (for JUnit 5).
+     6. Select the appropriate version and click `OK`.
+
+4. **Apply Changes**:
+   - Click `Apply` and `OK` to save the changes and close the Project Structure window.
+
+## Option II
+
 ## 1. **Create a New Project or Open an Existing Project**
 
 - **New Project**: Open IntelliJ IDEA and create a new Java project.
