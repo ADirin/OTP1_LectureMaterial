@@ -12,13 +12,13 @@ Learn how to create and run unit tests using JUnit in IntelliJ IDEA by testing a
 - Click Finish to create the project.
 
 #### Step 2: Create the TemperatureConverter Class
-Create a new Java class:
+1. Create a new Java class:
 
-Right-click on the src directory and select New > Java Class.
-Name the class TemperatureConverter.
-Implement the TemperatureConverter Class:
+- Right-click on the src directory and select New > Java Class.
+- Name the class TemperatureConverter.
+2. Implement the TemperatureConverter Class:
 
-Copy the following code into your TemperatureConverter class:
+- Copy the following code into your TemperatureConverter class:
 ```java
 
 public class TemperatureConverter {
@@ -55,22 +55,26 @@ public class TemperatureConverter {
 }
 
 ```
-Writing JUnit Tests
-Step 3: Set Up JUnit in Your Project
-Add JUnit dependency:
-Right-click on your project and select Add Framework Support.
-Select JUnit and click OK.
-Ensure that JUnit 4 is selected and that it's added as a dependency.
-Step 4: Create the Test Class
-Generate a test class:
-Right-click on the TemperatureConverter class file.
-Select Go to > Test or Generate > Test.
-Choose to create a new test class and name it TemperatureConverterTest.
-Select JUnit4 as the testing framework.
-Step 5: Write Unit Tests
-Initialize the Test Class:
+## Writing JUnit Tests
+#### Step 3: Set Up JUnit in Your Project
+1. Add JUnit dependency:
+- Right-click on your project and select Add Framework Support.
+- Select JUnit and click OK.
+- Ensure that JUnit 4 is selected and that it's added as a dependency.
+2. Step 4: Create the Test Class
+1. Generate a test class:
+- Right-click on the TemperatureConverter class file.
+- Select Go to > Test or Generate > Test.
+- Choose to create a new test class and name it TemperatureConverterTest.
+- Select JUnit4 as the testing framework.
+#### Step 5: Write Unit Tests
+1. Initialize the Test Class:
 
-Add the following setup code to the TemperatureConverterTest class:
+- Add the following setup code to the TemperatureConverterTest class:
+
+2. Write Test Methods:
+
+- Add the following test methods to the TemperatureConverterTest class:
 
 ``` java
 import org.junit.Before;
