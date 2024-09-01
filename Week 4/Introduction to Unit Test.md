@@ -113,7 +113,31 @@ IntelliJ IDEA will execute the unit tests and display the results in the "Run" t
 Green checkmarks indicate successful tests, while red crosses indicate failures.
 
 ---------------------------------
-# Test-Driven Development (TDD) with Java: Learning Material
+# Test-Driven Development (TDD) Process
+
+In Test-Driven Development (TDD), the process is often summarized by the three steps: **Red, Green, Refactor**. Here's what each of these steps involves:
+
+## Red
+
+1. **Write a Test**: Start by writing a unit test for the new functionality you want to add. Since the functionality hasn't been implemented yet, this test will fail.
+2. **Run the Test and Fail**: After writing the test, run it to ensure that it fails. This confirms that the test is working correctly and that the functionality isn't accidentally already in place.
+3. **Why Red?**: The term "Red" comes from many IDEs and testing tools that show failing tests in red, indicating that the code does not yet meet the desired requirements.
+
+## Green
+
+1. **Implement the Code**: Write the minimal amount of code necessary to make the failing test pass. The goal here is not to write perfect code, but just enough to satisfy the test.
+2. **Run the Test and Pass**: After implementing the code, run the test again. If it passes, you’ve confirmed that the implementation works as expected.
+3. **Why Green?**: The term "Green" refers to the green color that testing tools often use to indicate that all tests have passed.
+
+## Refactor
+
+1. **Clean Up the Code**: With the test now passing, review and improve the codebase. This might involve removing duplication, simplifying complex logic, improving naming, and adhering to coding standards.
+2. **Run the Tests Again**: After refactoring, run all the tests to ensure that your changes haven't broken any functionality. All tests should still pass.
+3. **Why Refactor?**: This step ensures that the code is not only functional but also clean, maintainable, and scalable. Refactoring helps in maintaining a high-quality codebase as the software evolves.
+
+
+
+# Test-Driven Development (TDD) with Java:  (Example)
 
 ## Objective
 Understand the principles of Test-Driven Development (TDD) and apply them by incrementally building a `TemperatureConverter` class using JUnit tests in IntelliJ IDEA.
@@ -249,3 +273,5 @@ public boolean isExtremeTemperature(double celsius) {
 - After refactoring, run all the tests again to ensure that everything still works as expected.
 ## Conclusion
 This exercise illustrates the power of Test-Driven Development. By writing tests first and implementing only the necessary code to pass those tests, we ensure that our software is reliable, bug-free, and easier to maintain. TDD encourages a disciplined approach to writing code, which helps in building robust and scalable applications.
+
+
