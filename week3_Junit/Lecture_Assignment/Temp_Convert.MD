@@ -58,7 +58,7 @@ public class TemperatureConverter {
 ## Writing JUnit Tests
 #### Step 3: Set Up JUnit in Your Project
 1. Add JUnit dependency:
-- Right-click on your project and select Add Framework Support.
+- right click to the class and select goto and then pick test and finaly generate
 - Select JUnit and click OK.
 - Ensure that JUnit 4 is selected and that it's added as a dependency.
 2. Step 4: Create the Test Class
@@ -89,7 +89,7 @@ public class TemperatureConverterTest {
     public void setUp() {
         converter = new TemperatureConverter();
     }
-}
+
 @Test
 public void testFahrenheitToCelsius() {
     assertEquals(0, converter.fahrenheitToCelsius(32), 0.01);
