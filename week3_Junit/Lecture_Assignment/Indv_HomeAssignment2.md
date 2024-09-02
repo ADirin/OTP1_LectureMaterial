@@ -69,8 +69,7 @@ b. **Write a New Test Method:**
      - A short README file answering the questions provided and explaining your modifications.
   2. **Write a Java class** based on the test cases provided in the assignment.
 
-- **GitHub Link Submission:**
-  - Provide the link to your GitHub repository where the code and README can be reviewed.
+
 
 ### Due Date:
 Please submit your GitHub link by [Insert Due Date Here].
