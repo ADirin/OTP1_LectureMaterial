@@ -1,7 +1,9 @@
-# Understanding and Applying assertArrayEquals in JUnit
+# Understanding Test Driven Development (TDD) and Applying assertArrayEquals in JUnit
+
 ## Objective:
 - To deepen your understanding of array comparison in unit tests using JUnit, specifically focusing on the assertArrayEquals method. You will work with both single-dimensional and multi-dimensional arrays.
 
+ Based on the following test case your have  to design and develop the actual class that these test cases are prepared.
 
 ```java
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
@@ -30,6 +32,30 @@ public class ArrayEqualityTest {
 #### Single-Dimensional Array Test (`testSingleDimensionalArrayEquality`):
 - The code initializes two single-dimensional integer arrays (`a1` and `a2`).
 - The `assertArrayEquals` method checks if both arrays are equal.
+
+  **Sample solution:**
+
+  ```java
+    public static boolean areArraysEqual(int[] a1, int[] a2) {
+        if (a1 == null || a2 == null) {
+            return a1 == a2;
+        }
+        if (a1.length != a2.length) {
+            return false;
+        }
+        for (int i = 0; i < a1.length; i++) {
+            if (a1[i] != a2[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+
+  ```
+
+  
+  
 
 #### Multi-Dimensional Array Test (`testMultiDimensionalArrayEquality`):
 - The code initializes two multi-dimensional integer arrays (`a11` and `a12`).
