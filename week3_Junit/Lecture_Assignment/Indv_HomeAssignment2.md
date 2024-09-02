@@ -3,7 +3,7 @@
 ## Objective:
 - To deepen your understanding of array comparison in unit tests using JUnit, specifically focusing on the assertArrayEquals method. You will work with both single-dimensional and multi-dimensional arrays.
 
- Based on the following test case your have  to design and develop the actual class that these test cases are prepared.
+ *'Your Task:** Based on the following test case your have  to design and develop the actual class that these test cases are prepared.
 
 ```java
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
@@ -33,7 +33,7 @@ public class ArrayEqualityTest {
 - The code initializes two single-dimensional integer arrays (`a1` and `a2`).
 - The `assertArrayEquals` method checks if both arrays are equal.
 
-  **Sample solution:**
+  **Sample solution for the first part**
 
   ```java
     public static boolean areArraysEqual(int[] a1, int[] a2) {
