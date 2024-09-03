@@ -1,3 +1,5 @@
+**Note** Each team member needs to keep track of the time they spend on each sprint. For example, create an Excel sheet that tracks the time spent on the project.
+
 
 ![Tcourse and the project implementation](/Images/ThecourseOutlines.JPG)
 
