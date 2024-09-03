@@ -269,3 +269,70 @@ These annotations are used to reset the message and messageUtil objects before e
 ### Test Methods:
 
 The actual test methods (testPrintMessage() and testSalutationMessage()) remain the same, focusing on verifying the behavior of MessageUtil.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## List of Annotations
+
+### Annotations
+
+#### `@BeforeClass`
+- **Description:** Runs once before any of the test methods in the class. Used for setting up shared resources that are needed for all tests.
+- **Use Case:** Database connection setup, initializing expensive resources.
+- **Tags:** `#Setup`, `#Global`
+
+#### `@AfterClass`
+- **Description:** Runs once after all the test methods in the class have been executed. Used for cleaning up resources initialized in `@BeforeClass`.
+- **Use Case:** Closing database connections, releasing global resources.
+- **Tags:** `#Teardown`, `#Global`
+
+#### `@Before`
+- **Description:** Runs before each test method. Used for setting up the environment or state before each test.
+- **Use Case:** Initializing objects, resetting state before each test.
+- **Tags:** `#Setup`, `#TestSpecific`
+
+#### `@After`
+- **Description:** Runs after each test method. Used for cleaning up the environment or state after each test.
+- **Use Case:** Clearing data, resetting changes made during the test.
+- **Tags:** `#Teardown`, `#TestSpecific`
+
+#### `@Test`
+- **Description:** Marks a method as a test method. JUnit will execute methods annotated with `@Test` as individual test cases.
+- **Use Case:** Verifying specific behavior or functionality.
+- **Tags:** `#TestCase`, `#Assertion`
+
+### Assertions
+
+#### `assertEquals(expected, actual)`
+- **Description:** Asserts that two values (expected and actual) are equal. If they are not, the test fails.
+- **Use Case:** Checking the return value of a method against an expected value.
+- **Tags:** `#Validation`, `#EqualityCheck`
+
+#### `assertTrue(condition)`
+- **Description:** Asserts that a condition is true. If it is false, the test fails.
+- **Use Case:** Ensuring a condition holds true after an operation.
+- **Tags:** `#Validation`, `#BooleanCheck`
+
+#### `assertFalse(condition)`
+- **Description:** Asserts that a condition is false. If it is true, the test fails.
+- **Use Case:** Verifying that a condition does not hold after an operation.
+- **Tags:** `#Validation`, `#BooleanCheck`
+
+#### `assertNotNull(object)`
+- **Description:** Asserts that an object is not `null`. If it is `null`, the test fails.
+- **Use Case:** Checking that an object has been correctly initialized.
+- **Tags:** `#Validation`, `#NullCheck`
+
+#### `assertNull(object)`
+- **Description:** Asserts that an object is `null`. If it is not `null`, the test fails.
+- **Use Case:** Verifying that an object is properly cleared or not initialized.
+- **Tags:** `#Validation`, `#NullCheck`
+
+#### `assertSame(expected, actual)`
+- **Description:** Asserts that two references point to the same object. If they do not, the test fails.
+- **Use Case:** Ensuring that two references are identical.
+- **Tags:** `#Validation`, `#ReferenceCheck`
+
+#### `assertNotSame(unexpected, actual)`
+- **Description:** Asserts that two references do not point to the same object. If they do, the test fails.
+- **Use Case:** Checking that two objects are not the same instance.
+- **Tags:** `#Validation`, `#ReferenceCheck`
