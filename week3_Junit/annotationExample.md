@@ -154,3 +154,118 @@ class SampleClassTest {
 - **`tearDown()`**: Resets the test environment after each test to avoid side effects.
 
 This test class ensures that the `SampleClass` works as expected, covering various scenarios such as string comparison, integer comparison, and array equality.
+
+### Another example
+
+```java
+
+/**
+ * This class prints the given message on console.
+ */
+public class MessageUtil {
+
+    private String message;
+
+    // Constructor
+    // @param message to be printed
+    public MessageUtil(String message) {
+        this.message = message;
+    }
+
+    // Prints the message
+    public String printMessage() {
+        System.out.println(message);
+        return message;
+    }
+
+    // Adds "Hi!" to the message
+    public String salutationMessage() {
+        message = "Hi!" + message;
+        System.out.println(message);
+        return message;
+    }
+}
+
+
+```
+
+- To better demonstrate the use of @BeforeClass and @AfterClass, I'll modify the MessageUnitTest class to include operations that should be done once before any tests are run and once after all tests are completed.
+- These operations might include setting up shared resources (e.g., a database connection, opening a file) and then tearing them down afterward.
+
+```java
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+
+public class MessageUnitTest {
+
+    private static String globalMessage;
+    private String message;
+    private MessageUtil messageUtil;
+
+    // This method is executed once before any of the test methods in the class.
+    @BeforeClass
+    public static void beforeClass() {
+        System.out.println("in before MessageUnitTest class");
+        // Simulate setting up a shared resource
+        globalMessage = "Starting Test Execution";
+        System.out.println("Global Message: " + globalMessage);
+    }
+
+    // This method is executed once after all test methods in the class have been run.
+    @AfterClass
+    public static void afterClass() {
+        System.out.println("in after XXX MessageUnitTest class");
+        // Simulate tearing down a shared resource
+        globalMessage = "Test Execution Completed";
+        System.out.println("Global Message: " + globalMessage);
+    }
+
+    // This method is executed before each test method.
+    @Before
+    public void before() {
+        System.out.println("in before each test case");
+        message = "Robert";
+        messageUtil = new MessageUtil(message);
+    }
+
+    // This method is executed after each test method.
+    @After
+    public void after() {
+        System.out.println("in after each test case");
+    }
+
+    // Test method for printMessage()
+    @Test
+    public void testPrintMessage() {
+        System.out.println("Inside testPrintMessage()");
+        assertEquals(message, messageUtil.printMessage());
+    }
+
+    // Test method for salutationMessage()
+    @Test
+    public void testSalutationMessage() {
+        System.out.println("Inside testSalutationMessage()");
+        String expectedMessage = "Hi!" + message;
+        assertEquals(expectedMessage, messageUtil.salutationMessage());
+    }
+}
+
+```
+### @BeforeClass Setup:
+### The beforeClass() method simulates setting up a shared resource by initializing a globalMessage string. This string is intended to represent some global state or resource that is needed for all tests.
+It prints out "Starting Test Execution," indicating that this setup occurs before any test methods run.
+
+### @AfterClass Teardown:
+The afterClass() method simulates cleaning up the shared resource by changing the globalMessage string to "Test Execution Completed." This could represent closing a database connection, saving a file, or any other teardown activity.
+It prints out "Test Execution Completed," showing that this teardown occurs only after all test methods have finished.
+
+### @Before and @After:
+
+These annotations are used to reset the message and messageUtil objects before each test and log after each test, ensuring each test case starts with a fresh setup.
+### Test Methods:
+
+The actual test methods (testPrintMessage() and testSalutationMessage()) remain the same, focusing on verifying the behavior of MessageUtil.
