@@ -22,6 +22,8 @@ To ensure a productive Sprint Review meeting, please follow these preparation st
 4. **Obstacles Encountered:**
    - Identify and document any obstacles or challenges the team faced during the sprint.
    - Be prepared to discuss how these obstacles were managed or if they remain unresolved.
+5. **Submission**
+  - Please submit as a pdf in designated folder in Oma
 
 Please have all updates and data ready before the meeting to ensure an efficient review. If you have any questions, reach out to the Scrum Master.
 
