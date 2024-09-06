@@ -76,7 +76,7 @@ public class TemperatureConverter {
 
 - Add the following test methods to the TemperatureConverterTest class:
 
-```
+<!---```
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -112,7 +112,7 @@ public void testIsExtremeTemperature() {
 }
 
 
-```
+```-->
 ### Explanation of Test Methods:
 
 - testFahrenheitToCelsius(): Tests the conversion from Fahrenheit to Celsius for common, extreme, and edge cases.
