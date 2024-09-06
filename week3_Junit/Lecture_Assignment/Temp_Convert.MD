@@ -76,7 +76,7 @@ public class TemperatureConverter {
 
 - Add the following test methods to the TemperatureConverterTest class: **(Removed temperarly that you could try yourself)**
 
-<!---```
+```java
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -108,7 +108,7 @@ public class TemperatureConverterTest {
     }
 }
 
-```-->
+```
 ### Explanation of Test Methods:
 
 - testFahrenheitToCelsius(): Tests the conversion from Fahrenheit to Celsius for common, extreme, and edge cases.
