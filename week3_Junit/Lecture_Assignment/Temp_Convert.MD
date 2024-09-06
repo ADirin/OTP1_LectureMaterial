@@ -74,7 +74,7 @@ public class TemperatureConverter {
 
 2. Write Test Methods:
 
-- Add the following test methods to the TemperatureConverterTest class:
+- Add the following test methods to the TemperatureConverterTest class: **(Removed temperarly that you could try yourself)**
 
 <!---```
 import org.junit.Before;
@@ -83,34 +83,30 @@ import static org.junit.Assert.*;
 
 public class TemperatureConverterTest {
 
-    private TemperatureConverter converter;
+    TempratureConverter converter = new TempratureConverter();
 
-    @Before
-    public void setUp() {
-        converter = new TemperatureConverter();
+
+    @Test
+    public void testFahrenheitToCelsius() {
+        assertEquals(0, converter.fahrenheitToCelsius(32), 0.01);
+        assertEquals(100, converter.fahrenheitToCelsius(212), 0.01);
+        assertEquals(-40, converter.fahrenheitToCelsius(-40), 0.01);
     }
 
-@Test
-public void testFahrenheitToCelsius() {
-    assertEquals(0, converter.fahrenheitToCelsius(32), 0.01);
-    assertEquals(100, converter.fahrenheitToCelsius(212), 0.01);
-    assertEquals(-40, converter.fahrenheitToCelsius(-40), 0.01);
-}
+    @Test
+    public void testCelsiusToFahrenheit() {
+        assertEquals(32, converter.celsiusToFahrenheit(0), 0.01);
+        assertEquals(212, converter.celsiusToFahrenheit(100), 0.01);
+        assertEquals(-40, converter.celsiusToFahrenheit(-40), 0.01);
+    }
 
-@Test
-public void testCelsiusToFahrenheit() {
-    assertEquals(32, converter.celsiusToFahrenheit(0), 0.01);
-    assertEquals(212, converter.celsiusToFahrenheit(100), 0.01);
-    assertEquals(-40, converter.celsiusToFahrenheit(-40), 0.01);
+    @Test
+    public void testIsExtremeTemperature() {
+        assertTrue(converter.isExtremeTemperature(-50));
+        assertFalse(converter.isExtremeTemperature(20));
+        assertTrue(converter.isExtremeTemperature(60));
+    }
 }
-
-@Test
-public void testIsExtremeTemperature() {
-    assertTrue(converter.isExtremeTemperature(-50));
-    assertFalse(converter.isExtremeTemperature(20));
-    assertTrue(converter.isExtremeTemperature(60));
-}
-
 
 ```-->
 ### Explanation of Test Methods:
