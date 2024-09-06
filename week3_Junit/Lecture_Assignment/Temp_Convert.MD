@@ -76,7 +76,7 @@ public class TemperatureConverter {
 
 - Add the following test methods to the TemperatureConverterTest class:
 
-``` java
+```
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
