@@ -7,7 +7,7 @@ In this assignment, you will:
 1. Create a Java class and corresponding unit tests.
 2. Configure JaCoCo to generate a code coverage report.
 3. Add the JaCoCo report to a public HTML folder.
-4. Submit a link to the public HTML report.
+4. Submit a link to the public HTML report in **OMA**.
 
 **Problem Description** 
 
