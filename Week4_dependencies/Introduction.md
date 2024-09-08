@@ -5,7 +5,184 @@
 > 
 # How Maven Works in IntelliJ IDEA
 * IntelliJ IDEA, a leading Java IDE, seamlessly integrates with Maven. It recognizes Maven projects and provides built-in support for executing Maven commands directly from the IDE. IntelliJ automatically downloads dependencies specified in the pom.xml file and manages the project's build lifecycle.
-  
+
+## Key concpet of Maven
+
+1. Project Object Model (POM)
+The pom.xml file is the core of a Maven project. It contains the project’s configuration details such as dependencies, plugins, goals, and build settings.
+
+Basic Structure of pom.xml:
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/POM/4.0.0/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>my-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <dependencies>
+        <!-- Dependencies go here -->
+    </dependencies>
+    <build>
+        <plugins>
+            <!-- Plugins go here -->
+        </plugins>
+    </build>
+</project>
+
+
+
+```
+- groupId: Defines the group or organization that the project belongs to.
+- artifactId: Defines the name of the project.
+- version: Specifies the version of the project.
+- packaging: Defines the type of artifact (e.g., JAR, WAR).
+- dependencies: Lists the external libraries required by the project.
+- build: Contains build settings and plugins.
+
+2. Dependencies
+Dependencies are external libraries or frameworks that your project needs to compile and run. Maven manages these dependencies and their versions.
+
+Adding Dependencies:
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+```
+- groupId: The group ID of the dependency.
+- artifactId: The artifact ID of the dependency.
+- version: The version of the dependency.
+- scope: The scope of the dependency (e.g., compile, test).
+
+3. Plugins
+Plugins extend Maven's functionality. They perform specific tasks such as compiling code, running tests, packaging applications, etc.
+
+Configuring Plugins:
+
+```xml
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+```
+- groupId: The group ID of the plugin.
+- artifactId: The artifact ID of the plugin.
+- version: The version of the plugin.
+- configuration: Plugin-specific configuration options.
+
+4. Build Lifecycle
+Maven has a default build lifecycle consisting of several phases. Each phase represents a stage in the build process.
+
+## Phases of the Default Lifecycle:
+- validate: Validate the project’s structure.
+- compile: Compile the source code.
+- test: Run tests.
+- package: Package the compiled code into a distributable format (e.g., JAR).
+- verify: Perform any necessary verification (e.g., integration tests).
+- install: Install the package into the local repository.
+- deploy: Deploy the package to a remote repository.
+
+### Running Maven Goals:
+To run a specific phase or goal, use the following command:
+
+```sh
+mvn <phase>
+```
+For example
+```sh
+mvn compile
+```
+5. Profiles
+Profiles are used to define different build configurations for various environments (e.g., development, testing, production).
+
+Defining a Profile:
+
+```xml
+<profiles>
+    <profile>
+        <id>dev</id>
+        <properties>
+            <env>development</env>
+        </properties>
+    </profile>
+    <profile>
+        <id>prod</id>
+        <properties>
+            <env>production</env>
+        </properties>
+    </profile>
+</profiles>
+
+
+```
+Activating a Profile:
+
+```sh
+mvn package -Pdev
+
+```
+6. Repositories
+Maven uses repositories to store project artifacts and dependencies.
+The central repository is the default repository, but you can also configure additional repositories.
+
+Adding a Repository:
+```xml
+<repositories>
+    <repository>
+        <id>my-repo</id>
+        <url>https://my.repo.url</url>
+    </repository>
+</repositories>
+
+```
+7. Multi-Module Projects
+Maven supports multi-module projects, where a parent project can manage multiple sub-modules.
+
+Parent POM Configuration:
+```xml
+<modules>
+    <module>module-a</module>
+    <module>module-b</module>
+</modules>
+
+
+```
+Sub-Module POM Configuration:
+```xml
+<parent>
+    <groupId>com.example</groupId>
+    <artifactId>parent-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</parent>
+
+
+```
+## Common Maven Commands
+- mvn clean: Cleans up the target directory.
+- mvn compile: Compiles the source code.
+- mvn test: Runs tests.
+- mvn package: Packages the application.
+- mvn install: Installs the package into the local repository.
+- mvn deploy: Deploys the package to a remote repository.
+
+
+
 # Why Maven is Needed
 * Maven addresses several common challenges in Java development:
 
