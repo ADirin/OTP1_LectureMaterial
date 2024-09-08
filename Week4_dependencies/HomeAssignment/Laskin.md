@@ -129,5 +129,5 @@ right jdk and pluging versions.
 - [Java Code Coverage Tools](http://en.wikipedia.org/wiki/Java_Code_Coverage_Tools)
 
 ## Submission:
-- Save the coverage report as an HTML page.
-- Attach a screenshot of the test results from Maven.
+- Add the HTML file (the whole site folder) into your metropolia HTML folder.
+- Attach a screenshot of the test results along with you public HTML link to Oma.
