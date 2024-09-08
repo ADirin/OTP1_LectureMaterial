@@ -1,14 +1,12 @@
 # Java Dependencies and DevOps: A Lecture Overview
 
 ```mermaid
-graph TD
-A[Code Commit] --> B[Build]
-B --> C[Test]
-C --> D[Deploy to Staging]
-D --> E[Manual Approval]
-E --> F[Deploy to Production]
-
-
+    Dev->>CI: Code Commit
+    CI->>Build: Trigger Build
+    Build->>Test: Run Tests
+    Test->>Staging: Deploy to Staging
+    Staging->>Approval: Request Manual Approval
+    Approval->>Prod: Deploy to Production
 ```
 
 ## Introduction to Java Dependencies in DevOps
