@@ -1,5 +1,5 @@
 # Java Dependencies and DevOps: A Lecture Overview
-
+## The optimal process  
 ```mermaid
 sequenceDiagram
     Dev->>CI: Code Commit
@@ -8,6 +8,42 @@ sequenceDiagram
     Test->>Staging: Deploy to Staging
     Staging->>Approval: Request Manual Approval
     Approval->>Prod: Deploy to Production
+
+```
+## The real life scenario
+
+```mermaid
+sequenceDiagram
+    Dev->>CI: Code Commit
+    CI->>Build: Trigger Build
+    alt Successful Build
+        Build->>Test: Run Tests
+        alt Tests Pass
+            Test->>Staging: Deploy to Staging
+            alt Deployment Success
+                Staging->>Approval: Request Manual Approval
+                alt Approval Granted
+                    Approval->>Prod: Deploy to Production
+                else Approval Denied
+                    Approval->>Staging: Notify Failure
+                    Staging->>Build: Rollback to Previous Version
+                end
+            else Deployment Failure
+                Staging->>Build: Notify Failure
+                Build->>CI: Notify Failure
+                CI->>Dev: Notify Failure
+            end
+        else Tests Fail
+            Test->>Build: Notify Failure
+            Build->>CI: Notify Failure
+            CI->>Dev: Notify Failure
+        end
+    else Build Failure
+        Build->>CI: Notify Failure
+        CI->>Dev: Notify Failure
+    end
+
+
 
 ```
 
