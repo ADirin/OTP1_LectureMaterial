@@ -45,8 +45,8 @@ Basic Structure of pom.xml:
 Dependencies are external libraries or frameworks that your project needs to compile and run. Maven manages these dependencies and their versions.
 
 - To download dependencies, it is not needed to visit the official website of each software. 
-         - It is enough to visit
-           ![Maven Repo](https://mvnrepository.com/)
+  - It is enough to visit
+           [Maven Repo](https://mvnrepository.com/)
 
 Adding Dependencies:
 
