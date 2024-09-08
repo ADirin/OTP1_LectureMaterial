@@ -1,6 +1,10 @@
 # Java Dependencies and DevOps: A Lecture Overview
 ## The optimal process  
 ```mermaid
+---
+config:
+  theme: forest
+---
 sequenceDiagram
     Dev->>CI: Code Commit
     CI->>Build: Trigger Build
