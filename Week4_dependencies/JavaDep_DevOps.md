@@ -1,5 +1,16 @@
 # Java Dependencies and DevOps: A Lecture Overview
 
+```mermaid
+graph TD
+A[Code Commit] --> B[Build]
+B --> C[Test]
+C --> D[Deploy to Staging]
+D --> E[Manual Approval]
+E --> F[Deploy to Production]
+
+
+```
+
 ## Introduction to Java Dependencies in DevOps
 In the world of software development, **dependencies** refer to external libraries or components that a project requires to function. In Java, these dependencies often include third-party libraries for things like logging, database access, or web frameworks.
 
