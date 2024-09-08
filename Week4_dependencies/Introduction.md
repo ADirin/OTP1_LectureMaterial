@@ -102,6 +102,37 @@ Maven has a default build lifecycle consisting of several phases. Each phase rep
 - install: Install the package into the local repository.
 - deploy: Deploy the package to a remote repository.
 
+### The Maven Architecher Diagram
+
+```mermaid
+sequenceDiagram
+    participant Developer as Dev
+    participant POM as POM
+    participant LocalRepo as Local Repository
+    participant CentralRepo as Central Repository
+    participant Plugins as Plugins
+    participant Build as Build Lifecycle
+
+    Dev->>POM: Define Project Configuration
+    POM->>Plugins: Configure Plugins
+    POM->>Build: Trigger Build Lifecycle
+
+    alt Dependencies
+        Build->>LocalRepo: Check Local Repository
+        LocalRepo->>Build: Provide Artifacts (if available)
+        Build->>CentralRepo: Fetch Artifacts (if not available)
+        CentralRepo->>Build: Provide Artifacts
+        Build->>LocalRepo: Store Artifacts
+    end
+
+    Build->>Plugins: Execute Plugins
+    Plugins->>Build: Complete Plugin Execution
+    Build->>Dev: Provide Build Output
+
+
+
+```
+
 ### Running Maven Goals:
 To run a specific phase or goal, use the following command:
 
