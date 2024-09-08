@@ -79,6 +79,11 @@ public class AppTest {
     </plugins>
   </build>
 
-
-
 ````
+## Submision:
+
+- Upload the site into you public html folder and submit the link along with a screenshot of the report in Oma
+
+**Sample report that is expected:**
+
+![Coverage Report](./images/sample.jpg)
