@@ -10,7 +10,7 @@ sequenceDiagram
     Approval->>Prod: Deploy to Production
 
 ```
-## The real life scenario
+## The real-life scenario
 
 ```mermaid
 sequenceDiagram
