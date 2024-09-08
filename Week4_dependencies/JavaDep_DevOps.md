@@ -1,12 +1,14 @@
 # Java Dependencies and DevOps: A Lecture Overview
 
 ```mermaid
+sequenceDiagram
     Dev->>CI: Code Commit
     CI->>Build: Trigger Build
     Build->>Test: Run Tests
     Test->>Staging: Deploy to Staging
     Staging->>Approval: Request Manual Approval
     Approval->>Prod: Deploy to Production
+
 ```
 
 ## Introduction to Java Dependencies in DevOps
