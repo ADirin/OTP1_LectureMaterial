@@ -8,7 +8,7 @@ The objective of this assignment is to familiarize yourself with Eclipse's JUnit
    - Create a Maven project and add the necessary specifications for testing to the `pom.xml` file.
 
 2. **Import Code:**
-   - Unzip the file [laskinEnglish.zip](laskinEnglish.zip).
+   - Unzip the file [laskin.zip](https://users.metropolia.fi/~amirdi/OTP1/Laskin5.zip).
    - Drag and drop the extracted codes (`src`, `test`) into your project.
    - If special characters are not displayed correctly, change the character encoding at the Eclipse Workspace level:
      - Select `Window` | `Preferences` | `General` | `Workspace`.
