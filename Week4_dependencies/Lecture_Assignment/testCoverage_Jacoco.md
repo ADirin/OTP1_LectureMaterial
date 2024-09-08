@@ -86,4 +86,4 @@ public class AppTest {
 
 **Sample report that is expected:**
 
-![Coverage Report](/images/sample.jpg)
+![Coverage Report](./Images/sample.jpg)
