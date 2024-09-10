@@ -1,12 +1,12 @@
 # Configuring pom.xml
 Below is an example pom.xml configuration with commonly used plugins like maven-compiler-plugin, maven-surefire-plugin, jacoco-maven-plugin, maven-javadoc-plugin, and maven-checkstyle-plugin.
 - The following depencencies and plugings are included in this version of POM
-         - Maven-compile -plugins
-         - surefire: to execute unit tests during the test phase of maven build cycle which only include *test.java
-         - Checksyle: to check the stlye of the code, Enforces code style rules, using the Google Java Style Guide as the rule set.
-         - Java Object Modeling (JACOCO) which generates a code coverge report during verfy phase
-         - Maven Havadoc Plugin: Generates the Javadocs in the directory target/apidocs
-         - Junit dependency: JUnit is a popular framework used for writing and running unit tests in Java
+  - Maven-compile -plugins
+  - surefire: to execute unit tests during the test phase of maven build cycle which only include *test.java
+  - Checksyle: to check the stlye of the code, Enforces code style rules, using the Google Java Style Guide as the rule set.
+  - Java Object Modeling (JACOCO) which generates a code coverge report during verfy phase
+  - Maven Havadoc Plugin: Generates the Javadocs in the directory target/apidocs
+  - Junit dependency: JUnit is a popular framework used for writing and running unit tests in Java
   
             
 Example pom.xml:
