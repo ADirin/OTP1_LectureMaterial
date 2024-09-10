@@ -66,6 +66,32 @@ Jenkins offers a wide range of plugins that extend its functionality, allowing u
 
 ### Step 1: Install IntelliJ IDEA
 
+````mermaid
+graph LR
+    A[Developer Pushes Code to GitHub] -->|Push Event| B[GitHub Repository]
+    B -->|Webhook Trigger| C[Jenkins CI Server]
+    C --> D[Checkout Source Code from GitHub]
+    D --> E[Build Maven Project]
+    E -->|mvn clean install| F[Run Unit Tests]
+    F --> G[Generate Test Reports]
+    G --> H[Store Results and Logs]
+    H --> I[Notify Developers via Email/Slack]
+    F -->|Tests Passed| J[Deploy to Staging]
+    F -->|Tests Failed| K[Notify Developers of Failure]
+
+    subgraph GitHub
+        B
+    end
+
+    subgraph Jenkins CI/CD
+        C --> D --> E --> F --> G --> H --> I
+        F --> J
+        F --> K
+    end
+
+
+````
+
 1. Download IntelliJ IDEA from the official website: [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/).
 
 2. Follow the installation instructions for your operating system.
