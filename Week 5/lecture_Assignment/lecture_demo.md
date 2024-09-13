@@ -36,7 +36,20 @@
 
 ### Sequence Diagram
 
-![Freestyle Project Sequence Diagram](link-to-your-image-file)
+```mermaid
+sequenceDiagram
+    participant User
+    participant Jenkins
+    participant GitHub
+
+    User->>Jenkins: Create Freestyle Project
+    Jenkins->>GitHub: Pull Code from Repository
+    Jenkins->>Jenkins: Run Build (Maven/Shell/Gradle)
+    Jenkins->>Jenkins: Publish JUnit Test Results
+    Jenkins->>User: Display Test Results
+
+
+```
 
 ---
 
@@ -101,7 +114,19 @@
 
 ### Sequence Diagram
 
-![Pipeline with Jenkinsfile Sequence Diagram](link-to-your-image-file)
+```mermaid
+sequenceDiagram
+    participant User
+    participant Jenkins
+    participant GitHub
+
+    User->>Jenkins: Create Pipeline Job
+    Jenkins->>GitHub: Pull Jenkinsfile
+    Jenkins->>Jenkins: Run Pipeline Stages
+    Jenkins->>Jenkins: Build, Test, Code Coverage, Publish Results
+    Jenkins->>User: Display Results
+
+```
 
 ---
 
@@ -161,4 +186,17 @@
 
 ### Sequence Diagram
 
-![Declarative Pipeline Sequence Diagram](link-to-your-image-file)
+```mermaid
+sequenceDiagram
+    participant User
+    participant Jenkins
+    participant GitHub
+
+    User->>Jenkins: Create Pipeline Job
+    Jenkins->>GitHub: Pull Code and Jenkinsfile
+    Jenkins->>Jenkins: Run Pipeline Stages
+    Jenkins->>Jenkins: Build, Test, Code Coverage, Publish Results
+    Jenkins->>User: Display Results
+
+
+```
