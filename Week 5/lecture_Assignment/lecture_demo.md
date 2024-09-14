@@ -95,7 +95,11 @@ By following these steps, you will have successfully configured JDK, Maven, and 
 
 
 -----------------------------------------------------------------------
-# Using Jenkins for JUnit Testing and Code Coverage (temp_converter will be use as a java app, (https://github.com/ADirin/TempConverter.git))
+# Using Jenkins for JUnit Testing and Code Coverage (temp_converter will be use as a java app, (https://github.com/ADirin/TempConverter.git)
+
+
+![TempConverter](./Images/TempCovn.jpg)
+
 
 ## 1. Using a Freestyle Project in Jenkins
 
