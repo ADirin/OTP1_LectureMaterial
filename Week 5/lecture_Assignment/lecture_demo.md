@@ -51,7 +51,41 @@ sequenceDiagram
 
 ```
 
----
+---------------------------
+
+# using pipeline:
+
+# Modify Pipeline to Use Declarative Syntax Correctly
+
+Make sure your pipeline stages are clearly defined and contain actual steps. In your current script, you only have one stage, which might be too minimal to display a clear visual pipeline. You can add multiple stages and steps to see the pipeline stages more clearly.
+
+## Example with Multiple Stages:
+
+```groovy
+pipeline {
+    agent any
+    stages {
+        stage('Compile') {
+            steps {
+                echo 'Compile stage completed'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Test stage completed'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploy stage completed'
+            }
+        }
+    }
+}
+```
+
+
+
 
 ## 2. Using a Pipeline with a Jenkinsfile in GitHub
 
@@ -97,6 +131,26 @@ sequenceDiagram
         }
     }
     ```
+# Steps to Ensure You See the Stages:
+
+## 1. Ensure You're Using a Multibranch or Pipeline Job
+Make sure your Jenkins job is of type **Pipeline** (or **Multibranch Pipeline**). The pipeline view works best with these types of jobs.
+
+## 2. Make Sure You Have Jenkins Blue Ocean Installed (Optional)
+**Blue Ocean** is a plugin that provides a better UI for Jenkins pipelines, making it easier to visualize stages.
+If you don't have it installed:
+1. Go to **Manage Jenkins > Manage Plugins**.
+2. Search for **Blue Ocean** under the "Available" tab and install it.
+3. Once installed, you can view your pipeline visually by clicking on the **Blue Ocean** option in the Jenkins dashboard.
+
+## 3. Run the Pipeline Job
+1. Click on **Build Now** for your pipeline job.
+2. Go to **Build History > Console Output** to view the output.
+3. If **Blue Ocean** is installed, you can also view the graphical representation of the pipeline by clicking on the **Blue Ocean** link.
+
+## 4. Check the Stages Tab
+Even without **Blue Ocean**, the regular Jenkins UI should show a **Stages** tab or **Pipeline Steps** in the pipeline build details, where you can see each of your pipeline stages and their status (e.g., Passed, Failed, etc.).
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2. **Create a Pipeline Job in Jenkins**
    - Go to Jenkins dashboard.
