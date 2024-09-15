@@ -16,46 +16,73 @@ In this assignment, you will create a simple Java application that calculates th
    - Add the necessary dependencies for **JUnit** and **JaCoCo** in your `pom.xml` (for Maven) or `build.gradle` (for Gradle). For Maven, include:
 
 ```xml
-   <dependencies>
-       <!-- JUnit Dependency -->
-       <dependency>
-           <groupId>org.junit.jupiter</groupId>
-           <artifactId>junit-jupiter-api</artifactId>
-           <version>5.7.0</version>
-           <scope>test</scope>
-       </dependency>
-       <dependency>
-           <groupId>org.junit.jupiter</groupId>
-           <artifactId>junit-jupiter-engine</artifactId>
-           <version>5.7.0</version>
-           <scope>test</scope>
-       </dependency>
-   </dependencies>
 
-   <build>
-       <plugins>
-           <!-- JaCoCo Plugin -->
-           <plugin>
-               <groupId>org.jacoco</groupId>
-               <artifactId>jacoco-maven-plugin</artifactId>
-               <version>0.8.6</version>
-               <executions>
-                   <execution>
-                       <goals>
-                           <goal>prepare-agent</goal>
-                       </goals>
-                   </execution>
-                   <execution>
-                       <id>report</id>
-                       <phase>test</phase>
-                       <goals>
-                           <goal>report</goal>
-                       </goals>
-                   </execution>
-               </executions>
-           </plugin>
-       </plugins>
-   </build>
+    <dependencies>
+        <!-- JUnit Dependency -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.11.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.11.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- JaCoCo Plugin -->
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.12</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+
+
+            </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.0.0-M5</version>
+                        <configuration>
+                            <includes>
+                                <include>**/*Test.java</include>
+                            </includes>
+                        </configuration>
+                    </plugin>
+
+
+        </plugins>
+
+
+
+    </build>
+
+
+</project>
 ```
 
 2. **Java Class Implementation:**
@@ -86,15 +113,17 @@ public class TimeCalculator {
 Example test cases:
 
 ```java
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
 
 public class TimeCalculatorTest {
 
     @Test
     public void testCalculateTimeNormalCase() {
         TimeCalculator calculator = new TimeCalculator();
-        assertEquals(2.0, calculator.calculateTime(100, 50));
+        assertEquals(2.0, calculator.calculateTime(100.0, 50.0), 0.0001);
     }
 
     @Test
@@ -113,6 +142,7 @@ public class TimeCalculatorTest {
         });
     }
 }
+
 
 ```
 ## Part 2: Integrate with Jenkins
