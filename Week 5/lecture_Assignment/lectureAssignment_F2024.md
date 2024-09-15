@@ -231,4 +231,4 @@ Generates the JaCoCo report and publishes the test results and coverage data.
 
 ## Sample Report
 
-[Sample Report]()
+[Sample Report](/Images/TimeCal.JPG)
