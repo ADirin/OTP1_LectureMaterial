@@ -203,11 +203,11 @@ Generates the JaCoCo report and publishes the test results and coverage data.
 
 
 ## Submission Deadline:
-- The assignment must be submitted by [17.09.2024].
+- The assignment must be submitted by [17.09.2024] In a folder in Oma.
 
 ## Evaluation Criteria:
 - Correct implementation of the TimeCalculator class.
 - Sufficient coverage of unit tests.
-- Successful Jenkins pipeline with passing unit tests.
+- Successful Jenkins pipeline / freestyle with passing unit tests.
 - Screenshot of the JaCoCo report.
 
