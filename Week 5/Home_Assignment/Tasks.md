@@ -117,7 +117,7 @@ Automate the build and test process using Jenkins.
 * Set up a new Jenkins job and configure it as a pipeline.
 
 3. Add Jenkinsfile:
-* Create a Jenkinsfile in your repository with the following content:
+* Create a Jenkinsfile in your repository with a pipeline:
 
   ```groovy
    pipeline {
@@ -126,14 +126,14 @@ Automate the build and test process using Jenkins.
     stages {
         stage('Build') {
             steps {
-                dir('C:\\Users\\amirdi\\IdeaProjects\\UnitTest') {
+                git {
                     bat 'mvn compile' // Compile source code using Maven
                 }
             }
         }
         stage('Test') {
             steps {
-                dir('C:\\Users\\amirdi\\IdeaProjects\\UnitTest') {
+                ... {
                     bat 'mvn test' // Run tests using Maven
                 }
             }
