@@ -19,18 +19,7 @@ In this assignment, you will create a simple Java application that calculates th
 
     <dependencies>
         <!-- JUnit Dependency -->
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.11.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.11.0</version>
-            <scope>test</scope>
-        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -66,7 +55,7 @@ In this assignment, you will create a simple Java application that calculates th
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.0.0-M5</version>
+                        <version>3.2.5</version>
                         <configuration>
                             <includes>
                                 <include>**/*Test.java</include>
@@ -82,9 +71,8 @@ In this assignment, you will create a simple Java application that calculates th
     </build>
 
 
-</project>
 ```
-
+**NOTE** I got problem with jupitor unit test to generate coverage report, I recommend therefore junit
 2. **Java Class Implementation:**
 
 - Inside the src/main/java folder, create a Java class named TimeCalculator.
@@ -241,3 +229,6 @@ Generates the JaCoCo report and publishes the test results and coverage data.
 - Successful Jenkins pipeline / freestyle with passing unit tests.
 - Screenshot of the JaCoCo report.
 
+## Sample Report
+
+[Sample Report]()
