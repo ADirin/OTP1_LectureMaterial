@@ -23,7 +23,7 @@ public void testKelvinToCel() {
 }
 
 ```
-- [ ] **Task 3: Run Maven Commands**
+- **Task 3: Run Maven Commands**
 Run the following Maven commands to ensure the project builds correctly:
 
   1. mvn clean
@@ -34,9 +34,9 @@ After running, check if the site folder is created in the target directory.
 
 ## GitHub: Repository Management
 
-- [ ] **Task 4: Create GitHub Repository**
+- **Task 4: Create GitHub Repository**
 Create a new GitHub repository named TempConverter.
-- [ ] **Task 5: Add the Project to GitHub**
+-  **Task 5: Add the Project to GitHub**
 Use Git inside IntelliJ to:
 
   1. Add the TempConverter project to the GitHub repository.
@@ -91,5 +91,3 @@ Based on the instructions provided in the [Jenkins Basic Guide](https://users.me
 > **Note:** Ensure that all **Jenkins** items follow the naming convention `xxxx-yourname`. For example, `TempConverter_Maven_amir`.
 
      
-
-- [ ] 
