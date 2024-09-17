@@ -1,25 +1,30 @@
 # Home Assignment
 
-For this assignment, we will be extending the FarToCel application during our in-class sessions. 
+For this assignment, we will be extending the TempConverter application during our in-class sessions. 
 
 1. **Extend Application:**  
    Expand the application to include conversions from Kelvin to Fahrenheit using the formula:  
    `((kel - 273.15) * (9/5) + 32)`; for example, 300.1 Kelvin is equal to 59.0 Fahrenheit.  
-   Test the newly added function to ensure correctness.
+````java
+public static  double	kelvinToFah(double kel) {
+		return Math.round((kel-273.15)* (9/5) + 32);
+	}
+````
+Test the newly added function to ensure correctness.
 
 AT test case and ensure that the newly added function is correct. (1 point)
 
    
-2. **GitHub Repository:**  
-   If you haven't already done so, create a GitHub repository for FarToCel and push the latest updates to it.
+3. **GitHub Repository:**  
+  Push the latest updates to GitHub repo.
 
-3. **Configure Pipeline**
+4. **Configure Pipeline**
 
 1. In the **Pipeline** configuration page, scroll down to the **Pipeline** section.
 2. Set the **Definition** to **Pipeline script from SCM**.
 3. Select **SCM** as **Git**.
 4. Enter your **Repository URL**. For example, `https://github.com/your-username/your-repo.git`.
-5. If your repository is private, add credentials by clicking **Add** under **Credentials**.
+5. If your repository is **private**, add credentials by clicking **Add** under **Credentials**.
    - Select **Kind** as **Username with password**.
    - Enter your GitHub username and personal access token.
    - Save the credentials and select them from the **Credentials** dropdown.
@@ -31,49 +36,65 @@ Create a `Jenkinsfile` in the root of your GitHub repository with the following 
 
 ```groovy
 pipeline {
-    agent {
-        docker { 
-            image 'docker:stable' 
-            args '-v /var/run/docker.sock:/var/run/docker.sock' 
-        }
+    agent any // IN THE LECTURE I WILL EXPLAIN THE SCRIPT AND THE WORKFLOW
+    
+    environment {
+        // Define Docker Hub credentials ID
+        DOCKERHUB_CREDENTIALS_ID = 'amirdirin'
+        // Define Docker Hub repository name
+        DOCKERHUB_REPO = 'amirdirin/fartocelkelvin'
+        // Define Docker image tag
+        DOCKER_IMAGE_TAG = 'latest'
     }
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/your-username/your-repo.git', branch: 'main'
+                // Checkout code from Git repository
+                git 'https://github.com/ADirin/FarToCel_Fall2024.git'
+            }
+        }  
+        stage('Build Docker Image') {
+            steps {
+                // Build Docker image
+                script {
+                    docker.build("${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}")
+                }
             }
         }
-        stage('Build and Test') {
+        stage('Push Docker Image to Docker Hub') {
             steps {
+                // Push Docker image to Docker Hub
                 script {
-                    // Build the Docker image
-                    sh 'docker build -t my-java-app .'
-
-                    // Run the Docker container
-                    sh 'docker run --rm my-java-app'
+                    docker.withRegistry('https://index.docker.io/v1/', DOCKERHUB_CREDENTIALS_ID) {
+                        docker.image("${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}").push()
+                    }
                 }
             }
         }
     }
 }
+
 ```
-Replace your-username and your-repo with your actual GitHub username and repository name.
+- **Replace your-username and your-repo with your actual GitHub username and repository name.**
 
 4. **Docker Integration:**  
-Include a Dockerfile in the FarToCel project. Build and run the Docker container locally. Ensure to add the filename tag and include the package to the manifest in the pom.xml.  
-Dockerfile
-FROM maven:latest
-WORKDIR /app
-COPY pom.xml /app/
-COPY . /app/
-RUN mvn package
-CMD ["java", "-jar", "target/interconversions.jar"]
+Include a Dockerfile in the TempConverter project. Build and run the Docker container locally (in IntelliJ). Ensure to add the filename tag and include the package to the manifest in the pom.xml.  
+````Docker
+   Dockerfile
+   FROM maven:latest
+   WORKDIR /app
+   COPY pom.xml /app/
+   COPY . /app/
+   RUN mvn package
+   CMD ["java", "-jar", "target/interconversions.jar"]
+````
+** After adding the dockerfile, you need once agian **Push** this version of the project to github repo** 
 
 5. **GitHub and Jenkins Integration:**  
 Ensure that the latest modifications to your TempConverter project are pushed to GitHub. Configure Jenkins to automatically start building after a new commit is uploaded to the repository.
 
 7. **Docker Hub Account:**  
-Create an account on hub.docker.com if you haven't already.
+Create an account on hub.docker.com if you haven't already done.
 
 8. **Update Jenkins with Docker Plugins:**  
 Update Jenkins with Docker plugins following the instructions provided in the class and accompanying video clip in the Oma.
