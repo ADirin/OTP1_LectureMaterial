@@ -10,11 +10,10 @@ For this assignment, we will be extending the FarToCel application during our in
 AT test case and ensure that the newly added function is correct. (1 point)
 
    
-
-3. **GitHub Repository:**  
+2. **GitHub Repository:**  
    If you haven't already done so, create a GitHub repository for FarToCel and push the latest updates to it.
 
-4. **3. Configure Pipeline**
+3. **Configure Pipeline**
 
 1. In the **Pipeline** configuration page, scroll down to the **Pipeline** section.
 2. Set the **Definition** to **Pipeline script from SCM**.
@@ -26,7 +25,7 @@ AT test case and ensure that the newly added function is correct. (1 point)
    - Save the credentials and select them from the **Credentials** dropdown.
 6. Set the **Branch Specifier** to the branch you want to use (e.g., `*/main`).
 
-## 4. Add Jenkinsfile to Your Repository
+7. Add Jenkinsfile to Your Repository
 
 Create a `Jenkinsfile` in the root of your GitHub repository with the following content:
 
@@ -60,8 +59,8 @@ pipeline {
 ```
 Replace your-username and your-repo with your actual GitHub username and repository name.
 
-5. **Docker Integration:**  
-   Include a Dockerfile in the FarToCel project. Build and run the Docker container locally. Ensure to add the filename tag and include the package to the manifest in the pom.xml.  
+4. **Docker Integration:**  
+Include a Dockerfile in the FarToCel project. Build and run the Docker container locally. Ensure to add the filename tag and include the package to the manifest in the pom.xml.  
 Dockerfile
 FROM maven:latest
 WORKDIR /app
@@ -70,11 +69,8 @@ COPY . /app/
 RUN mvn package
 CMD ["java", "-jar", "target/interconversions.jar"]
 
-
-
-
-6. **GitHub and Jenkins Integration:**  
-Ensure that the latest modifications to your FarToCel project are pushed to GitHub. Configure Jenkins to automatically start building after a new commit is uploaded to the repository.
+5. **GitHub and Jenkins Integration:**  
+Ensure that the latest modifications to your TempConverter project are pushed to GitHub. Configure Jenkins to automatically start building after a new commit is uploaded to the repository.
 
 7. **Docker Hub Account:**  
 Create an account on hub.docker.com if you haven't already.
