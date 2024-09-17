@@ -75,7 +75,7 @@ pipeline {
 }
 
 ```
-- **Replace your-username and your-repo with your actual GitHub username and repository name.**
+**Replace your-username and your-repo with your actual GitHub username and repository name**
 
 4. **Docker Integration:**  
 Include a Dockerfile in the TempConverter project. Build and run the Docker container locally (in IntelliJ). Ensure to add the filename tag and include the package to the manifest in the pom.xml.  
