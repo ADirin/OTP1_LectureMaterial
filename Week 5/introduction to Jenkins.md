@@ -196,11 +196,12 @@ graph LR
 ## Conclusion
 
 Jenkins is a powerful automation server that enables continuous integration, testing, and deployment of software. By incorporating Jenkins into your development workflow and using tools like IntelliJ IDEA for application development, you can streamline the development process, improve code quality, and accelerate software delivery.
+
 -------------------------------------------------------------
 
 
+# Practical Example (JENKINS JOB)
 
------------------------------------------------------------------------
 # Using Jenkins for JUnit Testing and Code Coverage (temp_converter will be use as a java app, (https://github.com/ADirin/TempConverter.git)
 
 
