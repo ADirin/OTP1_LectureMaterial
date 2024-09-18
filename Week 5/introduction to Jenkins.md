@@ -29,7 +29,7 @@ Jenkins offers a wide range of plugins that extend its functionality, allowing u
  ![How ro use Jenkins](/Images/Jenkins.gif)
 
 # How to Use Jenkins
-## Essential Jenkins settings
+   # Essential Jenkins settings
 
 ###  Installation
 
