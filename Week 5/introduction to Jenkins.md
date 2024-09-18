@@ -28,21 +28,99 @@ Jenkins offers a wide range of plugins that extend its functionality, allowing u
 > **figure ilustrate the use of Jenkins*
  ![How ro use Jenkins](/Images/Jenkins.gif)
 
-## How to Use Jenkins
+# How to Use Jenkins
+## Essential Jenkins settings
 
-### Step 1: Installation
+###  Installation
 
 1. Download Jenkins from the official website: [https://www.jenkins.io/download/](https://www.jenkins.io/download/).
 
 2. Follow the installation instructions for your operating system.
---------------------------------------------------
 
-### Step 2: Configuration
+## 1. Settings  JDK, Maven, and Git in Jenkins
 
-1. Once Jenkins is installed, access it through your web browser by navigating to `http://localhost:8080` (default port).
+Follow these instructions to configure **JDK**, **Maven**, and **Git** in your Jenkins environment.
 
-2. Follow the setup wizard to complete the initial configuration, including setting up an admin user and installing recommended plugins.
+## 2. Access Jenkins Dashboard
+Once Jenkins is installed:
+1. Open your web browser.
+2. Go to `http://localhost:8080/` or the appropriate Jenkins server URL.
+3. Log in using your admin credentials.
 
+
+## 3. Set Up JDK in Jenkins
+
+### Step 1: Install JDK
+- Download and install the **JDK** (Java Development Kit) from the [official Oracle site](https://www.oracle.com/java/technologies/javase-downloads.html) or [OpenJDK](https://openjdk.java.net/).
+- Ensure you have **JDK 8** or later installed.
+
+### Step 2: Configure JDK in Jenkins
+1. In the Jenkins dashboard, go to **Manage Jenkins**.
+2. Click **Global Tool Configuration**.
+3. Scroll down to the **JDK** section.
+4. Click **Add JDK**.
+    - Uncheck the "Install automatically" option if JDK is already installed on your system.
+    - Provide a **Name** for the JDK (e.g., `JDK 11`).
+    - Enter the **JAVA_HOME** path for your installed JDK.
+5. Click **Save**.
+
+---
+
+## 4. Set Up Maven in Jenkins
+
+### Step 1: Install Maven
+- Download and install **Maven** from the [official Maven website](https://maven.apache.org/download.cgi).
+- Set up the environment variables:
+    - Add Maven's `bin` folder to the `PATH`.
+    - Ensure you have **Maven 3.6.0** or later.
+
+### Step 2: Configure Maven in Jenkins
+1. In the Jenkins dashboard, go to **Manage Jenkins**.
+2. Click **Global Tool Configuration**.
+3. Scroll down to the **Maven** section.
+4. Click **Add Maven**.
+    - Uncheck the "Install automatically" option if Maven is already installed on your system.
+    - Provide a **Name** for Maven (e.g., `Maven 3.8.1`).
+    - Enter the **Maven Home** directory path where Maven is installed.
+5. Click **Save**.
+
+---
+
+## 5. Set Up Git in Jenkins
+
+### Step 1: Install Git
+- Download and install **Git** from the [official Git website](https://git-scm.com/downloads).
+- Verify the installation by running the following command in your terminal:
+    ```bash
+    git --version
+    ```
+
+### Step 2: Configure Git in Jenkins
+1. In the Jenkins dashboard, go to **Manage Jenkins**.
+2. Click **Global Tool Configuration**.
+3. Scroll down to the **Git** section.
+4. Click **Add Git** (if it is not already listed).
+    - Jenkins will automatically detect Git if it is installed.
+5. Click **Save**.
+
+---
+
+## 6. Verify Configuration
+
+### Step 1: Create a Test Job
+1. In the Jenkins dashboard, click **New Item**.
+2. Create a **Freestyle Project** or **Pipeline**.
+3. Under **Build Environment**, verify if Jenkins recognizes the **JDK**, **Maven**, and **Git** installations.
+4. Run a test build to ensure everything is configured correctly.
+
+### Step 2: Check Build Output
+1. Click on **Build Now** for the test job.
+2. Navigate to **Build History > Console Output**.
+3. Check for logs that show the correct versions of **JDK**, **Maven**, and **Git** being used.
+
+---
+
+By following these steps, you will have successfully configured JDK, Maven, and Git in Jenkins, allowing you to run Java-based projects with Maven builds.
 
 
 ------------------------------------------------------------------
