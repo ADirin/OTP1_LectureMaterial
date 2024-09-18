@@ -35,6 +35,7 @@ Jenkins offers a wide range of plugins that extend its functionality, allowing u
 1. Download Jenkins from the official website: [https://www.jenkins.io/download/](https://www.jenkins.io/download/).
 
 2. Follow the installation instructions for your operating system.
+--------------------------------------------------
 
 ### Step 2: Configuration
 
@@ -42,6 +43,9 @@ Jenkins offers a wide range of plugins that extend its functionality, allowing u
 
 2. Follow the setup wizard to complete the initial configuration, including setting up an admin user and installing recommended plugins.
 
+
+
+------------------------------------------------------------------
 ### Step 3: Create a New Jenkins Job
 
 1. Click on "New Item" on the Jenkins dashboard to create a new job.
