@@ -92,11 +92,8 @@ graph LR
 
 ````
 
-1. Download IntelliJ IDEA from the official website: [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/).
 
-2. Follow the installation instructions for your operating system.
-
-### Step 2: Create a New Java Project
+### Step 1: Create a New Java Project
 
 1. Open IntelliJ IDEA and select "Create New Project" from the welcome screen.
 
@@ -104,13 +101,13 @@ graph LR
 
 3. Fill in the project name and location, then click "Finish" to create the project.
 
-### Step 3: Write Java Code
+### Step 2: Write Java Code
 
 1. Create a new Java class by right-clicking on the `src` folder and selecting "New -> Java Class".
 
 2. Write your Java code in the newly created class file.
 
-### Step 4: Build and Run the Application
+### Step 3: Build and Run the Application
 
 1. Build the project by selecting "Build -> Build Project" from the IntelliJ IDEA menu.
 
