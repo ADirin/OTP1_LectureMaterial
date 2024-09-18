@@ -64,8 +64,6 @@ Jenkins offers a wide range of plugins that extend its functionality, allowing u
 
 ## Creating a Java Application in IntelliJ IDEA
 
-### Step 1: Install IntelliJ IDEA
-
 ````mermaid
 graph LR
     A[Developer Pushes Code to GitHub] -->|Push Event| B[GitHub Repository]
