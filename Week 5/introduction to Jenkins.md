@@ -41,18 +41,13 @@ Jenkins offers a wide range of plugins that extend its functionality, allowing u
 
 Follow these instructions to configure **JDK**, **Maven**, and **Git** in your Jenkins environment.
 
-## 2. Access Jenkins Dashboard
-Once Jenkins is installed:
-1. Open your web browser.
-2. Go to `http://localhost:8080/` or the appropriate Jenkins server URL.
-3. Log in using your admin credentials.
 
-
-## 3. Set Up JDK in Jenkins
+## 2. Set Up JDK in Jenkins
 
 ### Step 1: Install JDK
 - Download and install the **JDK** (Java Development Kit) from the [official Oracle site](https://www.oracle.com/java/technologies/javase-downloads.html) or [OpenJDK](https://openjdk.java.net/).
-- Ensure you have **JDK 8** or later installed.
+- Ensure you have **JDK11**, **JDK17**, and **JDK21** or later installed.
+
 
 ### Step 2: Configure JDK in Jenkins
 1. In the Jenkins dashboard, go to __**Manage Jenkins**__.
@@ -60,7 +55,7 @@ Once Jenkins is installed:
 3. Scroll down to the **JDK** section.
 4. Click **Add JDK**.
     - Uncheck the "Install automatically" option if JDK is already installed on your system.
-    - Provide a **Name** for the JDK (e.g., `JDK 11`).
+    - Provide a **Name** for the JDK (e.g., `JDK 21`).
     - Enter the **JAVA_HOME** path for your installed JDK.
 5. Click **Save**.
 
@@ -105,7 +100,6 @@ Once Jenkins is installed:
 
 ----------------------------------------------------------------------
 
-
 ### Step 2: Check Build Output
 1. Click on **Build Now** for the test job.
 2. Navigate to **Build History > Console Output**.
@@ -124,7 +118,9 @@ Once Jenkins is installed:
 - After successfully run the 
 ![Jenkins Run](/Images/jenkinsRun.JPG)
 
-- Go to `http://localhost:8080/` or the appropriate Jenkins server URL.
+1. Open your web browser.
+2. Go to `http://localhost:8080/` or the appropriate Jenkins server URL.
+3. Log in using your admin credentials.
 
 ![Jenkins Run](/Images/jenkinsBrowser.jpg)
 
