@@ -116,10 +116,10 @@ Follow these instructions to configure **JDK**, **Maven**, and **Git** in your J
 ### Step 2: Configure the plugins
 1. follow the following screenshot
 
-
+![Jenkins JDK](/Images/plugins.JPG)
 
    
-3. 
+3. Insall also Ocean Blue...
 
 
 ------------------------------------------------------------------
