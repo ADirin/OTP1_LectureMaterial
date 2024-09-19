@@ -134,8 +134,9 @@ Once Jenkins is installed:
 
 4. Configure the job settings, including source code management, and build steps.
 
+![Jenkins Build](/Images/jenkinsBuild2.jpg)
 
-
+5. Apply and save
 
 ### Step 4: Build and Test Your Project
 
