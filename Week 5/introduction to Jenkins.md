@@ -150,7 +150,9 @@ Once Jenkins is installed:
 
 1. Jenkins provides detailed build logs and reports, allowing you to monitor the progress and outcome of each build.
 
-2. Use the built-in dashboard and plugins to visualize build trends, test results, and other metrics.
+   ![Jenkins Build](/Images/jenkinsConsol.JPG)
+
+3. Use the built-in dashboard and plugins to visualize build trends, test results, and other metrics.
 
 ## Creating a Java Application in IntelliJ IDEA
 
