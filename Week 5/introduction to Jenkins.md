@@ -84,7 +84,11 @@ Follow these instructions to configure **JDK**, **Maven**, and **Git** in your J
     - Enter the **Maven Home** directory path where Maven is installed.
 5. Click **Save**.
 
----
+
+
+
+
+-------------------------------------------------------------------------------------------
 
 ## 5. Set Up Git in Jenkins
 
