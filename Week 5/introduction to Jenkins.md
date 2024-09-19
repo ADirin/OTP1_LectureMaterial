@@ -114,12 +114,19 @@ Once Jenkins is installed:
        c:\ your_folder\ java -jar jenkins.war
    ```
 - After successfully run the 
+![Jenkins Run](/Images/jenkinsRun.JPG)
+
 - Go to `http://localhost:8080/` or the appropriate Jenkins server URL.
+
 
 1. In the Jenkins dashboard, click **New Item**.
 2. Create a **Freestyle Project** or **Pipeline**.
-3. Under **Build Environment**, verify if Jenkins recognizes the **JDK**, **Maven**, and **Git** installations.
-4. Run a test build to ensure everything is configured correctly.
+
+
+
+   
+4. Under **Build Environment**, verify if Jenkins recognizes the **JDK**, **Maven**, and **Git** installations.
+5. Run a test build to ensure everything is configured correctly.
 
 ### Step 2: Check Build Output
 1. Click on **Build Now** for the test job.
