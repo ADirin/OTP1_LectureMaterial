@@ -99,6 +99,7 @@ Follow these instructions to configure **JDK**, **Maven**, and **Git** in your J
     git --version
     ```
 
+
 ### Step 2: Configure Git in Jenkins
 1. In the Jenkins dashboard, go to **Manage Jenkins**.
 2. Click **Global Tool Configuration**.
@@ -106,6 +107,9 @@ Follow these instructions to configure **JDK**, **Maven**, and **Git** in your J
 4. Click **Add Git** (if it is not already listed).
     - Jenkins will automatically detect Git if it is installed.
 5. Click **Save**.
+
+
+![Jenkins JDK](/Images/GitJenkins.JPG)
 
 ----------------------------------------------------------------------
 
