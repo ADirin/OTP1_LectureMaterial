@@ -60,7 +60,7 @@ Follow these instructions to configure **JDK**, **Maven**, and **Git** in your J
 5. Click **Save**.
 
 
-![Jenkins JDK](/Images/ManageJenkins.JPG)
+![Jenkins JDK](/Images/MangeJenkins.JPG)
 
    
 
