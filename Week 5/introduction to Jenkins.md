@@ -59,7 +59,12 @@ Follow these instructions to configure **JDK**, **Maven**, and **Git** in your J
     - Enter the **JAVA_HOME** path for your installed JDK.
 5. Click **Save**.
 
----
+
+![Jenkins JDK](/Images/ManageJenkins.JPG)
+
+   
+
+--------------------------------------------------------------------------------------------
 
 ## 4. Set Up Maven in Jenkins
 
