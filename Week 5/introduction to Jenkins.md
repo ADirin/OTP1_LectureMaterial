@@ -103,10 +103,18 @@ Once Jenkins is installed:
     - Jenkins will automatically detect Git if it is installed.
 5. Click **Save**.
 
----
+----------------------------------------------------------------------
 
-## 6. Verify Configuration
 
+### Step 2: Check Build Output
+1. Click on **Build Now** for the test job.
+2. Navigate to **Build History > Console Output**.
+3. Check for logs that show the correct versions of **JDK**, **Maven**, and **Git** being used.
+
+
+
+------------------------------------------------------------------
+## Step 3: Practical Example
 ### Step 1: Create a Test Job
 1. Run the jenkins in your local machine:
   - You have to find the jenkins.war in your local machine 
@@ -119,36 +127,15 @@ Once Jenkins is installed:
 - Go to `http://localhost:8080/` or the appropriate Jenkins server URL.
 
 ![Jenkins Run](/Images/jenkinsBrowser.jpg)
-1. In the Jenkins dashboard, click **New Item**.
-
-![Jenkins New Item](/Images/jenkinsNew.jpg)
-   
-3. Create a **Freestyle Project** .
 
 
+2. Click on "New Item" on the Jenkins dashboard to create a new job.
+3. Enter a name for your job and choose the type of project (freestyle project).
 
-   
-4. Under **Build Environment**, verify if Jenkins recognizes the **JDK** installations.
-5. Run a test build to ensure everything is configured correctly.
-
-### Step 2: Check Build Output
-1. Click on **Build Now** for the test job.
-2. Navigate to **Build History > Console Output**.
-3. Check for logs that show the correct versions of **JDK**, **Maven**, and **Git** being used.
-
----
-
-By following these steps, you will have successfully configured JDK, Maven, and Git in Jenkins, allowing you to run Java-based projects with Maven builds.
+4. Configure the job settings, including source code management, and build steps.
 
 
-------------------------------------------------------------------
-### Step 3: Create a New Jenkins Job
 
-1. Click on "New Item" on the Jenkins dashboard to create a new job.
-
-2. Enter a name for your job and choose the type of project (freestyle project, pipeline, etc.).
-
-3. Configure the job settings, including source code management, build triggers, and build steps.
 
 ### Step 4: Build and Test Your Project
 
