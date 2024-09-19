@@ -133,6 +133,7 @@ Once Jenkins is installed:
 3. Enter a name for your job and choose the type of project (freestyle project).
 
 4. Configure the job settings, including source code management, and build steps.
+5. Configure your build steps to execute tasks such as compiling code, running tests, and packaging artifacts.
 
 ![Jenkins Build](/Images/jenkinsBuild3.JPG)
 
@@ -140,9 +141,10 @@ Once Jenkins is installed:
 
 ### Step 4: Build and Test Your Project
 
-1. Configure your build steps to execute tasks such as compiling code, running tests, and packaging artifacts.
+1. Run the job manually or configure it to run automatically based on triggers, such as code commits or scheduled builds.
 
-2. Run the job manually or configure it to run automatically based on triggers, such as code commits or scheduled builds.
+![Jenkins Build](/Images/jenkinsRun1.JPG)
+
 
 ### Step 5: Monitor Build Results
 
