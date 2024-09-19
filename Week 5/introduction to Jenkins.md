@@ -113,11 +113,13 @@ Follow these instructions to configure **JDK**, **Maven**, and **Git** in your J
 
 ----------------------------------------------------------------------
 
-### Step 2: Check Build Output
-1. Click on **Build Now** for the test job.
-2. Navigate to **Build History > Console Output**.
-3. Check for logs that show the correct versions of **JDK**, **Maven**, and **Git** being used.
+### Step 2: Configure the plugins
+1. follow the following screenshot
 
+
+
+   
+3. 
 
 
 ------------------------------------------------------------------
