@@ -118,7 +118,7 @@ Once Jenkins is installed:
 
 - Go to `http://localhost:8080/` or the appropriate Jenkins server URL.
 
-
+![Jenkins Run](/Images/jenkinsBrowser.jpg)
 1. In the Jenkins dashboard, click **New Item**.
 2. Create a **Freestyle Project** or **Pipeline**.
 
