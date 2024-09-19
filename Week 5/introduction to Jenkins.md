@@ -75,7 +75,7 @@ Once Jenkins is installed:
     - Ensure you have **Maven 3.6.0** or later.
 
 ### Step 2: Configure Maven in Jenkins
-1. In the Jenkins dashboard, go to **Manage Jenkins**.
+1. In the Jenkins dashboard, go to __**Manage Jenkins**__.
 2. Click **Global Tool Configuration**.
 3. Scroll down to the **Maven** section.
 4. Click **Add Maven**.
