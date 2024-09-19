@@ -125,7 +125,7 @@ Once Jenkins is installed:
 
 
    
-4. Under **Build Environment**, verify if Jenkins recognizes the **JDK**, **Maven**, and **Git** installations.
+4. Under **Build Environment**, verify if Jenkins recognizes the **JDK** installations.
 5. Run a test build to ensure everything is configured correctly.
 
 ### Step 2: Check Build Output
