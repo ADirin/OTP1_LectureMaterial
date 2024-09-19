@@ -181,7 +181,7 @@ graph LR
 
 
 ````
-
+# Summary of the steps (How to do from developer perspective)
 
 ### Step 1: Create a New Java Project
 
@@ -203,9 +203,7 @@ graph LR
 
 2. Run the application by right-clicking on the main class file and selecting "Run <classname>".
 
-## Conclusion
 
-Jenkins is a powerful automation server that enables continuous integration, testing, and deployment of software. By incorporating Jenkins into your development workflow and using tools like IntelliJ IDEA for application development, you can streamline the development process, improve code quality, and accelerate software delivery.
 
 -------------------------------------------------------------
 
