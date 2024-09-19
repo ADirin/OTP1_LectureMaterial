@@ -55,7 +55,7 @@ Once Jenkins is installed:
 - Ensure you have **JDK 8** or later installed.
 
 ### Step 2: Configure JDK in Jenkins
-1. In the Jenkins dashboard, go to **<u>Manage Jenkins</u>**.
+1. In the Jenkins dashboard, go to <u>**Manage Jenkins**</u>.
 2. Click **Global Tool Configuration**.
 3. Scroll down to the **JDK** section.
 4. Click **Add JDK**.
