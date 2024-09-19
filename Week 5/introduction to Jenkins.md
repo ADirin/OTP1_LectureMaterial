@@ -108,6 +108,14 @@ Once Jenkins is installed:
 ## 6. Verify Configuration
 
 ### Step 1: Create a Test Job
+1. Run the jenkins in your local machine:
+  - You have to find the jenkins.war in your local machine 
+   ```cmd
+       c:\ your_folder\ java -jar jenkins.war
+   ```
+- After successfully run the 
+- Go to `http://localhost:8080/` or the appropriate Jenkins server URL.
+
 1. In the Jenkins dashboard, click **New Item**.
 2. Create a **Freestyle Project** or **Pipeline**.
 3. Under **Build Environment**, verify if Jenkins recognizes the **JDK**, **Maven**, and **Git** installations.
