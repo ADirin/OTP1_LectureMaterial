@@ -120,7 +120,10 @@ Once Jenkins is installed:
 
 ![Jenkins Run](/Images/jenkinsBrowser.jpg)
 1. In the Jenkins dashboard, click **New Item**.
-2. Create a **Freestyle Project** or **Pipeline**.
+
+![Jenkins New Item](/Images/jenkinsNew.jpg)
+   
+3. Create a **Freestyle Project** .
 
 
 
