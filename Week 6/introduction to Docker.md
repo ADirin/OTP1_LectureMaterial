@@ -25,6 +25,50 @@ Docker simplifies application deployment by creating a consistent environment, r
 ## 3. Installing Docker
 Docker installation involves downloading and setting up Docker Engine on your machine. It is available for multiple operating systems, including Linux, Windows, and macOS, with specific installation steps for each platform.
 
+
+### Installing and Setting Up Docker on Different Operating Systems
+**Windows**
+- Check System Requirements: Ensure your Windows version supports Docker (Windows 10 64-bit: Pro, Enterprise, or Education; or Windows 11).
+- Enable WSL 2: Install and enable Windows Subsystem for Linux 2 (WSL 2).
+    `wsl --install`
+- Download Docker Desktop: Get the Docker Desktop installer from the Docker website.
+- Install Docker Desktop: Run the installer and follow the setup instructions.
+- Start Docker Desktop: Launch Docker Desktop and complete the initial setup.
+- Verify Installation: Open a terminal and run:
+    `docker --version`
+**macOS**
+- Check System Requirements: Ensure your macOS version is 10.15 or newer.
+- Download Docker Desktop: Get the Docker Desktop installer from the Docker website.
+- Install Docker Desktop: Open the downloaded .dmg file and drag Docker to the Applications folder.
+- Start Docker Desktop: Launch Docker from the Applications folder and complete the initial setup.
+- Verify Installation: Open a terminal and run:
+  `docker --version`
+  
+**Linux** 
+- Check System Requirements: Ensure your Linux distribution is supported (e.g., Ubuntu, Debian, Fedora, CentOS).
+- Update Package Index: Update your package index.
+`sudo apt-get update`
+
+__Install Docker Engine:__
+`sudo apt-get install docker-ce docker-ce-cli containerd.io`
+
+- Start Docker: Enable and start the Docker service.
+`sudo systemctl enable docker`
+`sudo systemctl start docker`
+
+- Verify Installation: Run the following command to check Docker version:
+`docker --version`
+
+**Post-Installation Steps (All OS)**
+- Run Docker Without Sudo (Linux Only):
+`sudo usermod -aG docker $USER`
+
+- Test Docker Installation: Run a test container.
+`docker run hello-world`
+
+
+
+
 ## 4. Docker Basics
 - Docker CLI overview: `docker run`, `docker build`, `docker ps`, `docker images`, etc.
 - Managing containers: starting, stopping, restarting, removing
@@ -43,8 +87,6 @@ Docker Compose allows you to define and manage multi-container applications usin
 ## 8. Example: Dockerizing a Java Application
 - This practical example demonstrates how to package a Java application into a Docker container. You’ll create a Dockerfile, build the image, and use Docker to run the application in a containerized environment, illustrating real-world Docker use.
   
-## Conclusion
-Docker has become an indispensable tool for modern software development and deployment. By mastering Docker fundamentals and best practices, developers can streamline their workflows, enhance collaboration, and build more resilient and scalable applications. Start your Docker journey today and unlock the full potential of containerization in your projects.
 
 -------------------------------------------------------
 
