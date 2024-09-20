@@ -175,8 +175,8 @@ public class Calculator {
    - [plugins](/Images/plugins.JPG)
     
    - Search for and select the following plugins to install:
-     - GitHub Plugin: Integrates Jenkins with GitHub repositories.
-     - Docker Pipeline Plugin: Allows Jenkins to use Docker containers as part of the build process.
+     - **GitHub Plugin**: Integrates Jenkins with GitHub repositories.
+     - **Docker Pipeline Plugin**: Allows Jenkins to use Docker containers as part of the build process.
    - Click "Install without restart" to install the selected plugins.
 3. **Create a Jenkins job that monitors the GitHub repository for changes:**
    - Click on "New Item" in the Jenkins dashboard to create a new job.
