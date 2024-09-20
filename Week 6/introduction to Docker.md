@@ -172,7 +172,8 @@ public class Calculator {
 2. **Install necessary plugins like GitHub and Docker Pipeline:**
    - In the Jenkins dashboard, navigate to "Manage Jenkins" -> "Manage Plugins" -> "Available" tab.
   
-   - [plugins](plugins.JPG) 
+   - [plugins](/Images/plugins.JPG)
+    
    - Search for and select the following plugins to install:
      - GitHub Plugin: Integrates Jenkins with GitHub repositories.
      - Docker Pipeline Plugin: Allows Jenkins to use Docker containers as part of the build process.
