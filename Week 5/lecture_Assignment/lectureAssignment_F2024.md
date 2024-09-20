@@ -221,7 +221,7 @@ Generates the JaCoCo report and publishes the test results and coverage data.
 
 
 ## Submission Deadline:
-- The assignment must be submitted by [17.09.2024] In a folder in Oma.
+- The assignment must be submitted by [XX.XX.XX AT xxxx] In a folder in Oma.
 
 ## Evaluation Criteria:
 - Correct implementation of the TimeCalculator class.
