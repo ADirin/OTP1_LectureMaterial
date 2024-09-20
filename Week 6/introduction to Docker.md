@@ -253,10 +253,15 @@ public class CalculatorTest {
 
 Now, Jenkins will monitor your GitHub repository for changes and automatically trigger builds whenever changes are pushed. It will build your Java project using Maven, helping you maintain a continuous integration workflow.
 
+![JACOCO](/Images/JACReport.JPG)
 
 ## Step 4: Dockerizing the Application
 1. Write a Dockerfile to package your Java application into a Docker image.
-2. Build the Docker image locally using Docker commands or Dockerfile instructions.
+
+
+
+   
+3. Build the Docker image locally using Docker commands or Dockerfile instructions.
 
 
 Here's an example Dockerfile:
