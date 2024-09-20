@@ -429,7 +429,8 @@ sequenceDiagram
    - Select "Pipeline" and click "OK".
 
 2. **Configure the Pipeline**
-   - Under the "Pipeline" section, choose "Pipeline script" and write the following script:
+   - Under the "Pipeline" section, choose "Pipeline script from SCM" and add the github repository URL (public)
+   - Write the following script:
 
     ```groovy
     pipeline {
