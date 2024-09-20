@@ -258,7 +258,7 @@ Now, Jenkins will monitor your GitHub repository for changes and automatically t
 ## Step 4: Dockerizing the Application
 1. Write a Dockerfile to package your Java application into a Docker image.
 
-
+![Docker File](/Images/docker.jpg)
 
    
 3. Build the Docker image locally using Docker commands or Dockerfile instructions.
