@@ -324,6 +324,9 @@ pipeline {
 
 1. **Create a Jenkinsfile in GitHub**
    - Add a `Jenkinsfile` to your GitHub repository with the following content:
+   - **NOTE**: if you want to use the following pipeline in windows environment make sure
+     1. replace sh to **bat** throughout the following script, for Linux or Mac OS the sh works fine
+     2. You have to add the git-repo link in the git tag
 
     ```groovy
     pipeline {
