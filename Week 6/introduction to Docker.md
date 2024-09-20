@@ -161,15 +161,8 @@ public class Calculator {
 ## Step 2: Version Control with GitHub
 
 1. **Initialize a Git repository for your project:**
-   - Open a terminal or command prompt and navigate to your project directory:
-     ```bash
-     cd /path/to/your/project
-     ```
-   - Initialize a new Git repository:
-     ```bash
-     git init
-     ```
-     This command initializes an empty Git repository in your project directory.
+
+  
 
 2. **Commit your changes and push the project to a GitHub repository:**
    - Add all files in your project directory to the staging area:
