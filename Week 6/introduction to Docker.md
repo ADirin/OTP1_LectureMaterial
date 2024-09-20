@@ -162,34 +162,9 @@ public class Calculator {
 
 1. **Initialize a Git repository for your project:**
 
-  
-
 2. **Commit your changes and push the project to a GitHub repository:**
-   - Add all files in your project directory to the staging area:
-     ```bash
-     git add .
-     ```
-     This command stages all changes in the current directory for the next commit.
-   - Commit the staged changes with a descriptive commit message:
-     ```bash
-     git commit -m "Initial commit"
-     ```
-     Replace "Initial commit" with a meaningful message that describes the changes you've made in this commit.
-   - Go to the GitHub website and log in to your account.
-   - Click on the "+" icon in the top right corner of the page and select "New repository".
-   - Fill in the repository name, description, and other settings as desired.
-   - Click on the "Create repository" button to create the repository on GitHub.
-   - Copy the HTTPS or SSH URL of your GitHub repository.
-   - In your terminal or command prompt, add the GitHub repository as a remote:
-     ```bash
-     git remote add origin <repository-url>
-     ```
-     Replace `<repository-url>` with the URL you copied from GitHub.
-   - Push your commits to the GitHub repository:
-     ```bash
-     git push -u origin master
-     ```
-     This command pushes the commits in your local repository's master branch to the remote repository (GitHub).
+
+![GitHub](/Images/GitHUb.JPG)
 
 ## Step 3: Continuous Integration with Jenkins
 
