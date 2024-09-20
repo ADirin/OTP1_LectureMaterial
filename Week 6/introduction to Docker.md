@@ -262,6 +262,9 @@ Now, Jenkins will monitor your GitHub repository for changes and automatically t
 
    
 3. Build the Docker image locally using Docker commands or Dockerfile instructions.
+- right click to the Dockerfile and run.
+
+  
 
 
 Here's an example Dockerfile:
@@ -280,12 +283,14 @@ CMD["java", "-jar", "Calculator.jar"]
 
 ````
 
-**Sampel Docker file
+**Sample Docker file
 ````txt
-
 
 # Use an official Maven image as a parent image
 FROM maven:latest
+
+# Set metadata information
+LABEL authors="amirdi"
 
 # Set the working directory in the container
 WORKDIR /app
@@ -300,75 +305,90 @@ COPY . /app/
 RUN mvn package
 
 # Run the main class (assuming your application has a main class)
-CMD ["java", "-jar", "./target/finalDemoApp.jar"]
-
+CMD ["java", "-jar", "target/calculator.jar"]
 
 ````
 **Sample POM.XML file 
+**IF you get class NOT FOUND MAKE SURE THE PATH TO THE CLASS IS CORRECT** 
+```
+<archive>
+   <manifest>
+       <mainClass>Calculator</mainClass> <!-- Correct main class -->
+   </manifest>
+ </archive>
+
+```
+### SAMPLE POM: make sure you configure the following POM based on your own class name and other settings on your project 
+
 ```` xml
-    <!-- Add this section to change the name of the JAR file -->
+  
+<properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
-<build>
-    <finalName>calculator</finalName>
-    <plugins>
-        <!-- Compiler Plugin for setting the Java version -->
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.13.0</version>
-            <configuration>
-                <source>21</source> <!-- or your Java version -->
-                <target>21</target> <!-- or your Java version -->
-            </configuration>
-        </plugin>
-        <plugin>
-            <groupId>org.jacoco</groupId>
-            <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.8.12</version> <!-- Use the latest version available -->
-            <executions>
-                <execution>
-                    <id>jacoco-initialize</id>
-                    <goals>
-                        <goal>prepare-agent</goal>
-                    </goals>
-                </execution>
-                <execution>
-                    <id>jacoco-report</id>
-                    <phase>test</phase>
-                    <goals>
-                        <goal>report</goal>
-                    </goals>
-                </execution>
-            </executions>
-        </plugin>
+    <build>
+        <finalName>calculator</finalName>
+        <plugins>
+            <!-- Compiler Plugin for setting the Java version -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                </configuration>
+            </plugin>
 
-        <!-- JAR Plugin for configuring the manifest file -->
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-jar-plugin</artifactId>
-            <version>3.4.1</version>
-            <configuration>
-                <archive>
-                    <manifest>
-                        <mainClass>org.example.App</mainClass>
-                    </manifest>
-                </archive>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
+            <!-- JAR Plugin for configuring the manifest file -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.1</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>Calculator</mainClass> <!-- Correct main class -->
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
 
+            <!-- JaCoCo Plugin for code coverage -->
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.12</version>
+                <executions>
+                    <execution>
+                        <id>jacoco-initialize</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>jacoco-report</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
-<dependencies>
-
-    <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.13.2</version>
-        <scope>test</scope>
-    </dependency>
-
-</dependencies>
+    <dependencies>
+        <!-- JUnit for testing -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 ````
 
