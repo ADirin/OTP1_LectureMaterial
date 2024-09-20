@@ -137,9 +137,6 @@ Let's demonstrate how you can integrate a simple Java calculator program (Calcul
 
 ``` java
 public class Calculator {
-    public int add(int a, int b) {
-        return a + b;
-    }
 
     public int subtract(int a, int b) {
         return a - b;
@@ -155,7 +152,12 @@ public class Calculator {
         }
         return a / b;
     }
+
+    public static void main(String[] args){
+        System.out.println("Done docker");
+    }
 }
+
 ```
 
 ## Write a test class for the your calculator class
