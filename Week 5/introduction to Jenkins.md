@@ -34,8 +34,12 @@ Jenkins offers a wide range of plugins that extend its functionality, allowing u
 ###  Installation
 
 1. Download Jenkins from the official website: [https://www.jenkins.io/download/](https://www.jenkins.io/download/).
-
 2. Follow the installation instructions for your operating system.
+3. Or for windows [For Windows](https://www.jenkins.io/download/thank-you-downloading-windows-installer/)
+4. Run the `jenkins.msi` and follow the installation instruction
+ - In case you are prompted to enter the _ admin _  password for admin login, open given path at the screen open the link in your file explorer.
+
+
 
 ## 1. Settings  JDK, Maven, and Git in Jenkins
 
