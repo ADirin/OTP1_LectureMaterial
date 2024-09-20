@@ -222,11 +222,13 @@ public class CalculatorTest {
 
    - Configure the job to build periodically or trigger builds based on GitHub webhook triggers (recommended for real-time builds).
    - Configure any additional build triggers or parameters as needed.
-3. **Configure the Jenkins job to build the Java project using Maven:**
-   - If you're using a "Freestyle project":
-     - In the "Build" section, add a build step to execute Maven commands.
-     - Specify the Maven goals to build your Java project (e.g., clean install).
-   - If you're using a "Pipeline" job:
+   - In the "Build" section, add a build step to execute Maven commands.
+   - Specify the Maven goals to build your Java project (e.g., clean install).
+
+   ![Git URL](/Images/mavenSetup.JPG)
+   
+   
+     - If you're using a "Pipeline" job:
      - Write a Jenkinsfile (or use the Pipeline Script) to define the build pipeline stages.
      - Use the checkout step to clone the GitHub repository.
      - Use the sh step to execute Maven commands to build your Java project.
@@ -245,6 +247,7 @@ public class CalculatorTest {
            }
        }
        ```
+     
        *** - if youare using windows instead of sh you have to use bat--> bat 'mvn clean install'
 4. **Save your Jenkins job configuration and run a test build to verify the setup.**
 
