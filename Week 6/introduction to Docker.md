@@ -264,7 +264,7 @@ Now, Jenkins will monitor your GitHub repository for changes and automatically t
 3. Build the Docker image locally using Docker commands or Dockerfile instructions.
 - right click to the Dockerfile and run.
 
-  ![Docker Result](/Images/docerRes.JPG)
+  ![Docker Result](/Images/dockerRes.JPG)
 
 
 Here's an example Dockerfile:
