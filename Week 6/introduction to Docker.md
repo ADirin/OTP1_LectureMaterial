@@ -215,8 +215,7 @@ public class CalculatorTest {
    - Enter a name for your job (e.g., "Calculator CI") and select "Freestyle project" depending on your preference.
    - Under the "Source Code Management" tab, select git and specify the GitHub project URL of your repository.
    - Enable "GitHub project" and enter the GitHub project URL.
-
-     [Git URL](/Images/NewItem.JPG)
+[Git URL](/Images/NewItem.JPG)
 
 
 
