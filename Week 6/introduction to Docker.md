@@ -36,6 +36,8 @@ Docker installation involves downloading and setting up Docker Engine on your ma
 - Start Docker Desktop: Launch Docker Desktop and complete the initial setup.
 - Verify Installation: Open a terminal and run:
     `docker --version`
+
+  
   ![macOS](https://docs.docker.com/desktop/install/mac-install/)
 - Check System Requirements: Ensure your macOS version is 10.15 or newer.
 - Download Docker Desktop: Get the Docker Desktop installer from the Docker website.
