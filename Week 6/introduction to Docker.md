@@ -270,8 +270,10 @@ WORKDIR /app
 COPY Calculator.jar .
 
 # Run the JAR file
-CMD ["java", "-jar", "Calculator.jar"]
+````CMD
+CMD["java", "-jar", "Calculator.jar"]
 
+````
 
 **Sampel Docker file
 ````txt
@@ -299,80 +301,69 @@ CMD ["java", "-jar", "./target/finalDemoApp.jar"]
 ````
 **Sample POM.XML file 
 ```` xml
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-
-  <groupId>org.example</groupId>
-  <artifactId>finalDemo_fall2024</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
-
-  <name>finalDemo_fall2024</name>
-  <url>http://maven.apache.org</url>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-  <build>
-
     <!-- Add this section to change the name of the JAR file -->
-    <finalName>finalDemoApp</finalName>
 
+<build>
+    <finalName>calculator</finalName>
     <plugins>
-      <!-- Compiler Plugin for setting the Java version -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
-        <configuration>
-          <source>21</source> <!-- or your Java version -->
-          <target>21</target> <!-- or your Java version -->
-        </configuration>
-      </plugin>
+        <!-- Compiler Plugin for setting the Java version -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.13.0</version>
+            <configuration>
+                <source>21</source> <!-- or your Java version -->
+                <target>21</target> <!-- or your Java version -->
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.12</version> <!-- Use the latest version available -->
+            <executions>
+                <execution>
+                    <id>jacoco-initialize</id>
+                    <goals>
+                        <goal>prepare-agent</goal>
+                    </goals>
+                </execution>
+                <execution>
+                    <id>jacoco-report</id>
+                    <phase>test</phase>
+                    <goals>
+                        <goal>report</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
 
-      <!-- JAR Plugin for configuring the manifest file -->
+        <!-- JAR Plugin for configuring the manifest file -->
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-jar-plugin</artifactId>
             <version>3.4.1</version>
             <configuration>
-              <archive>
-                <manifest>
-                  <mainClass>org.example.App</mainClass>
-                </manifest>
-              </archive>
+                <archive>
+                    <manifest>
+                        <mainClass>org.example.App</mainClass>
+                    </manifest>
+                </archive>
             </configuration>
-          </plugin>
-
-
-
+        </plugin>
     </plugins>
-  </build>
+</build>
 
 
-  <dependencies>
+<dependencies>
+
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.2</version>
-      <scope>test</scope>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
     </dependency>
-  </dependencies>
-</project>
 
-
-
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.2</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-</project>
-
+</dependencies>
 
 ````
 
