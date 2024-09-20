@@ -284,7 +284,7 @@ sequenceDiagram
 
 ---------------------------
 
-# using pipeline:
+# 2. using pipeline in jenkines:
 
 # Modify Pipeline to Use Declarative Syntax Correctly
 
@@ -418,7 +418,7 @@ sequenceDiagram
 
 ---
 
-## 3. Creating a Jenkins Pipeline
+## 3. Creating a Jenkins Pipeline in GitHUb
 
 ### Steps to Create a Declarative Pipeline
 
