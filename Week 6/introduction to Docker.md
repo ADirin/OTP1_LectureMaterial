@@ -271,16 +271,16 @@ Now, Jenkins will monitor your GitHub repository for changes and automatically t
  ![Docker Result](/Images/dockerDesk.JPG)
 
 Here's an example Dockerfile:
-# Use an official OpenJDK runtime as a parent image
-FROM maven:latest
+#### Use an official OpenJDK runtime as a parent image
+`FROM maven:latest`
 
-# Set the working directory in the container
-WORKDIR /app
+#### Set the working directory in the container
+`WORKDIR /app`
 
-# Copy the application JAR file into the container at /usr/src/app
-COPY Calculator.jar .
+#### Copy the application JAR file into the container at /usr/src/app
+`COPY Calculator.jar .`
 
-# Run the JAR file
+#### Run the JAR file
 ````CMD
 CMD["java", "-jar", "Calculator.jar"]
 
