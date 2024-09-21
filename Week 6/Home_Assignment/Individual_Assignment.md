@@ -3,7 +3,7 @@
 For this assignment, we will be extending the TempConverter application during our in-class sessions. 
 
 1. **Extend Application:**  
-   Expand the application to include conversions from Kelvin to Fahrenheit using the formula:  
+   Expand the application to include conversions from Kelvin to Fahrenheit using the formula: (Incase you have not already implemented last week) 
    `((kel - 273.15) * (9/5) + 32)`; for example, 300.1 Kelvin is equal to 59.0 Fahrenheit.  
 ````java
 public static  double	kelvinToFah(double kel) {
