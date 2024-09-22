@@ -45,7 +45,14 @@ Example: What are the requirements for that Java app on one computer to run on a
   
 ![image](/Images/Picture2.jpg)  How Docker works       ![image](/Images/Picture3.jpg)     
 
-  
+### Step to use Docker
+1. Install Docker in yor machine
+2. Build a docker image
+   - Docker image is used to create your running application. It includes the instructions on creating the docker image
+3. Run the docker container from the docker image.
+
+ ![image](/Images/Picture4.jpg)     
+
 ## 3. Installing Docker
 Docker installation involves downloading and setting up Docker Engine on your machine. It is available for multiple operating systems, including Linux, Windows, and macOS, with specific installation steps for each platform.
 
