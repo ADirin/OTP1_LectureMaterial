@@ -30,9 +30,20 @@ Docker is a platform that enables developers to package applications and their d
   - **Portability:** Application and dependencies into a single unit.
   - **Scalability:** it is lightweight and fast to start.
   - **Resource Efficiency:** Share the host system’s kernel.
-Example: What are the requirements for that Java app on one computer to run on another computer?
+    
+Example: What are the requirements for that Java app on one computer to run on another computer? Operating System, JVM, APP.
+
 ![RUN APP](/Images/Picture1.jpg)
- 
+
+ - How about different entities use different technologies and environment such as Operating System or JVM?
+
+## What is container?
+- A container, such as Docker, is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries, and settings. 
+- A container provides an isolated environment for code, with no knowledge of the operating system or files outside the container. 
+- Docker is an open platform for developing, shipping, and running applications.
+- The ship takes care of everything about the container. Furthermore, the container can carry out everything regardless of the item type… 
+![image](https://github.com/user-attachments/assets/0ecd4a0b-9015-4b53-932e-30030fddf339)
+
   
 ## 3. Installing Docker
 Docker installation involves downloading and setting up Docker Engine on your machine. It is available for multiple operating systems, including Linux, Windows, and macOS, with specific installation steps for each platform.
