@@ -53,6 +53,24 @@ Example: What are the requirements for that Java app on one computer to run on a
 
  ![image](/Images/Picture4.jpg)     
 
+
+### Standard Application Execution
+In a **standard application execution**, the app runs directly on the host operating system, utilizing system resources such as memory, CPU, and disk. It depends on the host environment for libraries, frameworks, and configurations, which can lead to compatibility issues across different systems.
+
+
+![image](/Images/Picture5.jpg) 
+
+### Virtual Machine Execution
+A **virtual machine (VM)** runs applications on a completely isolated, virtualized environment that includes its own operating system and virtual hardware. This allows multiple VMs to run on a single physical machine, providing isolation between applications, but VMs can be resource-heavy due to the overhead of running a full OS for each instance.
+
+
+
+
+### Docker Execution
+**Docker** uses lightweight containers to run applications in isolated environments. Unlike VMs, Docker containers share the host system's OS kernel but encapsulate everything else (libraries, dependencies). This allows faster startup, lower overhead, and easy portability, making it an efficient way to deploy applications across various environments.
+
+
+
 ## 3. Installing Docker
 Docker installation involves downloading and setting up Docker Engine on your machine. It is available for multiple operating systems, including Linux, Windows, and macOS, with specific installation steps for each platform.
 
