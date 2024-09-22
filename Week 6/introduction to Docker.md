@@ -25,11 +25,12 @@ Docker is a platform that enables developers to package applications and their d
 - A container is a lightweight, standalone, executable software package.
 - Containers encapsulate an application, along with its dependencies and runtime environment, ensuring consistency across different environment
 - Containers offer several advantages in SD and deployment:
-  - Consistency, ensure consistency across different platform
-  - Isolation: Containers provide isolation at the OS level, allowing multiple applications to run independently on the same host without interfering with each other.
-  - Portability: Application and dependencies into a single unit.
-  - Scalability: it is lightweight and fast to start.
-  - Resource Efficiency: Share the host system’s kernel. 
+  - **Consistency:**, ensure consistency across different platform
+  - **Isolation:** Containers provide isolation at the OS level, allowing multiple applications to run independently on the same host without interfering with each other.
+  - **Portability:** Application and dependencies into a single unit.
+  - **Scalability:** it is lightweight and fast to start.
+  - **Resource Efficiency:** Share the host system’s kernel.
+  - 
 ![image](https://github.com/user-attachments/assets/2eb9530b-423c-44d7-8493-c5c20f8ffb49)
 
 
