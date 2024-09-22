@@ -30,7 +30,7 @@ Docker is a platform that enables developers to package applications and their d
   - **Portability:** Application and dependencies into a single unit.
   - **Scalability:** it is lightweight and fast to start.
   - **Resource Efficiency:** Share the host system’s kernel.
-  - 
+  
 ![image](https://github.com/user-attachments/assets/2eb9530b-423c-44d7-8493-c5c20f8ffb49)
 
 
