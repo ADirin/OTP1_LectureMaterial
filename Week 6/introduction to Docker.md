@@ -31,8 +31,7 @@ Docker is a platform that enables developers to package applications and their d
   - **Scalability:** it is lightweight and fast to start.
   - **Resource Efficiency:** Share the host system’s kernel.
   
-![image](https://github.com/user-attachments/assets/2eb9530b-423c-44d7-8493-c5c20f8ffb49)
-
+![Image](https://github.com/user-attachments/assets/2eb9530b-423c-44d7-8493-c5c20f8ffb49)
 
 ## 3. Installing Docker
 Docker installation involves downloading and setting up Docker Engine on your machine. It is available for multiple operating systems, including Linux, Windows, and macOS, with specific installation steps for each platform.
