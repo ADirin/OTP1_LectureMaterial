@@ -33,7 +33,7 @@ Docker is a platform that enables developers to package applications and their d
     
 Example: What are the requirements for that Java app on one computer to run on another computer? Operating System, JVM, APP.
 
-![RUN APP](/Images/Picture1.jpg)
+![RUN APP](/Images/sameEnv.JPG)
 
  - How about different entities use different technologies and environment such as Operating System or JVM?
 
