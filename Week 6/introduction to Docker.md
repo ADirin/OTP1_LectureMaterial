@@ -43,7 +43,10 @@ Example: What are the requirements for that Java app on one computer to run on a
 - Docker is an open platform for developing, shipping, and running applications.
 - The ship takes care of everything about the container. Furthermore, the container can carry out everything regardless of the item type…
   
-![image](/Images/Picture2.jpg)  How Docker works?       ![image](/Images/dockerOs.JPG)     
+![image](/Images/Picture2.jpg)  How Docker works?
+
+
+![image](/Images/dockerOs.JPG)     
 
 ### Step to use Docker
 1. Install Docker in yor machine
