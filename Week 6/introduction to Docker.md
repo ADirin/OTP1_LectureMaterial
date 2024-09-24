@@ -473,6 +473,8 @@ Note:
 - Add the docker pluging through Dashbord--> manage jenkins--> plugings
     - all dockers related plugin including yet another docker pluging 
 - Add the globle credentials--- Daschbord---> manage jenkins--> Creadentials:
+![Docker_Auth.](/Images/dockeAuth.JPG)
+
   - Username: Make sure it’s your Docker Hub username (e.g., amirdi).
   - Password: Use your Docker Hub password or a personal access token.
   - Treat username as secret: If checked, it will conceal the username in the UI and logs, which is a good security practice.
