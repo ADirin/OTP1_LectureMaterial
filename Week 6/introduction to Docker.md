@@ -457,5 +457,62 @@ Note:
 3. **Make sure the docker hub credential match the docker file hub credential and also Jenkins gloable credential.** 
 4. **Make sure that you have commited all the changes to github**
 
+-----------------------------------------
 
+# Create an image through jenkins pipeline
+
+### Prior to the configuring pipeline make sure:
+- Add the docker pluging through Dashbord--> manage jenkins--> plugings
+- Add the globle credentials--- Daschbord---> manage jenkins--> Creadentials:
+  -  Username: Make sure it’s your Docker Hub username (e.g., amirdi).
+  - Password: Use your Docker Hub password or a personal access token.
+  - Treat username as secret: If checked, it will conceal the username in the UI and logs, which is a good security practice.
+  - ID: This should be a unique identifier for your credentials (e.g., dockerhub-credentials).
+  - Description: Optionally add a description to clarify what these credentials are for.
+  - Once you fill these fields, click Update to save the changes.   
+
+
+
+```pipeline
+pipeline {
+    agent any // IN THE LECTURE I WILL EXPLAIN THE SCRIPT AND THE WORKFLOW
+    
+    environment {
+        // Define Docker Hub credentials ID
+        DOCKERHUB_CREDENTIALS_ID = 'dockerhub-credentials'
+        // Define Docker Hub repository name
+        DOCKERHUB_REPO = 'amirdi/tempconverter'
+        // Define Docker image tag
+        DOCKER_IMAGE_TAG = 'latest'
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout code from Git repository
+                git 'https://github.com/ADirin/TempConverter.git'
+            }
+        }  
+        stage('Build Docker Image') {
+            steps {
+                // Build Docker image
+                script {
+                    docker.build("${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}")
+                }
+            }
+        }
+        stage('Push Docker Image to Docker Hub') {
+            steps {
+                // Push Docker image to Docker Hub
+                script {
+                    docker.withRegistry('https://index.docker.io/v1/', DOCKERHUB_CREDENTIALS_ID) {
+                        docker.image("${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}").push()
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+```
 
