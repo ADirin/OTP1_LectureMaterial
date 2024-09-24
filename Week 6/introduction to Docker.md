@@ -373,7 +373,15 @@ CMD ["java", "-jar", "target/calculator.jar"]
  </archive>
 
 ```
-### SAMPLE POM: make sure you configure the following POM based on your own class name and other settings on your project 
+### SAMPLE POM: Make sure you have configured the class name properly in the POM.xml. 
+- Check for Main Class Configuration: In Maven, if you're working with a Java application (especially one that uses the Spring Boot or a similar framework), you need to ensure that the mainClass is defined properly in the pom.xml under the build section.
+- Ensure that the mainClass value matches the class where your main method is located, otherwise the Docker image may build and run but fail at runtime due to not finding the correct entry point.
+- Set the Classpath in the Dockerfile: In your Dockerfile, make sure you specify the correct entry point or the classpath for running your application.
+
+### Common Issues to Watch For:
+- Incorrect Class Name: If the class name in the pom.xml is wrong, Docker will build the image without failing but will throw errors at runtime.
+- Missing Plugin Configurations: Ensure all necessary Maven plugins are correctly configured to avoid issues with Docker execution.
+- Maven Build Phases: Make sure that Maven's package or install phase is correctly set up to create the JAR or WAR file that Docker uses.
 
 ```` xml
   
@@ -464,7 +472,7 @@ Note:
 ### Prior to the configuring pipeline make sure:
 - Add the docker pluging through Dashbord--> manage jenkins--> plugings
 - Add the globle credentials--- Daschbord---> manage jenkins--> Creadentials:
-  -  Username: Make sure it’s your Docker Hub username (e.g., amirdi).
+  - Username: Make sure it’s your Docker Hub username (e.g., amirdi).
   - Password: Use your Docker Hub password or a personal access token.
   - Treat username as secret: If checked, it will conceal the username in the UI and logs, which is a good security practice.
   - ID: This should be a unique identifier for your credentials (e.g., dockerhub-credentials).
