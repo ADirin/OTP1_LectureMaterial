@@ -471,6 +471,7 @@ Note:
 
 ### Prior to the configuring pipeline make sure:
 - Add the docker pluging through Dashbord--> manage jenkins--> plugings
+    - all dockers related plugin including yet another docker pluging 
 - Add the globle credentials--- Daschbord---> manage jenkins--> Creadentials:
   - Username: Make sure it’s your Docker Hub username (e.g., amirdi).
   - Password: Use your Docker Hub password or a personal access token.
