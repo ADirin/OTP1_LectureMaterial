@@ -247,6 +247,8 @@ docker run -it your-app-name
 ```
 For desktop docker use the command line for the execution
 
+![Docker Test](/Images/dockerTest.JPG)
+
 
 # SecDevOps: Integrating Security into DevOps
 
