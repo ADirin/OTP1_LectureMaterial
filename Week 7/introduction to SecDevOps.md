@@ -1,4 +1,9 @@
+# Before Docker: 
+The relationship between developers and testers was often strained due to environment inconsistencies. Developers would say, "It works on my machine," while testers struggled with bugs caused by differences in local setups. Setting up environments manually was time-consuming and prone to errors, leading to frustration on both sides.
 ![development before Docker](/Images/Picture2.jpg)
+
+# After Docker: 
+Docker improved the relationship between developers and testers by allowing them to work in identical, containerized environments. Testers could now run the same environment as developers, reducing "works on my machine" issues. This consistency streamlined testing, improved collaboration, and minimized environment-related conflicts.
 
 ![development before Docker](/Images/Picture3.jpg)
 
