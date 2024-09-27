@@ -254,6 +254,10 @@ For desktop docker use the command line for the execution
 > ![DevOps Roadmap](/Images/gitJenHub.JPG)
 
 
+#Running the Image remotely from Hub.docker.com:
+
+![Play with docker](https://labs.play-with-docker.com/p/crrhq1qim2rg00dh05v0)
+
 # SecDevOps: Integrating Security into DevOps
 
 > ![DevOps Roadmap](/Images/DevOps_Roadmap.gif)
