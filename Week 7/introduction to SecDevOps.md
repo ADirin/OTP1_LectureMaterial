@@ -28,7 +28,7 @@ Open the terminal in IntelliJ and run
 docker build -t your-app-name .
 
 ```
-This creates a Docker image based on the Dockerfile.
+- This creates a Docker image based on the Dockerfile.
 
 4. Run the Docker Container:
 After building the image, deploy the container:
@@ -36,7 +36,8 @@ After building the image, deploy the container:
 docker run -p 8080:8080 your-app-name
 
 ```
-This starts the container and exposes it on port 8080.
+- This starts the container and exposes it on port 8080.
+
 5. Run and Test:
 The app is now running inside a Docker container. You can access it from localhost:8080 in your browser or via API tools like Postman.
 In IntelliJ, Docker integration allows you to manage containers, view logs, and monitor the deployment process all within the IDE.
