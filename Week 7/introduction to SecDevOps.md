@@ -7,6 +7,39 @@ Docker improved the relationship between developers and testers by allowing them
 
 ![development before Docker](/Images/Picture3.jpg)
 
+# A short process for creating a Docker image and deploying it in IntelliJ:
+
+1. Install Docker Plugin in IntelliJ:
+Go to File > Settings > Plugins and search for the Docker plugin. Install it and restart IntelliJ.
+2. Create a Dockerfile:
+In your project root, right-click and select New > File, name it Dockerfile.
+Write your Docker instructions. Example for a Java app
+```java
+FROM openjdk:11
+COPY . /app
+WORKDIR /app
+RUN javac Main.java
+CMD ["java", "Main"]
+```
+3. Build the Docker Image:
+Open the terminal in IntelliJ and run
+
+```cmd
+docker build -t your-app-name .
+
+```
+This creates a Docker image based on the Dockerfile.
+
+4. Run the Docker Container:
+After building the image, deploy the container:
+```cmd
+docker run -p 8080:8080 your-app-name
+
+```
+This starts the container and exposes it on port 8080.
+5. Run and Test:
+The app is now running inside a Docker container. You can access it from localhost:8080 in your browser or via API tools like Postman.
+In IntelliJ, Docker integration allows you to manage containers, view logs, and monitor the deployment process all within the IDE.
 ![development before Docker](/Images/Picture4.jpg)
 
 # SecDevOps: Integrating Security into DevOps
