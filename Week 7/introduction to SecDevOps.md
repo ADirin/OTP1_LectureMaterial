@@ -44,25 +44,92 @@ In IntelliJ, Docker integration allows you to manage containers, view logs, and 
 ![development before Docker](/Images/Picture4.jpg)
 
 ## Example
+```css
+src
+ ├── main
+ │   └── java
+ │       └── Calculator.java
+ └── test
+     └── java
+         └── TestTest.java
+
+
+```
+
+
 
 ```java
 import java.util.Scanner;
 
-public class Test {
+public class Calculator {
+    // Constructor
+    Calculator() {}
+
     public static void main(String[] args) {
+        Calculator test = new Calculator();  // Create an instance of Test
+        test.run();              // Call the run method
+    }
+
+    // Method to handle input and perform addition
+    public void run() {
         Scanner sc = new Scanner(System.in);
+
         System.out.println("Enter the first number ");
         int num1 = sc.nextInt();
+
         System.out.println("Enter the second number");
         int num2 = sc.nextInt();
 
-        int sum = num1+num2;
-        System.out.println(" Here is the sum: "+ sum);
-
-
+        int sum = addNumbers(num1, num2);
+        System.out.println("Here is the sum: " + sum);
     }
 
+    // Non-static method to add numbers
+    public int addNumbers(int num1, int num2) {
+        return num1 + num2;
+    }
 }
+
+```
+```Java
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+public class TestTest {
+
+    // Create an instance of the Test class
+    Calculator testInstance = new Calculator();
+
+    @Test
+    public void testAddition() {
+        // Test case 1: Positive numbers
+        int num1 = 5;
+        int num2 = 10;
+        int expectedSum = 15;
+
+        // Call the addNumbers method using the instance
+        int actualSum = testInstance.addNumbers(num1, num2);  // Changed to use instance
+        assertEquals(expectedSum, actualSum);
+
+        // Test case 2: Negative numbers
+        num1 = -5;
+        num2 = -10;
+        expectedSum = -15;
+
+        actualSum = testInstance.addNumbers(num1, num2);  // Changed to use instance
+        assertEquals(expectedSum, actualSum);
+
+        // Test case 3: Mixed numbers
+        num1 = -5;
+        num2 = 10;
+        expectedSum = 5;
+
+        actualSum = testInstance.addNumbers(num1, num2);  // Changed to use instance
+        assertEquals(expectedSum, actualSum);
+    }
+}
+
+
 
 
 ```
@@ -178,6 +245,7 @@ Use the -it flag with docker run to run the container in interactive mode, allow
 ```cmd
 docker run -it your-app-name
 ```
+For desktop docker use the command line for the execution
 
 
 # SecDevOps: Integrating Security into DevOps
