@@ -174,6 +174,7 @@ CMD ["java", "-jar", "target/Test.jar"]
 docker build -t your-app-name .
 
 ```
+Use the -it flag with docker run to run the container in interactive mode, allowing your program to wait for and accept input from the console.
 ```cmd
 docker run -it your-app-name
 ```
