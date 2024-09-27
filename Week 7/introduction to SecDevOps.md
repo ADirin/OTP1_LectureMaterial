@@ -43,6 +43,142 @@ The app is now running inside a Docker container. You can access it from localho
 In IntelliJ, Docker integration allows you to manage containers, view logs, and monitor the deployment process all within the IDE.
 ![development before Docker](/Images/Picture4.jpg)
 
+## Example
+
+```java
+import java.util.Scanner;
+
+public class Test {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first number ");
+        int num1 = sc.nextInt();
+        System.out.println("Enter the second number");
+        int num2 = sc.nextInt();
+
+        int sum = num1+num2;
+        System.out.println(" Here is the sum: "+ sum);
+
+
+    }
+
+}
+
+
+```
+
+```docker
+# Use Maven image to build the application
+FROM maven:latest
+
+# Set working directory inside the container
+WORKDIR /app
+
+# Copy the pom.xml to download dependencies first (caching optimization)
+COPY pom.xml /app/
+
+# Copy the entire project to the container
+COPY . /app/
+
+# Package the application using Maven
+RUN mvn package
+
+# Run the main class from the built JAR
+CMD ["java", "-jar", "target/Test.jar"]
+
+
+```
+```pom.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>untitled</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <build>
+        <finalName>Test</finalName>
+        <plugins>
+            <!-- Compiler Plugin for setting the Java version -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                </configuration>
+            </plugin>
+
+            <!-- JAR Plugin for configuring the manifest file -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.1</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>Test</mainClass> <!-- Correct main class -->
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+
+            <!-- JaCoCo Plugin for code coverage -->
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.12</version>
+                <executions>
+                    <execution>
+                        <id>jacoco-initialize</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>jacoco-report</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <!-- JUnit for testing -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
+
+```
+## Build the file in the docker consol
+
+```cmd
+docker build -t your-app-name .
+
+```
+```cmd
+docker run -it your-app-name
+```
+
+
 # SecDevOps: Integrating Security into DevOps
 
 > ![DevOps Roadmap](/Images/DevOps_Roadmap.gif)
