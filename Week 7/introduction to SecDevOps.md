@@ -284,9 +284,10 @@ For desktop docker use the command line for the execution
    ```
 for example:
 
-> ![Run Lab](/Images/runLab.jpg)
+ ![Run Lab](/Images/runLab.jpg)
 
- > ![DevOps Roadmap](/Images/gitJenHub.JPG)   
+ ![DevOps Roadmap](/Images/gitJenHub.JPG)
+ 
 # Introduction
 SecDevOps, also known as DevSecOps, is an approach to software development that integrates security practices into the DevOps process. Traditional DevOps focuses on the rapid delivery of software through collaboration between development and operations teams. However, security often becomes an afterthought, leading to vulnerabilities and potential breaches. SecDevOps aims to address this by embedding security measures and practices throughout the entire software development lifecycle (SDLC).
 
