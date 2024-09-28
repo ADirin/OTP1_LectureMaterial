@@ -241,7 +241,7 @@ CMD ["java", "-jar", "target/Test.jar"]
 docker build -t your-app-name .
 
 ```
-Use the -it flag with docker run to run the container in interactive mode, allowing your program to wait for and accept input from the console.
+Use the `-it` flag with docker run to run the container in interactive mode, allowing your program to wait for and accept input from the console.
 ```cmd
 docker run -it your-app-name
 ```
@@ -249,17 +249,17 @@ For desktop docker use the command line for the execution
 
 ![Docker Test](/Images/dockerTest.JPG)
 
-## From GitHub to Docker Hub through Jenkins
+ From GitHub to Docker Hub through Jenkins
 
 > ![DevOps Roadmap](/Images/gitJenHub.JPG)
 
 
-## Running the Image remotely from Hub.docker.com:
+Running the Image remotely from Hub.docker.com:
 
 ![Play with docker](https://labs.play-with-docker.com/p/crrhq1qim2rg00dh05v0)
 
 
-## Run the Images from HUB remotely
+Run the Images from HUB remotely
 
  1. open the following link [Play docker](https://labs.play-with-docker.com/)
  2. puul the image you want to test from hub.docker.com (your image repo) with the following command:
