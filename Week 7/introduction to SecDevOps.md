@@ -22,7 +22,7 @@ graph TD
     
     click D href "https://github.com" "GitHub Repository"
     click G href "https://hub.docker.com" "Docker Hub"
-    click H href "[https://lab.play](https://labs.play-with-docker.com/)" "Lab Environment"
+    click H href "https://labs.play-with-docker.com" "Lab Environment"
 
 ```
 
