@@ -256,7 +256,7 @@ For desktop docker use the command line for the execution
 
 Running the Image remotely from Hub.docker.com:
 
-![Play with docker](https://labs.play-with-docker.com/p/crrhq1qim2rg00dh05v0)
+> ![Play with docker](https://labs.play-with-docker.com/p/crrhq1qim2rg00dh05v0)
 
 
 Run the Images from HUB remotely
