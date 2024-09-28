@@ -251,7 +251,7 @@ For desktop docker use the command line for the execution
 
 ## From GitHub to Docker Hub through Jenkins
 
-> ![DevOps Roadmap](/Images/gitJenHub.JPG)
+> ![DevOps Roadmap](/Images/runLab.jpg)
 
 
 ## Running the Image remotely from Hub.docker.com:
