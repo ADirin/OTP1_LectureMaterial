@@ -92,12 +92,11 @@ public class Calculator {
 
 ```
 ```Java
-import static org.junit.Assert.assertEquals;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
 
 public class TestTest {
 
-    // Create an instance of the Test class
     Calculator testInstance = new Calculator();
 
     @Test
@@ -107,8 +106,7 @@ public class TestTest {
         int num2 = 10;
         int expectedSum = 15;
 
-        // Call the addNumbers method using the instance
-        int actualSum = testInstance.addNumbers(num1, num2);  // Changed to use instance
+        int actualSum = testInstance.addNumbers(num1, num2);
         assertEquals(expectedSum, actualSum);
 
         // Test case 2: Negative numbers
@@ -116,7 +114,7 @@ public class TestTest {
         num2 = -10;
         expectedSum = -15;
 
-        actualSum = testInstance.addNumbers(num1, num2);  // Changed to use instance
+        actualSum = testInstance.addNumbers(num1, num2);
         assertEquals(expectedSum, actualSum);
 
         // Test case 3: Mixed numbers
@@ -124,12 +122,22 @@ public class TestTest {
         num2 = 10;
         expectedSum = 5;
 
-        actualSum = testInstance.addNumbers(num1, num2);  // Changed to use instance
+        actualSum = testInstance.addNumbers(num1, num2);
         assertEquals(expectedSum, actualSum);
     }
+
+    @Test
+    public void testEdgeCases() {
+        // Test zero case
+        assertEquals(0, testInstance.addNumbers(0, 0));
+
+        // Test large numbers
+        assertEquals(Integer.MAX_VALUE, testInstance.addNumbers(Integer.MAX_VALUE, 0));
+
+        // Test minimum integer
+        assertEquals(Integer.MIN_VALUE, testInstance.addNumbers(Integer.MIN_VALUE, 0));
+    }
 }
-
-
 
 
 ```
@@ -167,8 +175,8 @@ CMD ["java", "-jar", "target/Test.jar"]
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <build>
@@ -178,7 +186,7 @@ CMD ["java", "-jar", "target/Test.jar"]
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.13.0</version>
+                <version>3.12.1</version>
                 <configuration>
                     <source>17</source>
                     <target>17</target>
@@ -189,15 +197,33 @@ CMD ["java", "-jar", "target/Test.jar"]
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.4.1</version>
+                <version>3.3.0</version>
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>Test</mainClass> <!-- Correct main class -->
+                            <mainClass>Calculator</mainClass> <!-- Correct main class -->
                         </manifest>
                     </archive>
                 </configuration>
             </plugin>
+
+
+                    <!-- Other plugins like compiler, jar, jacoco... -->
+
+                    <!-- Surefire Plugin for running tests -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.2.5</version> <!-- Latest stable version -->
+                        <configuration>
+                            <includes>
+                                <include>**/Test*.java</include>
+                                <include>**/*Test.java</include>
+                                <include>**/*Tests.java</include>
+                            </includes>
+                        </configuration>
+                    </plugin>
+
 
             <!-- JaCoCo Plugin for code coverage -->
             <plugin>
@@ -230,6 +256,12 @@ CMD ["java", "-jar", "target/Test.jar"]
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.11.0-M2</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>
