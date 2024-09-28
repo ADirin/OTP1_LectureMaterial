@@ -1,3 +1,30 @@
+```mermaid
+graph TD
+    subgraph Codebase
+        A[Calculator Class] -- Calls --> B[JUnit Test]
+        B -- Generates --> C[Jacoco Coverage Report]
+    end
+    
+    subgraph CI Pipeline
+        D[Jenkins Pipeline]
+        D -- Runs Tests --> B
+        D -- Generates Report --> C
+        D -- Builds --> E[Docker Image]
+        D -- Pushes to --> F[Docker Hub]
+    end
+    
+    subgraph Lab Environment
+        F -- Pulled by --> G[lab.play]
+        G -- Runs --> H[Docker Container]
+        H -- Executes --> A
+    end
+    
+    A -.->|Source Code| D
+
+
+```
+
+
 # Before Docker: 
 The relationship between developers and testers was often strained due to environment inconsistencies. Developers would say, "It works on my machine," while testers struggled with bugs caused by differences in local setups. Setting up environments manually was time-consuming and prone to errors, leading to frustration on both sides.
 ![development before Docker](/Images/Picture2.jpg)
