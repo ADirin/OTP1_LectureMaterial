@@ -286,7 +286,7 @@ For desktop docker use the command line for the execution
 
  ![Run Lab](/Images/runLab.jpg)
 
- ![DevOps Roadmap](/Images/gitJenHub.JPG)
+
  
 ---------------------------------------------------------------------
 # Introduction to SecDevOps
