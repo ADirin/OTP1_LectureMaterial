@@ -164,107 +164,65 @@ CMD ["java", "-jar", "target/Test.jar"]
 
 ```
 ```pom.xml
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+pipeline {
+    agent any
+    
+    environment {
+        DOCKERHUB_CREDENTIALS_ID = 'dockerhub-credentials'
+        DOCKERHUB_REPO = 'amirdi/devopschain'
+        DOCKER_IMAGE_TAG = 'ver2'
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/ADirin/devopschain_f2024.git'
+            }
+        }
+        stage('Run Tests') {
+            steps {
+                // Run the tests first to generate data for Jacoco and JUnit
+                bat 'mvn clean test' // For Windows agents
+                // sh 'mvn clean test' // Uncomment if on a Linux agent
+            }
+        }
+        stage('Code Coverage') {
+            steps {
+                // Generate Jacoco report after the tests have run
+                bat 'mvn jacoco:report'
+            }
+        }
+        stage('Publish Test Results') {
+            steps {
+                // Publish JUnit test results
+                junit '**/target/surefire-reports/*.xml'
+            }
+        }
+        stage('Publish Coverage Report') {
+            steps {
+                // Publish Jacoco coverage report
+                jacoco()
+            }
+        }
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    docker.build("${env.DOCKERHUB_REPO}:${env.DOCKER_IMAGE_TAG}")
+                }
+            }
+        }
+        stage('Push Docker Image to Docker Hub') {
+            steps {
+                script {
+                    docker.withRegistry('https://index.docker.io/v1/', env.DOCKERHUB_CREDENTIALS_ID) {
+                        docker.image("${env.DOCKERHUB_REPO}:${env.DOCKER_IMAGE_TAG}").push()
+                    }
+                }
+            }
+        }
+    }
+}
 
-    <groupId>org.example</groupId>
-    <artifactId>untitled</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-    <build>
-        <finalName>Test</finalName>
-        <plugins>
-            <!-- Compiler Plugin for setting the Java version -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.12.1</version>
-                <configuration>
-                    <source>17</source>
-                    <target>17</target>
-                </configuration>
-            </plugin>
-
-            <!-- JAR Plugin for configuring the manifest file -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.3.0</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>Calculator</mainClass> <!-- Correct main class -->
-                        </manifest>
-                    </archive>
-                </configuration>
-            </plugin>
-
-
-                    <!-- Other plugins like compiler, jar, jacoco... -->
-
-                    <!-- Surefire Plugin for running tests -->
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.2.5</version> <!-- Latest stable version -->
-                        <configuration>
-                            <includes>
-                                <include>**/Test*.java</include>
-                                <include>**/*Test.java</include>
-                                <include>**/*Tests.java</include>
-                            </includes>
-                        </configuration>
-                    </plugin>
-
-
-            <!-- JaCoCo Plugin for code coverage -->
-            <plugin>
-                <groupId>org.jacoco</groupId>
-                <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.12</version>
-                <executions>
-                    <execution>
-                        <id>jacoco-initialize</id>
-                        <goals>
-                            <goal>prepare-agent</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>jacoco-report</id>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>report</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
-
-    <dependencies>
-        <!-- JUnit for testing -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.2</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.11.0-M2</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
-</project>
 
 ```
 ## Build the file in the docker consol
