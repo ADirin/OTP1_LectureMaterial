@@ -1,26 +1,28 @@
 ```mermaid
 graph TD
     subgraph Codebase
-        A[Calculator Class] -- Calls --> B[JUnit Test]
-        B -- Generates --> C[Jacoco Coverage Report]
+        A[Calculator Class] --> B[JUnit Tests]
+        B --> C[JaCoCo Coverage Report]
     end
     
-    subgraph CI Pipeline
-        D[Jenkins Pipeline]
-        D -- Runs Tests --> B
-        D -- Generates Report --> C
-        D -- Builds --> E[Docker Image]
-        D -- Pushes to --> F[Docker Hub]
+    subgraph CI/CD Pipeline
+        D[GitHub Repository] --> E[Jenkins Pipeline]
+        E -- Pulls Code --> A
+        E -- Runs Tests --> B
+        E -- Generates Report --> C
+        E -- Builds Docker Image --> F[Docker Image]
+        E -- Pushes to Docker Hub --> G[Docker Hub]
     end
-    
-    subgraph Lab Environment
-        F -- Pulled by --> G[lab.play]
-        G -- Runs --> H[Docker Container]
-        H -- Executes --> A
-    end
-    
-    A -.->|Source Code| D
 
+    subgraph Lab Environment
+        G -- Pulls Image --> H[lab.play Environment]
+        H -- Runs --> I[Docker Container]
+        I -- Executes --> A
+    end
+    
+    click D href "https://github.com" "GitHub Repository"
+    click G href "https://hub.docker.com" "Docker Hub"
+    click H href "https://lab.play" "Lab Environment"
 
 ```
 
