@@ -243,6 +243,10 @@ For desktop docker use the command line for the execution
 
 > ![DevOps Roadmap](/Images/gitJenHub.JPG)
 
+Jacoco report
+
+> ![DevOps Roadmap](/Images/JenkinsTest.JPG)
+
 
 Running the Image remotely from Hub.docker.com:
 
