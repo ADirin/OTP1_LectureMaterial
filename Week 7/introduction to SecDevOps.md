@@ -284,7 +284,7 @@ For desktop docker use the command line for the execution
    ```
 for example:
 
-   > ![Run Lab](/Images/runLab.jpg)
+> ![Run Lab](/Images/runLab.jpg)
 
     
 # Introduction
