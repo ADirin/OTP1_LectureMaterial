@@ -245,7 +245,7 @@ For desktop docker use the command line for the execution
 
 Jacoco report
 
-> ![DevOps Roadmap](/Images/JenkinsTest.JPG)
+> ![DevOps Roadmap](/Images/jenkinsTest.JPG)
 
 
 Running the Image remotely from Hub.docker.com:
