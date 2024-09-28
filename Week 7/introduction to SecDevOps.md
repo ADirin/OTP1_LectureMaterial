@@ -249,21 +249,43 @@ For desktop docker use the command line for the execution
 
 ![Docker Test](/Images/dockerTest.JPG)
 
-# From GitHub to Docker Hub through Jenkins
+## From GitHub to Docker Hub through Jenkins
 
 > ![DevOps Roadmap](/Images/gitJenHub.JPG)
 
 
-#Running the Image remotely from Hub.docker.com:
+## Running the Image remotely from Hub.docker.com:
 
 ![Play with docker](https://labs.play-with-docker.com/p/crrhq1qim2rg00dh05v0)
 
-# SecDevOps: Integrating Security into DevOps
+## SecDevOps: Integrating Security into DevOps
 
 > ![DevOps Roadmap](/Images/DevOps_Roadmap.gif)
 
+## Run the Images from HUB remotely
 
-## Introduction
+ 1. open the following link [Play docker](https://labs.play-with-docker.com/)
+ 2. puul the image you want to test from hub.docker.com (your image repo) with the following command:
+    - docker pull yourusername/imagename:ver
+    - for example:
+    ```cmd
+   
+    docker pull amirdi/devopschain:ver2
+    ```
+ 3.  get the list of the images pulled from the docker hub
+    ```cmd
+       docker images
+    ```
+ 4. run the image
+ - docker run -it imageid
+ - for example:
+   ```cmd
+    docker run -it  4cb87ade08
+   ```
+
+   ![docker lab](Iamges/labPlay.JPG)
+    
+# Introduction
 SecDevOps, also known as DevSecOps, is an approach to software development that integrates security practices into the DevOps process. Traditional DevOps focuses on the rapid delivery of software through collaboration between development and operations teams. However, security often becomes an afterthought, leading to vulnerabilities and potential breaches. SecDevOps aims to address this by embedding security measures and practices throughout the entire software development lifecycle (SDLC).
 
 ## Why SecDevOps is Important
