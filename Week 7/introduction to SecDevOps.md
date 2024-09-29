@@ -346,6 +346,9 @@ sequenceDiagram
 ---------------------------------------------------------------------
 # Towards to SecDevOps
 
+> ![DevOps Roadmap](/Images/SecDevOps.jpg)
+
+
 ## SecDevOps: Integrating Security into DevOps
 
 > ![DevOps Roadmap](/Images/DevOps_Roadmap.gif)
