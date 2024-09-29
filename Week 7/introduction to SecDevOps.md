@@ -365,6 +365,10 @@ SecDevOps, also known as DevSecOps, is an approach to software development that 
 
 3. **Improved Compliance:** Many industries have strict regulatory requirements regarding data security and privacy. SecDevOps ensures that security measures are in place throughout development, helping organizations maintain compliance with regulations such as GDPR, HIPAA, etc.
 
+## Different Solutions:
+
+> ![SecDevOps or](/Images/DevSecOps.jpg)
+
 4. **Cost Reduction:** Addressing security issues early in the development process is often more cost-effective than fixing them after deployment. SecDevOps helps reduce the potential costs associated with security breaches and compliance violations.
 
 ## Key Components of SecDevOps
