@@ -306,7 +306,16 @@ Run the Images from HUB remotely
 
  ![Run Lab](/Images/runLab.jpg)
 
-#Summery of the process since week 2 up to now
+# Summery of the process
+
+1. Developer pushes code to GitHub.
+2. GitHub notifies Jenkins about the code change.
+3. Jenkins runs JUnit tests.
+4. If the tests pass:
+    - Jenkins builds a Docker image and pushes it to DockerHub.
+    - Jenkins then instructs LapPlay to deploy the Docker image.
+    - LapPlay runs the Docker image.
+5. If the tests fail, Jenkins notifies the Developer about the test failure.
 
 ```mermaid
 sequenceDiagram
