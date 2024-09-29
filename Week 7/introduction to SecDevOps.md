@@ -348,6 +348,10 @@ sequenceDiagram
 
 > ![DevOps Roadmap](/Images/SecDevOps.jpg)
 
+-SecDevOps merges security practices with DevOps, aiming to incorporate security thinking and tools from development pipelines to deployments and production support.
+
+
+> ![image](https://github.com/user-attachments/assets/72723f8a-ad93-49a3-b5bf-8c9f2e4bfb10)
 
 ## SecDevOps: Integrating Security into DevOps
 
