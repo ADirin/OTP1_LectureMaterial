@@ -350,12 +350,6 @@ sequenceDiagram
 
 -SecDevOps merges security practices with DevOps, aiming to incorporate security thinking and tools from development pipelines to deployments and production support.
 
-
-## SecDevOps: Integrating Security into DevOps
-
-> ![DevOps Roadmap](/Images/DevOps_Roadmap.gif)
-
-
 SecDevOps, also known as DevSecOps, is an approach to software development that integrates security practices into the DevOps process. Traditional DevOps focuses on the rapid delivery of software through collaboration between development and operations teams. However, security often becomes an afterthought, leading to vulnerabilities and potential breaches. SecDevOps aims to address this by embedding security measures and practices throughout the entire software development lifecycle (SDLC).
 
 ## Why SecDevOps is Important
@@ -365,9 +359,6 @@ SecDevOps, also known as DevSecOps, is an approach to software development that 
 
 3. **Improved Compliance:** Many industries have strict regulatory requirements regarding data security and privacy. SecDevOps ensures that security measures are in place throughout development, helping organizations maintain compliance with regulations such as GDPR, HIPAA, etc.
 
-## Different Solutions:
-
-> ![SecDevOps or](/Images/DevSecOps.jpg)
 
 4. **Cost Reduction:** Addressing security issues early in the development process is often more cost-effective than fixing them after deployment. SecDevOps helps reduce the potential costs associated with security breaches and compliance violations.
 
@@ -441,7 +432,7 @@ public class UserAuthenticationService {
         }
     }
 }
-
+````
 ### Step 3: Testing
 During the testing phase, automated tests are created to validate input validation logic.
 
@@ -453,6 +444,25 @@ Continuous monitoring tools are implemented to detect and respond to security th
 
 By following these steps and integrating security practices into the development process, you can ensure that your Java application is more secure and resilient to potential attacks.
 
+## Different Solutions:
 
+> ![SecDevOps or](/Images/DevSecOps.jpg)
+
+- **Enhanced Security:**
+      - SecDevOps enhances organizational security by integrating security measures consistently into the DevOps workflow, resulting in more secure end products.
+- **Shifting left:**
+    - This process refers to integrating security early in development, reducing risks and costs associated with late-discovery vulnerabilities.
+- **Regulatory Compliance:**
+      - SecDevOps streamlines compliance with industry standards and regulations by automating many monitoring and reporting tasks.
+
+
+## Tools and Technologies for SecDevOps
+
+- Static Application Security Testing (SAST):
+    - Automated code review tools to identify security issues before deployment
+- Dynamic Application Security Testing (DAST):
+    - Simulate attacks on live applications to find runtime security flaws.
+- Integration and Deployment Automation (CI/CD):
+    - Tools that automate the deployment process to incorporate security checks swiftly.
 
 
