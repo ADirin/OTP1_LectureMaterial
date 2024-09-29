@@ -306,10 +306,36 @@ Run the Images from HUB remotely
 
  ![Run Lab](/Images/runLab.jpg)
 
+#Summery of the process since week 2 up to now
+
+```mermaid
+sequenceDiagram
+    participant Developer
+    participant GitHub
+    participant Jenkins
+    participant DockerHub
+    participant LapPlay
+
+    Developer->>GitHub: Push Code
+    GitHub->>Jenkins: Notify Code Change
+    Jenkins->>Jenkins: Run JUnit Tests
+    alt Tests Passed
+        Jenkins->>DockerHub: Build Docker Image
+        DockerHub-->>Jenkins: Image Created
+        Jenkins->>LapPlay: Deploy Docker Image
+        LapPlay->>LapPlay: Run Docker Image
+    else Tests Failed
+        Jenkins-->>Developer: Notify Test Failure
+    end
+
+
+
+```
+
 
  
 ---------------------------------------------------------------------
-# Introduction to SecDevOps
+# Towards to SecDevOps
 
 ## SecDevOps: Integrating Security into DevOps
 
