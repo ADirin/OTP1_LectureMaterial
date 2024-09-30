@@ -210,7 +210,7 @@ public class Calculator {
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
-public class TestTest {
+public class CalculatorTest {
 
     Calculator testInstance = new Calculator();
 
