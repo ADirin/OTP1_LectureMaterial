@@ -24,33 +24,33 @@ Share the Trello board link used for task management.
 Slide 2. Screenshots of Product Backlog
 Display screenshots of your product backlog, showing how tasks were organized and prioritized.
 **Sprint 1:**
-- Sprint Master
-- Sprint Backlog
-- Done
-- Release
-- Postpone
-- Testing
+ - Sprint Master
+ - Sprint Backlog
+ - Done
+ - Release
+ - Postpone
+ - Testing
 **Sprint 2:**
-- Sprint Master
-- Sprint Backlog
-- Done
-- Release
-- Postpone
-- Testing
+ - Sprint Master
+ - Sprint Backlog
+ - Done
+ - Release
+ - Postpone
+ - Testing
 **Sprint 3:**
-- Sprint Master
-- Sprint Backlog
-- Done
-- Release
-- Postpone
-- Testing
-  **Sprint 4:**
-- Sprint Master
-- Sprint Backlog
-- Done
-- Release
-- Postpone
-- Testing
+ - Sprint Master
+ - Sprint Backlog
+ - Done
+ - Release
+ - Postpone
+ - Testing
+**Sprint 4:**
+ - Sprint Master
+ - Sprint Backlog
+ - Done
+ - Release
+ - Postpone
+ - Testing
 4. Architectural Design
 - Present the Architectural Designer and key components.
 - Use Case Diagram: Show how users interact with the system.
