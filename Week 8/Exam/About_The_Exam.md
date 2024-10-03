@@ -1,6 +1,6 @@
 ## Exam Instructions
 
-1. **Duration**: The exam will take **1 hour**. You have **15 minutes** after the exam starts to join. After this, you will not be allowed to access the exam.
+1. **Duration:** The exam will last 1 hour. Please ensure you arrive on time; students will not be permitted to enter 15 minutes after the exam begins.
    
 2. **Early Exit**: You may leave the exam after **30 minutes** from the start.
 
