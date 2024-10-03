@@ -4,14 +4,17 @@
    
 2. **Early Exit**: You may leave the exam after **30 minutes** from the start.
 
-3. **Passing Score**: To pass, you need to score at least **50%** of the total points.
+3. **Content Coverage**: The exam will cover all materials shared on **GitHub**, lecture **slides**, and examples presented during the **lectures**.
 
-4. **Exam Rules**:
+4. **Passing Score**: To pass, you need to score at least **50%** of the total points.
+
+5. **Exam Rules**:
    - **No talking** is allowed during the exam.
    - **Smart devices**, materials, and external websites are **prohibited**.
    - Make sure only **one browser tab** is open, and that tab is Moodle.
 
-5. **Reminder**: The **exam grade** is not the same as your **course grade**.
+6. **Reminder**: The **exam grade** is not the same as your **course grade**.
 
 Good luck!
+
 
