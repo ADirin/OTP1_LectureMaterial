@@ -5,6 +5,10 @@
 ## **Purpose**  
 The **Aikido Progress Tracker** is a mobile and web application designed to monitor an Aikido student’s weekly training and ensure their progress aligns with the requirements for their next belt level.
 
+
+[Aikido Training](/Images/aikido.JPG)
+
+
 ---
 
 ## **Key Features**
