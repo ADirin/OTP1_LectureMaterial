@@ -81,6 +81,11 @@ sequenceDiagram
     participant App
     participant Database
 ````mermaid
+    sequenceDiagram
+    participant User
+    participant App
+    participant Database
+
     User->>App: Log in
     App->>Database: Authenticate user
     Database-->>App: Return user details
@@ -98,9 +103,10 @@ sequenceDiagram
     App->>Database: Log shared data
     Database-->>App: Confirm data shared
     App-->>User: Notify progress shared
+
 ````
 ````mermaid
-graph TD
+flowchart TD
     A[Start] --> B[Log in to App]
     B --> C[Input current belt rank]
     C --> D[Enter weekly training data]
@@ -111,7 +117,6 @@ graph TD
     G --> H[Option to share with instructor]
     H --> I[Send progress to instructor]
     I --> J[End]
-
 
 
 ````
@@ -126,7 +131,6 @@ usecaseDiagram
     User --> (Share progress with instructor)
     (Input training data) --> (Match belt requirements)
     Instructor --> (Validate student progress)
-
 
 
 ````
