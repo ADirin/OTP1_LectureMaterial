@@ -3,7 +3,7 @@
 __These projects are primarily web-based by nature, but you may also choose to implement them as standalone desktop applications or mobile apps. Make sure to decide on the solution platform before starting the implementation.__ 
 
 
-[**AIKIDO trainig Application**]
+[**AIKIDO trainig Application**]https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Week%201/Project%20Schedule%20%20/AikidoProject.md
 
 1. **Online Bookstore Management System**
 
