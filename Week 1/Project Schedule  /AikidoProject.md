@@ -105,28 +105,18 @@ sequenceDiagram
     App-->>User: Notify progress shared
 
 ````
+
 ````mermaid
 flowchart TD
-    A[Aikido Student] -->|Logs in| B(Log in)
-    A -->|Inputs data| C(Input Training Data)
-    A -->|Views report| D(View Progress Report)
-    A -->|Shares progress| E(Share Progress with Instructor)
-    C --> F{Match Belt Requirements?}
-    F -->|Yes| G[Progress Validated]
-    F -->|No| H[Suggestions Provided]
-    I[Aikido Instructor] -->|Validates| G
+    User[Aikido Student] --> LogIn[Log in]
+    User --> InputData[Input Training Data]
+    User --> ViewReport[View Progress Report]
+    User --> ShareProgress[Share Progress with Instructor]
+    InputData --> MatchReq{Match Belt Requirements?}
+    MatchReq -->|Yes| Validated[Progress Validated]
+    MatchReq -->|No| Suggestions[Suggestions Provided]
+    Instructor[Aikido Instructor] --> Validate[Validate Student Progress]
+    Validate --> Validated
 
-````
-````mermaid
-usecaseDiagram
-    actor User as "Aikido Student"
-    actor Instructor as "Aikido Instructor"
-
-    User --> (Log in)
-    User --> (Input Training Data)
-    User --> (View Progress Report)
-    User --> (Share Progress with Instructor)
-    (Input Training Data) --> (Match Belt Requirements)
-    Instructor --> (Validate Student Progress)
 
 ````
