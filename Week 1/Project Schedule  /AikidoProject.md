@@ -107,30 +107,28 @@ sequenceDiagram
 ````
 ````mermaid
 flowchart TD
-    A[Start] --> B[Log in to App]
+    A([Start]) --> B[Log in to App]
     B --> C[Input current belt rank]
     C --> D[Enter weekly training data]
     D --> E{Does training match requirements?}
-    E -- Yes --> F[Mark progress as "On Track"]
+    E -- Yes --> F[Mark progress as On Track]
     E -- No --> G[Provide suggestions to improve]
     F --> H[Option to share with instructor]
     G --> H[Option to share with instructor]
     H --> I[Send progress to instructor]
-    I --> J[End]
-
+    I --> J([End])
 
 ````
 ````mermaid
 usecaseDiagram
     actor User as "Aikido Student"
-    actor Instructor
+    actor Instructor as "Aikido Instructor"
 
     User --> (Log in)
-    User --> (Input training data)
-    User --> (View progress report)
-    User --> (Share progress with instructor)
-    (Input training data) --> (Match belt requirements)
-    Instructor --> (Validate student progress)
-
+    User --> (Input Training Data)
+    User --> (View Progress Report)
+    User --> (Share Progress with Instructor)
+    (Input Training Data) --> (Match Belt Requirements)
+    Instructor --> (Validate Student Progress)
 
 ````
