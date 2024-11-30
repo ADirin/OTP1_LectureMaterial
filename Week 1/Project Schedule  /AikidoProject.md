@@ -107,16 +107,14 @@ sequenceDiagram
 ````
 ````mermaid
 flowchart TD
-    A([Start]) --> B[Log in to App]
-    B --> C[Input current belt rank]
-    C --> D[Enter weekly training data]
-    D --> E{Does training match requirements?}
-    E -- Yes --> F[Mark progress as On Track]
-    E -- No --> G[Provide suggestions to improve]
-    F --> H[Option to share with instructor]
-    G --> H[Option to share with instructor]
-    H --> I[Send progress to instructor]
-    I --> J([End])
+    A[Aikido Student] -->|Logs in| B(Log in)
+    A -->|Inputs data| C(Input Training Data)
+    A -->|Views report| D(View Progress Report)
+    A -->|Shares progress| E(Share Progress with Instructor)
+    C --> F{Match Belt Requirements?}
+    F -->|Yes| G[Progress Validated]
+    F -->|No| H[Suggestions Provided]
+    I[Aikido Instructor] -->|Validates| G
 
 ````
 ````mermaid
