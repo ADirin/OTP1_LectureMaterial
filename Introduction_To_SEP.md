@@ -77,9 +77,11 @@ graph TD
 
 ### Lectures
 
-- Weekly face-to-face lectures cover key software engineering concepts and processes. Examples are provided primarily in Java. Attendance is face-to-face lectures are mandatory.
+- Weekly *online* and *face-to-face* lectures cover key software engineering concepts and processes. Examples are provided primarily in Java. Attendance is face-to-face lectures are mandatory.
+    - Online lectures are often conducted via ZOOM, where we cover both the theory and the presentation.
+    - **NOTE:** In compulsory face-to-face lectures, we focus on coding, setting up tools, and practical demonstrations.     
 
-### Project Assignment
+### Project Assignment (IMPORTANT)
 
 - The course includes a project focused on software architectural planning, design, and implementation. The emphasis is on **the process**, **the process**, **the process**, rather than the final product itself, even though you must have a functional demo at the end of the course.
     - What comes to your mind **the process**
