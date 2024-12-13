@@ -97,7 +97,7 @@ graph TD
 
 
 ### Home/Class Assignments
-
+*Note:* You are **NOT** allowed to use AI for code generation in the ckass, and project  assignment. 
 - Weekly individual or group coding assignments.
 - Group presentations on specific topics (25 minutes each).
 - Strict deadlines for all assignments.
