@@ -115,3 +115,16 @@ graph TD
 **Note:** Attendance during scheduled hours is mandatory. Additional work outside of class is required to complete the project. Expect to invest approximately 12 hours per week (totaling about 100 hours) for this five-credit course.
 
 We look forward to an engaging and productive semester, where you'll develop a solid foundation in software engineering principles and practices.
+
+---------------------------------------------------------------------
+
+# Sprint Schedule
+
+|   Sprint   |   Start Date   |       End Date       | Sprint Review Meeting |
+|:----------:|:--------------:|:--------------------:|:---------------------:|
+|  Sprint 1  | 2024-08-19     | 2024-09-01 06:00     | 2024-09-01 06:00      |
+|  Sprint 2  | 2024-09-02 06:00 | 2024-09-15 12:00     | 2024-09-15 12:00      |
+|  Sprint 3  | 2024-09-16 12:00 | 2024-09-29 18:00     | 2024-09-29 18:00      |
+|  Sprint 4  | 2024-09-30 18:00 | 2024-10-14 00:00     | 2024-10-14 00:00      |
+
+
