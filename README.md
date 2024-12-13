@@ -1,7 +1,7 @@
 **Note:** This is a generic version of the course material. The details of the topics and assignments will be elaborated upon during the **<ins>compulsory *face-to-face* lectures</ins>**. It is important to emphasize that in this course we focus on the process, not merely the project implementation. This means that in each sprint, we apply software engineering principles and methodologies to implement the project.
 
+In SEP 1 we follow the DevOps approach so remember the follow figure very well.
 
-> In SEP 1 we follow the DevOps approach so remember the follow figure very well.
  ![DevOps introduction](Images/DevOps.gif)
 
 
