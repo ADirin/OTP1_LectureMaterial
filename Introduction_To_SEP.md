@@ -83,7 +83,7 @@ graph TD
 
 ### Project Assignment (IMPORTANT)
 
-- The course includes a project focused on software architectural [planning, designing, and implementation](https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Project_Scrum). The emphasis is on **the process**, **the process**, **the process**, rather than the final product itself, even though you must have a functional demo at the end of the course.
+- The course includes a project focused on software architectural [planning, designing, and implementation](https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Project_Scrum). The emphasis is on **the process**, **the process**, **the process**, rather than the final product itself, even though you must have a [present](https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Week%208/presentation) a functional demo at the end of the course.
     - What comes to your mind **the process**
 - In both courses (SEP1 and SEP2), we use Trello for project management, which the project team must update during each sprint and share with the teacher during the sprint review. The project is divided into four sprints, each lasting two weeks, and continues into the SEP2 course for further development.
 - Project topics are provided by the teacher, and you can choose from Java,for implementation.
