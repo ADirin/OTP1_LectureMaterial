@@ -1,6 +1,7 @@
 # Course Introduction: Fundamentals of Software Engineering
 
-Welcome to the Fundamentals of Software Engineering course! This project-based course provides a comprehensive introduction to software engineering principles, with a focus on practical application through a series of weekly lectures and project assignments. The course is designed to equip you with essential skills in software development, project management, and agile methodologies.
+- Welcome to the  Software Engineering project course! This project-based course provides a comprehensive introduction to software engineering principles, with a focus on practical application through a series of weekly lectures, Home and in-class assignment in addition to **project assignments.**
+- The course is designed to equip you with essential skills in **software development**, **project management**, and **agile methodologies**.
 
 # Student Competence Development Path
 
