@@ -69,13 +69,14 @@ graph TD
 
 ### Lectures
 
-- Weekly face-to-face lectures cover key software engineering concepts and processes. Examples are provided primarily in Java or Python. Attendance is mandatory.
+- Weekly face-to-face lectures cover key software engineering concepts and processes. Examples are provided primarily in Java. Attendance is face-to-face lectures are mandatory.
 
 ### Project Assignment
 
-- The course includes a project focused on software architectural planning, design, and implementation. The emphasis is on the process rather than the final product.
-- Use Trello for project management, with the Scrum Master sharing the board with the teacher at [amir.dirin@metropolia.fi](mailto:amir.dirin@metropolia.fi). The project is divided into four sprints, each lasting two weeks, and extends into the SEP2 course for further development.
-- Project topics are provided by the teacher, and you can choose from Java, Python, or React for implementation.
+- The course includes a project focused on software architectural planning, design, and implementation. The emphasis is on **the process**, **the process**, **the process**, rather than the final product itself, even though you must have a functional demo at the end of the course.
+    - What comes to your mind **the process**
+- In both courses (SEP1 and SEP2), we use Trello for project management, which the project team must update during each sprint and share with the teacher during the sprint review. The project is divided into four sprints, each lasting two weeks, and continues into the SEP2 course for further development.
+- Project topics are provided by the teacher, and you can choose from Java,for implementation.
 
 ### Home/Class Assignments
 
