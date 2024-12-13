@@ -35,7 +35,10 @@ graph TD
 - **Activities:**
     - ![Group Setup](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Week%201/Lecture%20Assignment/Assignment1.md)
     - ![Trollo Setup](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Project_Management_Trello/Introduction-To_Trello.md)
-    - ![Project topic selection]          
+    - ![Project topic selection]
+    - ![Presentation_Topic_Selection](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Lecture_Presentation/Topics.md)
+    - *Home Assignment:* See the details of the assignements at : [Home Assignment](https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Week%201/Home%20Assignment)
+        
 
 ### Week 2: Introduction to DevOps
 - **Focus:** Software Development Life Cycle (SDLC).
