@@ -85,8 +85,16 @@ graph TD
 
 - The course includes a project focused on software architectural [planning, designing, and implementation](https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Project_Scrum). The emphasis is on **the process**, **the process**, **the process**, rather than the final product itself, even though you must have a [present](https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Week%208/presentation) a functional demo at the end of the course.
     - What comes to your mind **the process**?
-- In both courses ([SEP1](https://github.com/ADirin/OTP1_LectureMaterial/tree/main) and [SEP2](https://github.com/ADirin/OTP2_LectureMaterial)), we apply [Scurm](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Scrum_Agile/Introduction_Agile_Scrum.md) and use [Trello](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Project_Management_Trello/Introduction-To_Trello.md) for project management, which the project team must update during each [sprint](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Scrum_Agile/Sprint_Review_CheckList.md) and share with the teacher during the [sprint review](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Scrum_Agile/Sprint_Review_CheckList.md). The project is divided into four sprints, each lasting two weeks, and continues into the SEP2 course for further development.
+
 - Project topics are provided by the teacher, and you can choose from Java,for implementation.
+
+- In both courses, [SEP1](https://github.com/ADirin/OTP1_LectureMaterial/tree/main) and [SEP2](https://github.com/ADirin/OTP2_LectureMaterial), we apply [Scrum](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Scrum_Agile/Introduction_Agile_Scrum.md) and use [Trello](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Project_Management_Trello/Introduction-To_Trello.md) for project management. The project team is required to update Trello during each [sprint](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Scrum_Agile/Sprint_Review_CheckList.md) and share progress with the teacher during the [sprint review](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Scrum_Agile/Sprint_Review_CheckList.md).
+
+The project is divided into four sprints, each lasting two weeks. At the start of each sprint, the team plans the tasks, and at the end, the sprint is reviewed. Sprint reviews are typically organized on Zoom, where each team individually shares their sprint performance (completed, postponed, and in-progress tasks) with the teacher. After the meeting, the Scrum Master must submit the sprint review report on Moodle.
+
+This process continues in the [SEP2](https://github.com/ADirin/OTP2_LectureMaterial) course for further project development.
+
+
 
 ### Home/Class Assignments
 
