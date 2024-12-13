@@ -147,16 +147,8 @@ public class MyTests {
 2. Create and Write Tests: Generate test classes and methods using IntelliJ IDEA’s built-in tools.
 3. Run and View Tests: Execute tests and review results in the IDE.
 
-
-
-
-
-
-
-
-
-
-
+````
+__________________________________
 
 ## Example Application: Calculator
 
