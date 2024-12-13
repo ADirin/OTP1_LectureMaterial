@@ -33,9 +33,9 @@ graph TD
 
 - **Focus:** Get acquainted with the fundamentals of software engineering and course structure. Introduction to the software development process.
 - **Activities:**
-    - Group Setup
-    - > ![Trollo Setup](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Project_Management_Trello/Introduction-To_Trello.md)
-    - > ![Project topic selection]          
+    - ![Group Setup](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Week%201/Lecture%20Assignment/Assignment1.md)
+    - ![Trollo Setup](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Project_Management_Trello/Introduction-To_Trello.md)
+    - ![Project topic selection]          
 
 ### Week 2: Introduction to DevOps
 - **Focus:** Software Development Life Cycle (SDLC).
