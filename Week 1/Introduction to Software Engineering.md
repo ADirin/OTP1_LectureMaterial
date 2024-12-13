@@ -1,5 +1,5 @@
 
-[Course Implementation]
+**Note:** It is important to ensure that all practical knowledge about the course is clear. Refer to the [Course Implementation](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Introduction_To_SEP.md) document for details.
 
 # Introduction to software Engineering / Software project Mangement 
 Software Engineering is a discipline that encompasses the systematic and disciplined approach to developing, operating, 
