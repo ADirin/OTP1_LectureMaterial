@@ -77,31 +77,31 @@ graph TD
 
     %% Week 2 link to GitHub material
     B1[Continuous Integration, Delivery Practices] --> B
-    click B1 href "https://github.com/yourusername/repository-name/week2-material"
+    click B1 href "https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Week%202"
 
     %% Week 3 link to GitHub material
     C1[Dependency Management, Version Control] --> C
-    click C1 href "https://github.com/yourusername/repository-name/week3-material"
+    click C1 href "https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Week%203%20"
 
     %% Week 4 link to GitHub material
     D1[Writing Unit Tests, Importance of Testing] --> D
-    click D1 href "https://github.com/yourusername/repository-name/week4-material"
+    click D1 href "https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Week%204%20"
 
     %% Week 5 link to GitHub material
     E1[Build Automation, Testing Automation] --> E
-    click E1 href "https://github.com/yourusername/repository-name/week5-material"
+    click E1 href "https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Week%205"
 
     %% Week 6 link to GitHub material
     F1[Containerization, Role in Development] --> F
-    click F1 href "https://github.com/yourusername/repository-name/week6-material"
+    click F1 href "https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Week%206"
 
     %% Week 7 link to GitHub material
     G1[Integrating Security, Security in DevOps] --> G
-    click G1 href "https://github.com/yourusername/repository-name/week7-material"
+    click G1 href "https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Week%207"
 
     %% Week 8 link to GitHub material
     H1[Present Final Project, Consolidate Learning] --> H
-    click H1 href "https://github.com/yourusername/repository-name/week8-material"
+    click H1 href "https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Week%208"
 
 
 ```
