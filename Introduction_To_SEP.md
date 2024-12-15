@@ -54,6 +54,8 @@ During the **Sprint Review Meeting**, the Scrum Master, Product Owner (teacher),
 - **All deadlines are strict.**
 - *Failure to submit the in-class assignment will result in a penalty and may lead to failing the course*
 
+---------------------------------------------------------------------------------------------------------------
+  
 
 # Student Competence Development Path
 
