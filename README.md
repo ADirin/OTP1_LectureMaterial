@@ -26,12 +26,12 @@ At the end of each sprint, the lecturers will be available online. All team memb
 
 # Sprint Schedule
 
-|   Sprint   |   Start Date   |       End Date       | Sprint Review Meeting |
+|   Sprint           |   Start Date   |       End Date       | Sprint Review Meeting |
 |:----------:|:--------------:|:--------------------:|:---------------------:|
-|  Sprint 1  | 2024-08-19     | 2024-09-01 06:00     | 2024-09-01 06:00      |
-|  Sprint 2  | 2024-09-02 06:00 | 2024-09-15 12:00     | 2024-09-15 12:00      |
-|  Sprint 3  | 2024-09-16 12:00 | 2024-09-29 18:00     | 2024-09-29 18:00      |
-|  Sprint 4  | 2024-09-30 18:00 | 2024-10-14 00:00     | 2024-10-14 00:00      |
+|  Sprint 1 (week3)  | 2025-01-13     | 2025-01-27           | 2025-01-27            |
+|  Sprint 2 (week5)  | 2025-01-27     | 2025-02-10           | 2024-02-10            |
+|  Sprint 3 (week7)  | 2025-02-10     | 2025-03-03           | 2025-03-03            |
+|  Sprint 4 (week10) | 2025-03-03     | 2025-03-14           | 2025-03-14            |
 
 
 
