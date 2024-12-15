@@ -3,9 +3,8 @@
 - Welcome to the  Software Engineering project course! This project-based course provides a comprehensive introduction to software engineering principles, with a focus on practical application through a series of weekly lectures, Home and in-class assignment in addition to **project assignments.**
 - The course is designed to equip you with essential skills in **software development**, **project management**, and **agile methodologies**.
 
-# Software Engineering Basics: Project-Based Course  
 
-## Course Textbook  
+## Relavent Textbook specially for the first two weeks  
 - The electronic version of the course textbook:  
   **Ian Sommerville, *Software Engineering*, 10th edition**  
 - The official glossary of Software Engineering terminology by IEEE  
@@ -13,16 +12,18 @@
 ## Lectures  
 - Weekly face-to-face lectures  
 - Lectures primarily focus on the **software development process**.  
-- Examples used in the lectures are predominantly in **Java** or **Python**.  
+- Examples used in the lectures are predominantly in **Java**.  
 - Participation in the lectures is **mandatory**.  
 
 ## Project Assignment  
 The project in this course is designed to impart knowledge of software engineering and the project development lifecycle. This includes:  
 - **Software architectural planning**  
 - **Design**  
-- **Implementation**  
+- **Implementation**
+- **Testing**
+- **Documentation**
 
-The focus is not on the final product but rather on the **process** employed to achieve the project goals.  
+***NOTE:***The focus is not on the final product but rather on the process employed to achieve the project goals. Therefore, it is advised to follow the lectures closely and carefully adhere to the sprint requirements each week  
 
 ### Project Management Tool: Trello  
 - **Trello** will be used for project management.  
