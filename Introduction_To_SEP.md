@@ -1,7 +1,60 @@
-# Course Introduction: Fundamentals of Software Engineering
+# Course Introduction: Software Engineering Project
 
 - Welcome to the  Software Engineering project course! This project-based course provides a comprehensive introduction to software engineering principles, with a focus on practical application through a series of weekly lectures, Home and in-class assignment in addition to **project assignments.**
 - The course is designed to equip you with essential skills in **software development**, **project management**, and **agile methodologies**.
+
+# Software Engineering Basics: Project-Based Course  
+
+## Course Textbook  
+- The electronic version of the course textbook:  
+  **Ian Sommerville, *Software Engineering*, 10th edition**  
+- The official glossary of Software Engineering terminology by IEEE  
+
+## Lectures  
+- Weekly face-to-face lectures  
+- Lectures primarily focus on the **software development process**.  
+- Examples used in the lectures are predominantly in **Java** or **Python**.  
+- Participation in the lectures is **mandatory**.  
+
+## Project Assignment  
+The project in this course is designed to impart knowledge of software engineering and the project development lifecycle. This includes:  
+- **Software architectural planning**  
+- **Design**  
+- **Implementation**  
+
+The focus is not on the final product but rather on the **process** employed to achieve the project goals.  
+
+### Project Management Tool: Trello  
+- **Trello** will be used for project management.  
+- Each group must collaborate with the teacher to establish their **product backlog** within Trello.  
+- During **Sprint 1**, the Scrum Master will share the Trello board with the teacher at:  
+  [amir.dirin@metropolia.fi](mailto:amir.dirin@metropolia.fi)  
+
+### Sprint Meetings  
+At both the **beginning** and the **end** of each sprint, teams will conduct:  
+1. **Planning Meetings**  
+2. **Review Meetings**  
+
+During the **Sprint Review Meeting**, the Scrum Master, Product Owner, and the team will:  
+- Assess tasks that are **completed**, **deferred**, or **in progress**.  
+- Determine the tasks for the **upcoming sprint**.  
+
+### Sprint Structure  
+- We employ **Agile** methodology in **four sprints** (two weeks each).  
+- The project can be extended to **three more sprints** in the **SEP2 course**.  
+- **Project topics** are provided by the teacher.  
+- Groups can choose the technology for implementation:  
+  - **Java**  
+  - **Python**  
+  - **React**  
+
+## Home/Class Assignments  
+- Weekly-based individual or group coding assignments  
+- Group presentation on given topics (25 minutes)  
+
+## Deadlines  
+- **All deadlines are strict.**  
+
 
 # Student Competence Development Path
 
