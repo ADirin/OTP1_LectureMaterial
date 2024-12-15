@@ -126,6 +126,6 @@ We look forward to an engaging and productive semester, where you'll develop a s
 |  Sprint 1 (week3)  | 2025-01-13     | 2025-01-27           | 2025-01-27            |
 |  Sprint 2 (week5)  | 2025-01-27     | 2025-02-10           | 2024-02-10            |
 |  Sprint 3 (week7)  | 2025-02-10     | 2025-03-03           | 2025-03-03            |
-|  Sprint 4 (week9)  | 2025-03-03     | 2025-03-14           | 2025-03-14            |
+|  Sprint 4 (week10) | 2025-03-03     | 2025-03-14           | 2025-03-14            |
 
 
