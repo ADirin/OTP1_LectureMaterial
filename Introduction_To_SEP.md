@@ -28,15 +28,14 @@ The project in this course is designed to impart knowledge of software engineeri
 ### Project Management Tool: Trello  
 - **Trello** will be used for project management.  
 - Each group must collaborate with the teacher to establish their **product backlog** within Trello.  
-- During **Sprint 1**, the Scrum Master will share the Trello board with the teacher at:  
-  [amir.dirin@metropolia.fi](mailto:amir.dirin@metropolia.fi)  
+- During Sprint 1, the Scrum Master will share the Trello board with the teacher. The details will be provided during the first lecture.  
 
 ### Sprint Meetings  
 At both the **beginning** and the **end** of each sprint, teams will conduct:  
 1. **Planning Meetings**  
 2. **Review Meetings**  
 
-During the **Sprint Review Meeting**, the Scrum Master, Product Owner, and the team will:  
+During the **Sprint Review Meeting**, the Scrum Master, Product Owner (teacher), and the team will:  
 - Assess tasks that are **completed**, **deferred**, or **in progress**.  
 - Determine the tasks for the **upcoming sprint**.  
 
@@ -45,16 +44,15 @@ During the **Sprint Review Meeting**, the Scrum Master, Product Owner, and the t
 - The project can be extended to **three more sprints** in the **SEP2 course**.  
 - **Project topics** are provided by the teacher.  
 - Groups can choose the technology for implementation:  
-  - **Java**  
-  - **Python**  
-  - **React**  
-
+  - **Java and java-based framework**  
+ 
 ## Home/Class Assignments  
 - Weekly-based individual or group coding assignments  
 - Group presentation on given topics (25 minutes)  
 
 ## Deadlines  
-- **All deadlines are strict.**  
+- **All deadlines are strict.**
+- *Failure to submit the in-class assignment will result in a penalty and may lead to failing the course*
 
 
 # Student Competence Development Path
