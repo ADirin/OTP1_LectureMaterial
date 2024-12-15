@@ -73,7 +73,7 @@ graph TD
 
     %% Week 1 link to GitHub material
     A1[Fundamentals, Software Development, Course Overview] --> A
-    click A1 href "[https://github.com/yourusername/repository-name/week1-material](https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Week%201)"
+    click A1 href "https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Week%201"
 
     %% Week 2 link to GitHub material
     B1[Continuous Integration, Delivery Practices] --> B
