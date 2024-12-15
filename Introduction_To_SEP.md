@@ -70,15 +70,16 @@ graph TD
     E --> F[Week 6: Introduction to Docker]
     F --> G[Week 7: SecDevOps]
     G --> H[Week 8: Project Presentation and Exam]
-    
-    A --> |Fundamentals, Software Development, Course Overview| A1[Competency Development]
-    B --> |Continuous Integration, Delivery Practices| B1[Competency Development]
-    C --> |Dependency Management, Version Control| C1[Competency Development]
-    D --> |Writing Unit Tests, Importance of Testing| D1[Competency Development]
-    E --> |Build Automation, Testing Automation| E1[Competency Development]
-    F --> |Containerization, Role in Development| F1[Competency Development]
-    G --> |Integrating Security, Security in DevOps| G1[Competency Development]
-    H --> |Present Final Project, Consolidate Learning| H1[Competency Development]
+
+    A --> |Fundamentals, Software Development, Course Overview| A1[Fundamentals Overview]
+    B --> |Continuous Integration, Delivery Practices| B1[CI/CD Practices]
+    C --> |Dependency Management, Version Control| C1[Dependency Management]
+    D --> |Writing Unit Tests, Importance of Testing| D1[Unit Testing]
+    E --> |Build Automation, Testing Automation| E1[Build/Test Automation]
+    F --> |Containerization, Role in Development| F1[Containerization]
+    G --> |Integrating Security, Security in DevOps| G1[Security in DevOps]
+    H --> |Present Final Project, Consolidate Learning| H1[Project Presentation]
+
 ```
 
 ## Weekly Schedule
