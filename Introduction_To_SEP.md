@@ -71,14 +71,38 @@ graph TD
     F --> G[Week 7: SecDevOps]
     G --> H[Week 8: Project Presentation and Exam]
 
-    A --> |Fundamentals, Software Development, Course Overview| A1[Fundamentals Overview]
-    B --> |Continuous Integration, Delivery Practices| B1[CI/CD Practices]
-    C --> |Dependency Management, Version Control| C1[Dependency Management]
-    D --> |Writing Unit Tests, Importance of Testing| D1[Unit Testing]
-    E --> |Build Automation, Testing Automation| E1[Build/Test Automation]
-    F --> |Containerization, Role in Development| F1[Containerization]
-    G --> |Integrating Security, Security in DevOps| G1[Security in DevOps]
-    H --> |Present Final Project, Consolidate Learning| H1[Project Presentation]
+    %% Week 1 link to GitHub material
+    A1[Fundamentals, Software Development, Course Overview] --> A
+    click A1 href "https://github.com/yourusername/repository-name/week1-material"
+
+    %% Week 2 link to GitHub material
+    B1[Continuous Integration, Delivery Practices] --> B
+    click B1 href "https://github.com/yourusername/repository-name/week2-material"
+
+    %% Week 3 link to GitHub material
+    C1[Dependency Management, Version Control] --> C
+    click C1 href "https://github.com/yourusername/repository-name/week3-material"
+
+    %% Week 4 link to GitHub material
+    D1[Writing Unit Tests, Importance of Testing] --> D
+    click D1 href "https://github.com/yourusername/repository-name/week4-material"
+
+    %% Week 5 link to GitHub material
+    E1[Build Automation, Testing Automation] --> E
+    click E1 href "https://github.com/yourusername/repository-name/week5-material"
+
+    %% Week 6 link to GitHub material
+    F1[Containerization, Role in Development] --> F
+    click F1 href "https://github.com/yourusername/repository-name/week6-material"
+
+    %% Week 7 link to GitHub material
+    G1[Integrating Security, Security in DevOps] --> G
+    click G1 href "https://github.com/yourusername/repository-name/week7-material"
+
+    %% Week 8 link to GitHub material
+    H1[Present Final Project, Consolidate Learning] --> H
+    click H1 href "https://github.com/yourusername/repository-name/week8-material"
+
 
 ```
 
