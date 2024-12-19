@@ -5,7 +5,7 @@
 1. [Introduction to Software Engineering](#Introduction-to-software-Engineering)
 2. [Software-Engineering-Disciplines](#Software-Engineering-Disciplines)
 3. [Software-Engineering-Processes](#Software-Engineering-Processes)
-4. [Software-Development-Life-Cycle (SDLC)](#Software-Development-Life-Cycle)
+4. [Software-Development-Life-Cycle (SDLC)](#Software-Development-Life-Cycle(SDLC))
 5. [Software-engineering-processes-vs.(SDLC)](##Software-engineering-processes-vs.-(SDLC))
 
 
@@ -56,7 +56,7 @@ Common software engineering processes include:
    Maintenance activities ensure the long-term viability of the software system.
    
 
-# Software-Development-Life-Cycle (SDLC):
+# Software-Development-Life-Cycle(SDLC):
 he Software Development Life Cycle (SDLC) is a framework that describes the stages involved in the development of software. 
 It provides a structured approach to software development, guiding the progression from initial concept to final deployment. 
 Common phases of the SDLC include:
