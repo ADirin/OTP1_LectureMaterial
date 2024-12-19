@@ -3,6 +3,9 @@
 
 # Table of Content
 1. [Introduction to Software Engineering](#Introduction-to-software-Engineering)
+2. [Software-Engineering-Disciplines](#Software-Engineering-Disciplines:)
+3. [Software-Engineering-Processes](#Software-Engineering-Processes:)
+4. [Software-Development-Life-Cycle (SDLC)](#Software-Development-Life-Cycle)
 
 
 # Introduction-to-software-Engineering
@@ -12,8 +15,7 @@ In this introduction, we will explore the fundamental concepts of software engin
 disciplines, and the software development life cycle (SDLC).
 
 
-
-# Software Engineering Disciplines:
+# Software-Engineering-Disciplines:
 
 Software engineering encompasses various disciplines, each focusing on specific aspects of software development. 
 Some prominent software engineering disciplines include:
@@ -30,7 +32,7 @@ Some prominent software engineering disciplines include:
 
 > ![Software Engineering](/Images/software-engineering-introduction.png)
 
-# Software Engineering Processes:
+# Software-Engineering-Processes:
 Software engineering processes are a set of activities that guide the creation of software products.
 These processes ensure that software is developed systematically, meeting quality standards, deadlines, and budget constraints. 
 Common software engineering processes include:
@@ -53,7 +55,7 @@ Common software engineering processes include:
    Maintenance activities ensure the long-term viability of the software system.
    
 
-# Software Development Life Cycle (SDLC):
+# Software-Development-Life-Cycle (SDLC):
 he Software Development Life Cycle (SDLC) is a framework that describes the stages involved in the development of software. 
 It provides a structured approach to software development, guiding the progression from initial concept to final deployment. 
 Common phases of the SDLC include:
