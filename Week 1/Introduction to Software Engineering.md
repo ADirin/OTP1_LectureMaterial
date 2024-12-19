@@ -2,7 +2,7 @@
 **Note:** It is important to ensure that all practical knowledge about the course is clear. Refer to the [Course Implementation](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Introduction_To_SEP.md) document for details.
 
 # Table of Content
-1. [Introduction to Software Engineering](# Introduction-to-software-Engineering)
+1. [Introduction to Software Engineering](#Introduction-to-software-Engineering)
 
 
 # Introduction-to-software-Engineering
