@@ -3,8 +3,8 @@
 
 # Table of Content
 1. [Introduction to Software Engineering](#Introduction-to-software-Engineering)
-2. [Software-Engineering-Disciplines](#Software-Engineering-Disciplines:)
-3. [Software-Engineering-Processes](#Software-Engineering-Processes:)
+2. [Software-Engineering-Disciplines](#Software-Engineering-Disciplines)
+3. [Software-Engineering-Processes](#Software-Engineering-Processes)
 4. [Software-Development-Life-Cycle (SDLC)](#Software-Development-Life-Cycle)
 
 
