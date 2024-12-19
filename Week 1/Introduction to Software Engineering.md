@@ -6,7 +6,8 @@ Software Engineering is a discipline that encompasses the systematic and discipl
 and maintaining software systems. It involves various processes, methodologies, and techniques aimed at creating high-quality software efficiently. 
 In this introduction, we will explore the fundamental concepts of software engineering, including software engineering processes, 
 disciplines, and the software development life cycle (SDLC).
----------
+
+
 
 # Software Engineering Disciplines:
 
