@@ -5,7 +5,7 @@
 1. [Introduction to Software Engineering](#Introduction-to-software-Engineering)
 2. [Software-Engineering-Disciplines](#Software-Engineering-Disciplines)
 3. [Software-Engineering-Processes](#Software-Engineering-Processes)
-4. [Software-Development-Life-Cycle (SDLC)](#Software-Development-Life-Cycle(SDLC))
+4. [Software-Development-Life-Cycle (SDLC)](#Software-Development-Life-Cycle)
 5. [Software-engineering-processes-vs.(SDLC)](##Software-engineering-processes-vs.-(SDLC))
 
 
