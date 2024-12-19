@@ -8,6 +8,7 @@
 4. [Software-Development-Life-Cycle-(SDLC)](#Software-Development-Life-Cycle)
 5. [Software-engineering-processes-vs.(SDLC)](#Key-Differences-on-SEP-SDLC)
 6. [Software-Engineering-Project-Management](#Software-Engineering-Project-Management)
+7. [Existing-Tools-for-Managing-Software-Projects](#Existing-Tools-for-Managing-Software-Projects)
 
 
 # Introduction-to-software-Engineering
@@ -122,7 +123,6 @@ The **SDLC** is a specific subset of software engineering processes that focuses
 
 ----
 
-
 # Software-Engineering-Project-Management
 
 ![Software project management](/Images/SPM.gif)
@@ -173,7 +173,9 @@ Effective project management in software engineering encompasses several key tas
   > ![Software Engineering_delivery](/Images/delivery.jpg)
   - **source:** http://www.pmknowledgehub.com/category/project-management-processes/
 
-## Existing Tools and Approaches for Managing Software Projects
+---
+
+# Existing-Tools-for-Managing-Software-Projects
 
 There are numerous tools and approaches available to assist with software project management:
 
@@ -208,6 +210,7 @@ For more in-depth understanding, consider the following resources:
 1. [The Scrum Guide](https://scrumguides.org/)
 2. [Agile Manifesto](https://agilemanifesto.org/)
 3. [PMI Project Management Guide](https://www.pmi.org/pmbok-guide-standards)
+4. [Project Management Dynamics](https://medium.com/@preeti.raul20/project-management-dynamics-understanding-the-factors-that-influence-project-success-4adbe0e48709)
 
 ## Recommended Video
 
