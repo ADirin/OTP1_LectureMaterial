@@ -9,7 +9,9 @@
 5. [Software-engineering-processes-vs.(SDLC)](#Key-Differences-on-SEP-SDLC)
 6. [Software-Engineering-Project-Management](#Software-Engineering-Project-Management)
 7. [Existing-Tools-for-Managing-Software-Projects](#Existing-Tools-for-Managing-Software-Projects)
+8. [Software-Development-Approaches](#Software-Development-Approaches)
 
+---
 
 # Introduction-to-software-Engineering
 Software Engineering is a discipline that encompasses the systematic and disciplined approach to developing, operating, 
@@ -194,7 +196,7 @@ There are numerous tools and approaches available to assist with software projec
 11. **Slack**: A communication tool that helps keep the team connected and informed.
    - https://slack.com/
      
-### Approaches
+# Software-Development-Approaches
 
 1. **Waterfall Model**: A linear approach where each phase of the project must be completed before the next begins.
 2. <ins>**Agile Methodology An iterative approach that focuses on continuous improvement and customer feedback.**<ins>: [Agile Scrum](../Week%201/Agile_Scrum.md)
