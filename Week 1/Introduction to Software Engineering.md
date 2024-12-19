@@ -125,6 +125,8 @@ The **SDLC** is a specific subset of software engineering processes that focuses
 
 # Software-Engineering-Project-Management
 
+![Software project management](/Images/SPM.gif)
+
 ## Introduction
 
 Software Engineering Project Management involves planning, executing, and overseeing software projects to ensure they are completed on time, within budget, and meet the specified requirements. It combines principles from traditional project management with specific practices and tools tailored for software development.
