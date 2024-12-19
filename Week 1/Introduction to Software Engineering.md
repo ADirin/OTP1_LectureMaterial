@@ -6,7 +6,7 @@
 2. [Software-Engineering-Disciplines](#Software-Engineering-Disciplines)
 3. [Software-Engineering-Processes](#Software-Engineering-Processes)
 4. [Software-Development-Life-Cycle-(SDLC)](#Software-Development-Life-Cycle)
-5. [Software-engineering-processes-vs.(SDLC)](##Software-engineering-processes-VS-SDLC)
+5. [Software-engineering-processes-vs.(SDLC)](##Key-Differences-on-SEP-SDLC)
 
 
 # Introduction-to-software-Engineering
@@ -81,7 +81,7 @@ Common phases of the SDLC include:
 7. **Maintenance**: After deployment, the software requires ongoing maintenance to address issues, implement updates, and incorporate new features.
     Maintenance activities ensure the continued functionality and usability of the software system.
 
-## Software-engineering-processes-VS-SDLC
+## Key-Differences-on-SEP-SDLC
 
 **software engineering processes** and **oftware Development Life Cycle (SDLC)** although they are closely related and often overlap in practice. 
 
