@@ -46,7 +46,7 @@
 
 DevOps is a cultural and technical movement that aims to improve collaboration between development (Dev) and operations (Ops) teams throughout the software development lifecycle (SDLC). It emphasizes automation, continuous integration, continuous delivery, and infrastructure as code to enable faster and more reliable software delivery.
 
-![DevOPs](/images/DevOps.JPG)
+[DevOPs](/Images/DevOps.JPG)
 
 ## History of DevOps
 
