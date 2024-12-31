@@ -1,5 +1,7 @@
 Below is a basic setup guideline for installing Git, Jenkins, Docker, and Kubernetes on a Windows operating system. Please note that the steps may vary slightly based on the specific versions available at the time of installation, so it's advisable to check for the latest versions.
 
+![/Images/DevOpsTools.png]
+
 ### 1. Install Git:
    - **Download Git:**
 ![GIT](/Images/git-github.gif)
