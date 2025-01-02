@@ -20,7 +20,10 @@ Sprint reviews allow teams to showcase their work and gather feedback. This meet
 
 ## Tracking System
 
-We use Trello in this course for project management where all groupd can log their sprint planning and review form. Hence the sprint success measuring is done by teacher monitoring, group transparency and visual timelines
+We use Trello in this course for project management where all groupd can log their sprint planning and review form. Hence the sprint success measuring is done by: 
+   - teacher monitoring,
+   - group transparency,
+   - and visual timelines
 
 ![Sprint planning](/Images/SP8.JPG)
 
