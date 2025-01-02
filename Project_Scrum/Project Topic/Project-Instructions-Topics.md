@@ -4,7 +4,11 @@
 
 Welcome to your Java-based three-tier project! Throughout this course, you will implement a practical project using **Java** and a **relational database** (e.g. **MariaDB**). The goal is to gain hands-on experience in building real-world applications with Java, and you are **required** to use **only Java frameworks** (such as **JavaFX** for the user interface and **JDBC** for database interaction) along with a relational database management system (MariaDB). 
 
-You must avoid using any other non-Java frameworks or technologies like Spring, Hibernate, or NoSQL databases. The projects are designed to be feasible, practical, and useful for **students and teachers** in everyday situations.
+![SP](/Images/SP.JPG)
+
+
+
+### Note: You must avoid using any other non-Java frameworks or technologies like Spring, Hibernate, or NoSQL databases. The projects are designed to be feasible, practical, and useful for **students and teachers** in everyday situations.
 
 ---
 
