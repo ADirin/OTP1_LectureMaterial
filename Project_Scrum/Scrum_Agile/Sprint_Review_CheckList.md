@@ -7,6 +7,8 @@ Sprint planning is essential for setting clear objectives and expectations for e
    - Identify tasks and assign responsibilities among team members.
    - Estimate the time required for each task to ensure feasibility within the sprint duration.
 
+![Sprint planning](/Images/SP6.JPG)
+
 ## Importance of Sprint Review
 
 Sprint reviews allow teams to showcase their work and gather feedback. This meeting should:
@@ -14,6 +16,7 @@ Sprint reviews allow teams to showcase their work and gather feedback. This meet
   - Discuss what went well and what challenges were faced.
   - Gather input from peers and instructors for continuous improvem
 
+![Sprint planning](/Images/SP7.JPG)
 
 **Dear Team,**
 
