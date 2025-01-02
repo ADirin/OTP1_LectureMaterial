@@ -136,20 +136,28 @@ Each project should be broken down into phases over the 8 weeks (4 Sprints, each
 - **Start the JavaFX user interface** with basic forms (login, registration, etc.).
 - *See the schdule for sprint review meeting*
 
+  ![SP](/Images/SP2.JPG)
+
 ### Week 3-4: (Sprint 2)
 - **Implement CRUD functionality** for core features (adding students, books, assignments, etc.).
 - **Link JavaFX interface to MariaDB** for data display and manipulation.
 - - *See the schdule for sprint review meeting*
 
+![SP](/Images/SP3.JPG)
+
 ### Week 5-6: (Sprint 3)
 - **Add additional features** like notifications, reports, and search functionality.
 - Improve the **UI/UX design** for a more polished application.
 - - *See the schdule for sprint review meeting*
+    
+![SP](/Images/SP4.JPG)
 
 ### Week 7: (Sprint 4)
 - **Integrate final features** such as progress tracking, reminders, or additional user roles (admin, teacher, student).
 - Perform **extensive testing** to ensure all features work as expected.
 - - *See the schdule for sprint review meeting*
+
+![SP](/Images/SP5.JPG)
 
 ### Week 8:
 - **Prepare final project presentation** and demonstrate the working system.
