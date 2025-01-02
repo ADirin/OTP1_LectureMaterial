@@ -127,6 +127,8 @@ Below are **10 Java-based three-tier project ideas** that focus on everyday appl
 
 Each project should be broken down into phases over the 8 weeks (4 Sprints, each for two weeks) of the course. Below is a suggested timeline:
 
+![Project Completion Journey](/Images/SP1.JPG)
+
 **NOTE:** You must utilize the topics you learn during the lectures in your project, such as JUnit tests, code coverage, CI/CD, containers (Docker), etc....
 
 ### Week 1-2: (Sprint 1)
