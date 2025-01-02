@@ -1,5 +1,20 @@
 ### Sprint Review Meeting Preparation Instructions
 
+## Importance of Sprint Planning
+
+Sprint planning is essential for setting clear objectives and expectations for each sprint. During this meeting, groups should:
+   - Define the goals for the upcoming sprint.
+   - Identify tasks and assign responsibilities among team members.
+   - Estimate the time required for each task to ensure feasibility within the sprint duration.
+
+## Importance of Sprint Review
+
+Sprint reviews allow teams to showcase their work and gather feedback. This meeting should:
+  - Present completed tasks and deliverables.
+  - Discuss what went well and what challenges were faced.
+  - Gather input from peers and instructors for continuous improvem
+
+
 **Dear Team,**
 
 To ensure a productive Sprint Review meeting, please follow these preparation steps:
