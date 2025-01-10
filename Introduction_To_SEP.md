@@ -26,7 +26,7 @@ The project in this course is designed to impart knowledge of software engineeri
 
 **NOTE:** *The focus is *NOT* on the final product but rather on the process employed to achieve the project goals, which is a *functional product*. Therefore, it is advised to follow the lectures closely and carefully adhere to the sprint requirements each week.*  
 
-### Project Management Tool: Trello  
+### Project Management Tool: [Trello](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Project_Management_Trello/Introduction-To_Trello.md)  
 - **Trello** will be used for project management.  
 - Each group must collaborate with the teacher to establish their **product backlog** within Trello.  
 - During Sprint 1, the Scrum Master will share the Trello board with the teacher. The details will be provided during the first lecture.  
