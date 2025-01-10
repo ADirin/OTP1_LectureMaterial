@@ -31,7 +31,7 @@ The project in this course is designed to impart knowledge of software engineeri
 - Each group must collaborate with the teacher to establish their **product backlog** within Trello.  
 - During Sprint 1, the Scrum Master will share the Trello board with the teacher. The details will be provided during the first lecture.  
 
-### Sprint Meetings  
+### [Sprint Meetings](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Scrum_Agile/Spring_Review_Guidline.md)  
 At both the **beginning** and the **end** of each sprint, teams will conduct:  
 1. **Planning Meetings**  
 2. **Review Meetings**  
