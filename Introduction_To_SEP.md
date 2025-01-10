@@ -24,7 +24,7 @@ The project in this course is designed to impart knowledge of software engineeri
 - **Testing**
 - **Documentation**
 
-**NOTE:** *The focus is not on the final product but rather on the process employed to achieve the project goals. Therefore, it is advised to follow the lectures closely and carefully adhere to the sprint requirements each week.*  
+**NOTE:** *The focus is *NOT* on the final product but rather on the process employed to achieve the project goals, which is a *functional product*. Therefore, it is advised to follow the lectures closely and carefully adhere to the sprint requirements each week.*  
 
 ### Project Management Tool: Trello  
 - **Trello** will be used for project management.  
