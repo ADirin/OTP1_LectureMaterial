@@ -33,7 +33,7 @@ The project in this course is designed to impart knowledge of software engineeri
 
 ### [Sprint Meetings](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Scrum_Agile/Spring_Review_Guidline.md)  
 At both the **beginning** and the **end** of each sprint, teams will conduct:  
-1. **Planning Meetings**  
+1. [**Planning Meetings**](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Scrum_Agile/Sprint_Review_CheckList.md)  
 2. **Review Meetings**  
 
 During the **Sprint Review Meeting**, the Scrum Master, Product Owner (teacher), and the team will:  
