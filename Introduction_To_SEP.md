@@ -13,10 +13,11 @@
 - Weekly face-to-face lectures  
 - Lectures primarily focus on the **software development process**.  
 - Examples used in the lectures are predominantly in **Java**.  
-- Participation in the lectures is **mandatory**.  
+- Participation in the face-to-face lectures is **mandatory**.  
 
 ## Project Assignment  
 The project in this course is designed to impart knowledge of software engineering and the project development lifecycle. This includes:  
+- **Requirments analysis**
 - **Software architectural planning**  
 - **Design**  
 - **Implementation**
