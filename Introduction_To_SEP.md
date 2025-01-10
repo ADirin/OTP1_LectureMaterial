@@ -50,7 +50,7 @@ During the **Sprint Review Meeting**, the Scrum Master, Product Owner (teacher),
 ## Home/Class Assignments  
 - Weekly-based individual or group coding assignments  
 - Group presentation on given topics (25 minutes)
- - [Presentation Topic](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Lecture_Presentation/Topics.md)   
+  - ![Presentation Topic](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Lecture_Presentation/Topics.md)   
 
 ## Deadlines  
 - **All deadlines are strict.**
