@@ -70,7 +70,7 @@ Your project plan will be evaluated based on the following criteria:
 ---
 # EXAMPLE OF Project plan
 
-**Note** you can use either template in you project wither the above mentioned template or the gxample given below:
+## **Note** you can use either template in you project wither the above mentioned template or the gxample given below:
 
 # Home Assignment: Software Engineering Project Plan
 
