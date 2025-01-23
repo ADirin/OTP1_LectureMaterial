@@ -33,8 +33,9 @@ At the end of each sprint, the lecturers will be available online. All team memb
 |  Sprint 3 (week7)  | 2025-02-10     | 2025-03-03           | 2025-03-03            |
 |  Sprint 4 (week10) | 2025-03-03     | 2025-03-14           | 2025-03-14            |
 
+
 - For English group
-- [Project Implementation] (Images/Scrum.gif)
+
 
 |   Sprint           |   Start Date   |       End Date       | Sprint Review Meeting |
 |:----------:|:--------------:|:--------------------:|:---------------------:|
