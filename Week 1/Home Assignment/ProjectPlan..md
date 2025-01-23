@@ -1,6 +1,6 @@
 # Home Assignment: Software Engineering Project Plan 
 
- 
+ ## **Note** you can use either template in you project wither the above mentioned template or the gxample given below:
 
 ## Assignment Overview
 In this assignment, you are required to develop a short project plan for your software engineering project. This plan should provide a clear and concise overview of how you intend to execute the project. The final project plan must be submitted in the designated Dropbox on Oma by **25th August**.
@@ -70,7 +70,7 @@ Your project plan will be evaluated based on the following criteria:
 ---
 # EXAMPLE OF Project plan
 
-## **Note** you can use either template in you project wither the above mentioned template or the gxample given below:
+
 
 # Home Assignment: Software Engineering Project Plan
 
@@ -138,6 +138,6 @@ Your project plan will be evaluated based on:
 
 ---
 
-**Good luck with your assignment!** If you have any questions, feel free to reach out for clarification.
+
 
 **Good luck with your assignment!** If you have any questions, please feel free to reach out for clarification.
