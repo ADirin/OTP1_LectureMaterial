@@ -1,4 +1,6 @@
 # DevOps Lecture Demo: Building and Deploying a Java Application
+## Only follow the demo in the class you *DONOT* need to return
+
 (https://github.com/ADirin/OneceAgainDev.git)
 
 This document serves as a lecture demo for a DevOps session, focusing on building, testing, and deploying a simple Java application using Maven, Docker, and Jenkins. We will explore the entire lifecycle of the application, from code creation to deployment, while emphasizing the principles of continuous integration and continuous deployment (CI/CD).
