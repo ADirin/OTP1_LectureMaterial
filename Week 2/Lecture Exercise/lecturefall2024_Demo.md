@@ -1,5 +1,5 @@
 # DevOps Lecture Demo: Building and Deploying a Java Application
-## Only follow the demo in the class you *DONOT* need to return
+## Only follow the demo in the class you *DONOT* need to return today 
 
 (https://github.com/ADirin/OneceAgainDev.git)
 
