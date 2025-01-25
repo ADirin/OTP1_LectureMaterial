@@ -174,7 +174,7 @@ Each project should be broken down into phases over the 8 weeks (4 Sprints, each
 - **JavaFX**: Use JavaFX for building the user interface. Ensure the application has a clear, user-friendly interface for students and teachers.
 - **Relational Database**: Make sure to implement a relational structure (tables with primary and foreign keys) to handle relationships such as student-teacher, course-student, and so on.
 
-Proposed scheduel and sprint implementation (**NOTE**) this is only suggestion and the team must plan more in depth based on the project nature 
+![Proposed scheduel](https://amirsilta.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline) and sprint implementation (**NOTE**) this is only suggestion and the team must plan more in depth based on the project nature 
  ![Sample_sprint_Implementation](/Images/Sample_sprint_Implementation.JPG)
 
 
