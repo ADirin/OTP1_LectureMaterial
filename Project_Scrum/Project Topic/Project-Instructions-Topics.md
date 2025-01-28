@@ -11,7 +11,7 @@ Welcome to your Java-based three-tier project! Throughout this course, you will 
 
 
 
-### Note: You must avoid using any other non-Java frameworks or technologies like Spring, Hibernate, or NoSQL databases. The projects are designed to be feasible, practical, and useful for **students and teachers** in everyday situations.
+### Note: The lectures, demos, assignments, and examples in this course are all based on Java; therefore, using non-Java frameworks in the project is *not* recommended. However, if you choose to use other non-frameworks, please note that you will not receive support from the instructor, and the responsibility for meeting the course and project requirements will rest entirely on your team.  
 
 ---
 
