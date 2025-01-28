@@ -26,7 +26,7 @@ Create a Trello workspace for managing your project, including setting up a prod
 
 ### Step 3: Create a New Board for each sprints and product backlog 
 
-![Board](Images/Tro3.JPG)
+![Board](/Images/Tro3.JPG)
 
 1. **Create Board**:
    - In your new workspace, click **Create new board**.
