@@ -11,7 +11,8 @@ Welcome to your Java-based three-tier project! Throughout this course, you will 
 
 
 ## IMPORTANT NOTE 
- - The lectures, demos, assignments, and examples in this course are all based on Java; therefore, using non-Java frameworks in the project is *not* recommended. However, if you choose to use other non-frameworks, please note that you will not receive support from the instructor, and the responsibility for meeting the course and project requirements will rest entirely on your team.  
+ - The lectures, demos, assignments, and examples in this course are all based on Java; therefore, using non-Java frameworks in the project is *not* recommended. However, if you choose to use other non-frameworks, please note that you will not receive support from the instructor, and the responsibility for meeting the course and project requirements will rest entirely on your team.
+ - The students themselves must add the product backlog user stories and select the implementation of user stories in each sprint, even though recommendations for implementation are provided in this file.
 
 ---
 
