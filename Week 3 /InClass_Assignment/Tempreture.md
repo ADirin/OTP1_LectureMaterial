@@ -46,7 +46,7 @@ Learn how to create and run unit tests using JUnit in IntelliJ IDEA by implement
    - Right-click on the `TemperatureConverter` class file.
    - Select `Go to > Test` or `Generate > Test`.
    - Choose to create a new test class and name it `TemperatureConverterTest`.
-   - Select `JUnit4` as the testing framework.
+   - Select `JUnit5` as the testing framework.
 
 ---
 
