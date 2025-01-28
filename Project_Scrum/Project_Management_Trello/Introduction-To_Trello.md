@@ -15,6 +15,9 @@ For more help with Trello see the Help section on the last page.
 
 ![Trello Setup](/Images/Tro.JPG)
 
+ - And the board  style
+   
+![Trello Setup](/Images/Tro2.JPG)
 
 ## From Trello Help  
 ### How does Trello work?
@@ -63,6 +66,8 @@ front page)
 ## Style that we use in this course
 
 ![Trello Setup](/Images/Tro.JPG)
+
+![Trello Setup](/Images/Tro2.JPG)
 
 
 
