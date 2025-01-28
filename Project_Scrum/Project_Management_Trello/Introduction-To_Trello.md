@@ -23,11 +23,12 @@ Figure 1 is the Trello Welcome Board showing list and cards. This is available t
 The following is a very basic description of how to create a Board.
   1. Open Trello.
   2. Login or Sign Up (You can use a Google Login if you have one)
-  3. Create a Board.
-  4. From the Boards tab (Top Right of screen) Figure 2.
-  5. Choose New Board. A dialog box appears Figure 3.
-  6. In Title, type your Project name e.g. Moving Office. This becomes the Board name. 
-  7. Click Create.
+  3. Create a workspace
+  4. Create 5 Boards.
+     - From the Boards tab (Top Right of screen) .
+     - Choose New Board. A dialog box appears Figure 3.
+     - In Title, type your Project name e.g. Moving Office. This becomes the Board name. 
+     - Click Create.
 
 ## Creating Lists.
 You now have a new Board with three blank Lists. 
@@ -52,6 +53,12 @@ You can see and adjust actions of each card by using the “back” of the card.
 ## Help
 There are Help features in Trello itself, including a Tour (accessed from the 
 front page)
+
+## Style that we use in this course
+
+![Trello Setup for Project](/Images/Tro.JPG)
+
+
 
 There are many help videos on YouTube. Here are a few;
   - http://www.youtube.com/watch?v=xWiunIolf4s	1 min Quick Intro
