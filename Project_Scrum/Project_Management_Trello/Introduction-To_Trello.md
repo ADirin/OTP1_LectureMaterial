@@ -2,6 +2,7 @@
 - These notes were written as an introduction to using Trello to give the user a starting point and a few basic ideas on how to use this project tool. 
 For more help with Trello see the Help section on the last page.
 
+
 ## What is Trello?
 - Trello is a collaboration tool that organises your projects into boards. In one glance, Trello tells you what's being worked on, who’s working on what, and where something is in a process. Source Trello Help
 - Trello is a free web-based project management application made by Fog Creek Software.
@@ -9,6 +10,11 @@ For more help with Trello see the Help section on the last page.
 - **Trello is designed as a tool for organising projects.** You can use it for stages in a single project or keeping track of multiple projects. It is generally used as an individual tool but has the ability to be used in collaboration groups.
 - Trello is Web based and on a normal PC it recommends the use of the Chrome browser. It works on Firefox but NOT on Internet Explorer. (Note: chrome and Firefox are not supported or recommended on UWS computers. UWS only support Internet Explorer.) 
 - Trello can also be used on Android, iPhone, iPad & Windows 8 Tablet.
+
+## Style that we use in this course
+
+![Trello Setup](/Images/Tro.JPG)
+
 
 ## From Trello Help  
 ### How does Trello work?
