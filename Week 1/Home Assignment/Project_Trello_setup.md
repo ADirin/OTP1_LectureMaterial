@@ -20,25 +20,24 @@ Create a Trello workspace for managing your project, including setting up a prod
    - Add a description (optional).
    - Click **Create**.
 
-### Step 3: Create a New Board
+### Step 3: Create a New Board for each sprints and product backlog 
 
 1. **Create Board**:
    - In your new workspace, click **Create new board**.
-   - Name your board (e.g., "Project Board").
+   - Name your board (e.g., "Product backlog Board").
    - Choose a background color or image.
    - Click **Create Board**.
 
-### Step 4: Set Up Columns (Lists)
+### Step 4: Set Up Columns (Lists in each board)
 
 1. **Add Lists**:
-   - On your new board, you will see a column (list) titled **To Do** by default. Click on **Add another list** to create the following lists:
-     - Product Backlog
-     - Sprint 1
-     - Sprint 2
-     - Sprint 3
-     - Sprint 4
+   - On your new board, you will see a column (list) titled **To Do** by default. Click on **Add another list** to create the following lists in each board:
+     - Sprint Backlog
+     - Done
+     - Postpone
+     - In progress
 
-### Step 5: Populate the Product Backlog
+### Step 5: Populate the Product Backlog in the backlog board 
 
 1. **Create Cards**:
    - Under the **Product Backlog** list, click on **Add a card**.
@@ -48,8 +47,8 @@ Create a Trello workspace for managing your project, including setting up a prod
 
 ### Step 6: Plan Sprints
 
-1. **Move Cards to Sprint 1**:
-   - Drag and drop cards from the **Product Backlog** list to the **Sprint 1** list based on priority and what you plan to achieve in the first sprint.
+1. **Move Cards to Sprint 1** boards:
+   - Drag and drop cards from the **Product Backlog** list to the **Sprint 1** board based on priority and what you plan to achieve in the first sprint.
 2. **Move Cards to Subsequent Sprints**:
    - Similarly, move cards to **Sprint 2**, **Sprint 3**, and **Sprint 4** according to your project plan and timelines.
 
