@@ -1,111 +1,83 @@
-# JUnit Testing in IntelliJ: Lecture Exercise
+# Assignment: JUnit Testing in IntelliJ
+
 ## Objective
-Learn how to create and run unit tests using JUnit in IntelliJ IDEA by testing a TemperatureConverter class that converts temperatures between Fahrenheit and Celsius.
+Learn how to create and run unit tests using JUnit in IntelliJ IDEA by implementing and testing a **TemperatureConverter** class.
 
+---
 
-1. Implement the TemperatureConverter Class:
+## Instructions
 
-- Copy the following code into your TemperatureConverter class:
-```java
+### Step 1: Create the `TemperatureConverter` Class
+1. **Create a new Java class** in your IntelliJ project and name it `TemperatureConverter`.
+2. **Implement the following methods** in your `TemperatureConverter` class:
+   - **`fahrenheitToCelsius`**:
+     - This method should convert a temperature from Fahrenheit to Celsius using the formula:
+       \[
+       Celsius = (Fahrenheit - 32) \times \frac{5}{9}
+       \]
+     - The method should accept a `double` parameter (temperature in Fahrenheit) and return a `double` value (temperature in Celsius).
 
-public class TemperatureConverter {
+   - **`celsiusToFahrenheit`**:
+     - This method should convert a temperature from Celsius to Fahrenheit using the formula:
+       \[
+       Fahrenheit = (Celsius \times \frac{9}{5}) + 32
+       \]
+     - The method should accept a `double` parameter (temperature in Celsius) and return a `double` value (temperature in Fahrenheit).
 
-    /**
-     * Converts Fahrenheit to Celsius.
-     *
-     * @param fahrenheit The temperature in Fahrenheit.
-     * @return The temperature in Celsius.
-     */
-    public double fahrenheitToCelsius(double fahrenheit) {
-        return (fahrenheit - 32) * 5 / 9;
-    }
+   - **`isExtremeTemperature`**:
+     - This method should check if the given Celsius temperature is considered "extreme."
+     - A temperature is considered extreme if it is:
+       - Below **-40°C**, or
+       - Above **50°C**.
+     - The method should accept a `double` parameter (temperature in Celsius) and return a `boolean` value (`true` for extreme temperatures and `false` otherwise).
 
-    /**
-     * Converts Celsius to Fahrenheit.
-     *
-     * @param celsius The temperature in Celsius.
-     * @return The temperature in Fahrenheit.
-     */
-    public double celsiusToFahrenheit(double celsius) {
-        return (celsius * 9 / 5) + 32;
-    }
+---
 
-    /**
-     * Checks if the given Celsius temperature is extreme.
-     *
-     * @param celsius The temperature in Celsius.
-     * @return True if the temperature is below -40 or above 50, otherwise false.
-     */
-    public boolean isExtremeTemperature(double celsius) {
-        return celsius < -40 || celsius > 50;
-    }
-}
+### Step 2: Set Up JUnit in Your Project
+1. **Add the JUnit dependency**:
+   - Right-click the `TemperatureConverter` class and navigate to `Go To > Test`.
+   - Select `JUnit` and click `OK`.
+   - Ensure that JUnit 4 is selected, and it is added as a dependency to your project.
 
-```
-## Writing JUnit Tests
-#### Step 3: Set Up JUnit in Your Project
-1. Add JUnit dependency:
-- right click to the class and select goto and then pick test and finaly generate
-- Select JUnit and click OK.
-- Ensure that JUnit 4 is selected and that it's added as a dependency.
-2. Step 4: Create the Test Class
-1. Generate a test class:
-- Right-click on the TemperatureConverter class file.
-- Select Go to > Test or Generate > Test.
-- Choose to create a new test class and name it TemperatureConverterTest.
-- Select JUnit4 as the testing framework.
-#### Step 5: Write Unit Tests
-1. Initialize the Test Class:
+---
 
-- Add the following setup code to the TemperatureConverterTest class:
+### Step 3: Create the Test Class
+1. **Generate a test class** for `TemperatureConverter`:
+   - Right-click on the `TemperatureConverter` class file.
+   - Select `Go to > Test` or `Generate > Test`.
+   - Choose to create a new test class and name it `TemperatureConverterTest`.
+   - Select `JUnit4` as the testing framework.
 
-2. Write Test Methods:
+---
 
-- Add the following test methods to the TemperatureConverterTest class: **(Removed temperarly that you could try yourself)**
+### Step 4: Write Unit Tests
+1. **Initialize the Test Class**:
+   - Set up a new instance of `TemperatureConverter` in the test class.
 
-```java
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.Assert.*;
+2. **Write Test Methods**:
+   - Write test methods to validate the following functionalities:
+     - **`fahrenheitToCelsius`**: Ensure the conversion from Fahrenheit to Celsius is accurate for various inputs.
+     - **`celsiusToFahrenheit`**: Verify the conversion from Celsius to Fahrenheit for multiple test cases.
+     - **`isExtremeTemperature`**: Check if the method correctly identifies extreme temperatures.
 
-public class TemperatureConverterTest {
+   *You are required to implement the test methods independently.*
 
-    TempratureConverter converter = new TempratureConverter();
+---
 
+### Step 5: Run the Tests
+1. **Run the test class**:
+   - Right-click on the `TemperatureConverterTest` class and select `Run 'TemperatureConverterTest'`.
+   - Observe the results in the Run window.
 
-    @Test
-    public void testFahrenheitToCelsius() {
-        assertEquals(0, converter.fahrenheitToCelsius(32), 0.01);
-        assertEquals(100, converter.fahrenheitToCelsius(212), 0.01);
-        assertEquals(-40, converter.fahrenheitToCelsius(-40), 0.01);
-    }
+---
 
-    @Test
-    public void testCelsiusToFahrenheit() {
-        assertEquals(32, converter.celsiusToFahrenheit(0), 0.01);
-        assertEquals(212, converter.celsiusToFahrenheit(100), 0.01);
-        assertEquals(-40, converter.celsiusToFahrenheit(-40), 0.01);
-    }
+## Submission Instructions
+1. Take a screenshot of the output showing the results of your tests.
+2. Include your name in the screenshot for identification.
+3. Submit the screenshot to the designated folder in Moodle as per classroom instructions.
 
-    @Test
-    public void testIsExtremeTemperature() {
-        assertTrue(converter.isExtremeTemperature(-50));
-        assertFalse(converter.isExtremeTemperature(20));
-        assertTrue(converter.isExtremeTemperature(60));
-    }
-}
+---
 
-```
-### Explanation of Test Methods:
-
-- testFahrenheitToCelsius(): Tests the conversion from Fahrenheit to Celsius for common, extreme, and edge cases.
-- testCelsiusToFahrenheit(): Tests the conversion from Celsius to Fahrenheit similarly.
-- testIsExtremeTemperature(): Verifies whether the method correctly identifies extreme temperatures.
-#### Step 6: Running the Tests
-1. Run Tests:
-- Right-click on the TemperatureConverterTest class and select Run 'TemperatureConverterTest'.
-- Observe the results in the Run window. All tests should pass if the implementation is correct.
-
-## Submission
-
-- Take a screenshots of the output with your name and submit in the designated folder in moodle (Further instruction during the classroom)
+## Additional Notes
+- Ensure that all your test cases pass successfully.
+- Refer to your lecture notes or ask for help if you encounter any issues.
