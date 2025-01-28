@@ -56,7 +56,7 @@ front page)
 
 ## Style that we use in this course
 
-![Trello Setup for Project](/Images/Tro.JPG)
+![Trello Setup ](/Images/Tro.JPG)
 
 
 
