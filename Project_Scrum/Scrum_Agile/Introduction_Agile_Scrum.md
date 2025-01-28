@@ -1,5 +1,7 @@
 
 ![Scrum and Agile process](/Images/ScrumandAgile.jpg)
+
+**Note** It is recommended to watch the following YouTube video clip before starting your project.
 [![Scrum Process](https://img.youtube.com/vi/sOV9foKyulY/0.jpg)](https://www.youtube.com/watch?v=sOV9foKyulY&t=18s)
 
 
