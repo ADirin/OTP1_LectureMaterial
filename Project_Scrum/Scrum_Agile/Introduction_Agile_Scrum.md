@@ -1,10 +1,6 @@
 
 ![Scrum and Agile process](/Images/ScrumandAgile.jpg)
 
-**Note** It is recommended to watch the following YouTube video clip before starting your project.
-[![Scrum Process](https://img.youtube.com/vi/sOV9foKyulY/0.jpg)](https://www.youtube.com/watch?v=sOV9foKyulY&t=18s)
-
-
 
 # Introduction to Scrum, Agile, Product Backlog, Product Owner, and Scrum Master
 
@@ -12,6 +8,10 @@ Scrum is an agile framework that facilitates iterative and incremental developme
 It emphasizes collaboration, flexibility, and continuous improvement to deliver value to customers efficiently.
 
 Agile methodologies, including Scrum, prioritize adaptive planning, evolutionary development, early delivery, and continuous improvement, responding swiftly to changing requirements and market needs.
+
+  - **Note** It is recommended to watch the following YouTube video clip before starting your project.
+[![Scrum Process](https://img.youtube.com/vi/sOV9foKyulY/0.jpg)](https://www.youtube.com/watch?v=sOV9foKyulY&t=18s)
+
 
 ## Product Backlog:
 
