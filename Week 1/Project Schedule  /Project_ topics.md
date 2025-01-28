@@ -2,6 +2,9 @@
 
 __These projects are primarily web-based by nature, but you may also choose to implement them as standalone desktop applications or mobile apps. Make sure to decide on the solution platform before starting the implementation.__ 
 
+## Note
+
+You will not receive support from the course if you use Spring Boot or any non-Java-based framework. However, failing to comply with course requirements, such as the use of Jenkins or Docker, due to a lack of knowledge in applying these technologies is not acceptable and will impact your grade.
 
 [**AIKIDO trainig Application**]https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Week%201/Project%20Schedule%20%20/AikidoProject.md
 
