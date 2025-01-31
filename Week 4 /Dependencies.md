@@ -457,3 +457,5 @@ The application would already have dependencies resolved, ensuring the server ha
 - Even in a fully automated infrastructure, dependency management is crucial to ensure that the right versions of libraries are present.
 - This ties into the concept of Infrastructure as Code (IaC), where everything from infrastructure to application dependencies is codified, making deployments repeatable and consistent.
 
+----------------------------------
+[Lecture Demo](https://github.com/ADirin/otp1_spring2025_lecture_Demo.git)
