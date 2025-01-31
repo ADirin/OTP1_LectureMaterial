@@ -216,12 +216,12 @@ Sub-Module POM Configuration:
 
 ```
 ## Common Maven Commands
-- mvn clean: Cleans up the target directory.
-- mvn compile: Compiles the source code.
-- mvn test: Runs tests.
-- mvn package: Packages the application.
-- mvn install: Installs the package into the local repository.
-- mvn deploy: Deploys the package to a remote repository.
+- *mvn clean*: Cleans up the target directory.
+- *mvn compile*: Compiles the source code.
+- *mvn test*: Runs tests.
+- *mvn package*: Packages the application.
+- *mvn install*: Installs the package into the local repository.
+- *mvn deploy*: Deploys the package to a remote repository.
 
 
 
@@ -257,7 +257,7 @@ In this demo, we will explore how to use Maven in IntelliJ IDEA, a popular integ
 
 ## Prerequisites
 
-Make sure you have IntelliJ IDEA installed on your system. You can download it from [here](https://www.jetbrains.com/idea/download/).
+Make sure you have either *IntelliJ IDE*, *VS*, or *Eclipse* installed on your system. You can download *IntelliJ* from [here](https://www.jetbrains.com/idea/download/).
 
 ## Demo Steps
 
@@ -267,7 +267,7 @@ Make sure you have IntelliJ IDEA installed on your system. You can download it f
 
 2. Choose "Maven" from the left-hand menu and click "Next."
 
-3. Select "Create from archetype" and choose "maven-archetype-quickstart" from the list.
+3. Select "Create from archetype" and choose **"maven-archetype-quickstart"** from the list.
 
 4. Fill in the GroupId and ArtifactId fields with appropriate values.
 
