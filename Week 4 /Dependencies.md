@@ -62,7 +62,7 @@ Adding Dependencies:
     <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-        <version>4.12</version>
+        <version>5.8</version>
         <scope>test</scope>
     </dependency>
 </dependencies>
