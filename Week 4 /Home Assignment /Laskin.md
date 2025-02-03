@@ -130,4 +130,4 @@ right jdk and pluging versions.
 
 ## Submission:
 - Add the HTML file (the whole site folder) into your metropolia HTML folder.
-- Attach a screenshot of the test results along with you public HTML link to Oma.
+- Attach a screenshot of the test results along with you public HTML link to Moodle week4 home assignment folder.
