@@ -2,6 +2,8 @@
 
 ## Objective:
 The objective of this assignment is to familiarize yourself with Eclipse's JUnit 5 testing environment and determine test coverage.
+## "NOTE":
+- You can implement this assignment in IntelliJ even though the assignment description mentions Eclipse.
 
 ## Steps:
 1. **Create Maven Project:**
