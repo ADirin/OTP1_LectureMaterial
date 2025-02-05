@@ -97,6 +97,36 @@ Configuring Plugins:
 - version: The version of the plugin.
 - configuration: Plugin-specific configuration options.
 
+## Example of Plagin (JACOCO)
+
+```xml
+ <build>
+        <plugins>
+            <!-- JaCoCo plugin for code coverage -->
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.12</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+
+```
 4. Build Lifecycle
 Maven has a default build lifecycle consisting of several phases. Each phase represents a stage in the build process.
 
