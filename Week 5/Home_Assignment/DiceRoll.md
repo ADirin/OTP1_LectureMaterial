@@ -33,7 +33,7 @@ classDiagram
 - **Die 1: 4**
 - **Die 2: 4**
 - **You rolled a double!**
-- **after 5 try both reach the same value **
+- **after 5 try both reach the same value**
 
 ## Part 2: Jenkins Setup
 ### Requirements:
