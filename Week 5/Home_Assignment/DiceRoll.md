@@ -115,68 +115,6 @@ Go to GitHub, create a new repository (e.g., dice-roll-app), and copy the reposi
 
 
 
-## Step 4: Set Up Jenkins to Test and Report Coverage
-
-### 2. Create Jenkins Job
-1. Create a new job:
-
-- Go to Jenkins Dashboard, click New Item, and name it (e.g., Dice Roll App).
-- Choose Pipeline and click OK.
-2. Configure Jenkins Pipeline:
-
-- In the job configuration, go to the Pipeline section.
-- Select Pipeline script from SCM.
-- Choose Git and paste your GitHub repository URL (e.g., https://github.com/yourusername/dice-roll-app.git).
-- If needed, add Jenkins credentials for private repositories.
-
-
-## 3. Write Jenkins Pipeline Script
-1. Create a Jenkinsfile in the root of your GitHub repository:
-```groovy
-pipeline {
-    agent any
-    tools {
-        maven 'Maven3'  // Ensure Maven is installed
-        jdk 'JDK11'     // Ensure JDK is installed
-    }
-    stages {
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/yourusername/dice-roll-app.git'
-            }
-        }
-        stage('Build') {
-            steps {
-                bat 'mvn clean package'
-            }
-        }
-        stage('Run Unit Tests') {
-            steps {
-                bat 'mvn test'
-            }
-            post {
-                always {
-                    junit 'target/surefire-reports/*.xml'  // Capture test reports
-                }
-            }
-        }
-        stage('Code Coverage Report') {
-            steps {
-                bat 'mvn jacoco:report'
-            }
-            post {
-                always {
-                    jacoco execPattern: 'target/jacoco.exec'
-                }
-            }
-        }
-    }
-}
-
-
-
-```
-
 2. You can write the jenkins file in the github repo "" follow the lecture how to do
 
 
@@ -189,7 +127,7 @@ pipeline {
 
 2. View Results:
 
-- After the build completes, view the Test Results and Code Coverage by clicking on the respective JUnit or Jacoco results.
+- After the build completes, view the Test Results and Code Coverage /Junit  by clicking on the respective JUnit or Jacoco results.
 
 ## Step 6 Submission
 Screenshot of the JACACO report by jenkins where your name is written
