@@ -53,55 +53,11 @@ This guide will walk you through creating a simple Java Maven project, pushing i
 
 Create a new class DiceRoll.java in src/main/java/com/example/:
 
-```java
-package com.example;
 
-import java.util.Random;
-import java.util.Scanner;
-
-public class DiceRoll {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("How many dice would you like to roll? ");
-        int numberOfDice = scanner.nextInt();
-        int sum = rollDice(numberOfDice);
-        System.out.println("The total sum of the dice rolls is: " + sum);
-        scanner.close();
-    }
-
-    public static int rollDice(int numberOfDice) {
-        Random random = new Random();
-        int sum = 0;
-        for (int i = 1; i <= numberOfDice; i++) {
-            int roll = random.nextInt(6) + 1;
-            sum += roll;
-        }
-        return sum;
-    }
-}
-
-
-```
 ## Step 2: Write Unit Test
 1. Create a Unit Test for the DiceRoll class in src/test/java/com/example/:
 
-```java
-package com.example;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
-
-public class DiceRollTest {
-
-    @Test
-    public void testRollDice() {
-        int sum = DiceRoll.rollDice(3);
-        assertTrue(sum >= 3 && sum <= 18);  // Minimum sum is 3 and max is 18 for 3 dice
-    }
-}
-
-
-```
 
 2. Run the Tests:
 
