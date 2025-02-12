@@ -7,6 +7,18 @@ The objective of this exercise is to create a Java program that simulates rollin
 
 ## Part 1: Dice Program
 
+```mermaid
+classDiagram
+    class Dice {
+        -int die1
+        -int die2
+        +void roll()
+        +boolean isDouble()
+        +int getDie1()
+        +int getDie2()
+    }
+```
+
 ### Requirements:
 1. Create a Java program that simulates rolling two dice.
 2. Each die should generate a random number between 1 and 6.
