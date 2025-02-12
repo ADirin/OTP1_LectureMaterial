@@ -1,3 +1,5 @@
+# Under construction,
+
 # Dice Roll Application with Jenkins and GitHub Integration
 This guide will walk you through creating a simple Java Maven project, pushing it to GitHub, and using Jenkins to automate unit tests and generate coverage reports.
 
