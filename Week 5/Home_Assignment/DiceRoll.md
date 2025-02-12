@@ -29,11 +29,11 @@ classDiagram
 
 ### Example Output:
 
-- *Rolling the dice...*
-- *Die 1: 4*
-- *Die 2: 4*
-- *You rolled a double!*
-- *After 5 try both reach the same value*
+ *Rolling the dice...*
+ *Die 1: 4*
+ *Die 2: 4*
+ *You rolled a double!*
+ *After 5 try both reach the same value*
 
 ## Part 2: Jenkins Setup
 ### Requirements:
