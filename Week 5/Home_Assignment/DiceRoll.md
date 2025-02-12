@@ -1,99 +1,52 @@
-# Under construction,
+# Exercise: Dice Program with Jenkins and JUnit Testing
 
-# Dice Roll Application with Jenkins and GitHub Integration
-This guide will walk you through creating a simple Java Maven project, pushing it to GitHub, and using Jenkins to automate unit tests and generate coverage reports.
+## Objective:
+The objective of this exercise is to create a Java program that simulates rolling two dice. The program should check if the two dice show the same number. Additionally, you will set up a Jenkins pipeline to run JUnit tests for the program. Finally, you will submit screenshots of your work on Moodle.
 
-## Step 1: Create a Maven Project in IntelliJ
+---
 
-1. Create a new Maven Project:
-- Navigate to File -> New -> Project.
-- Select Maven and check Create from archetype (if needed).
-- Click Next, then specify the GroupId (e.g., com.example) and ArtifactId (e.g., dice-roll-app).
-- Set the project location and click Finish.
+## Part 1: Dice Program
 
-2. Modify the pom.xml file to include dependencies for JUnit and Jacoco for test coverage:
+### Requirements:
+1. Create a Java program that simulates rolling two dice.
+2. Each die should generate a random number between 1 and 6.
+3. The program should check if the two dice show the same number.
+4. If the numbers are the same, print "You rolled a double!" Otherwise, print "Try again."
+5. Add a function to count how many times the dice are rolled before a double is achieved.
+6. Write JUnit tests to verify the functionality of the program.
 
-```xml
+### Example Output:
 
-<dependencies>
-    <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.13.2</version>
-        <scope>test</scope>
-    </dependency>
-</dependencies>
+´´´´css
+Rolling the dice...
+Die 1: 4
+Die 2: 4
+You rolled a double!
 
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.jacoco</groupId>
-            <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.8.7</version>
-            <executions>
-                <execution>
-                    <goals>
-                        <goal>prepare-agent</goal>
-                    </goals>
-                </execution>
-                <execution>
-                    <id>report</id>
-                    <phase>test</phase>
-                    <goals>
-                        <goal>report</goal>
-                    </goals>
-                </execution>
-            </executions>
-        </plugin>
-    </plugins>
-</build>
+´´´´
+## Part 2: Jenkins Setup
+### Requirements:
+1. Set up Jenkins on your local machine or use a cloud-based Jenkins service.
+
+2. Create a Freestyle Project in Jenkins.
+
+3. Configure the project to:
+
+    - Pull the code from a Git repository (e.g., GitHub).
+
+    - Build the project using Maven.
+
+    - Run the JUnit tests.
+
+4. Add a post-build action to publish the JUnit test results.
 
 
+## Part 3: Submission on Moodle
 
-```
-3. Write the Dice Roll Application:
+### Requirements:
+1. Take screenshots of the following:
 
-Create a new class DiceRoll.java in src/main/java/com/example/:
+- The Jenkins build console output showing the JUnit test results.
 
-
-## Step 2: Write Unit Test
-1. Create a Unit Test for the DiceRoll class in src/test/java/com/example/:
-
-
-
-2. Run the Tests:
-
-- Right-click the project folder in IntelliJ and select Run -> All Tests. Ensure all tests pass.
-
-## Step 3 Create a GitHub repository:
-
-Go to GitHub, create a new repository (e.g., dice-roll-app), and copy the repository URL.
-
-## Step 4. Push the Project to GitHub
-
-
-
-2. You can write the jenkins file in the github repo "" follow the lecture how to do
-
-
-
-## Step 5: Run Jenkins Build
-1. Run the Build:
-
-- In Jenkins, go to your job (e.g., Dice Roll App) and click Build Now.
-- Jenkins will automatically check out the code, build the project, run tests, and generate coverage reports.
-
-2. View Results:
-
-- After the build completes, view the Test Results and Code Coverage /Junit  by clicking on the respective JUnit or Jacoco results.
-
-## Step 6 Submission
-Screenshot of the JACACO report by jenkins where your name is written
-
-
-
-
-
-
-
+2. Submit the screenshots on Moodle.
 
