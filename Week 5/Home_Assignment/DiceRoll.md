@@ -29,13 +29,12 @@ classDiagram
 
 ### Example Output:
 
-´´´´css
-Rolling the dice...
-Die 1: 4
-Die 2: 4
-You rolled a double!
+**Rolling the dice...**
+**Die 1: 4**
+**Die 2: 4**
+**You rolled a double!**
+**after 5 try both reach the same value **
 
-´´´´
 ## Part 2: Jenkins Setup
 ### Requirements:
 1. Set up Jenkins on your local machine or use a cloud-based Jenkins service.
