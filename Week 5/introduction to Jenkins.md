@@ -123,7 +123,7 @@ Follow these instructions to configure **JDK**, **Maven**, and **Git** in your J
 ![Jenkins JDK](/Images/plugins.JPG)
 
    
-3. Insall also Ocean Blue...
+3. Insall also Blue Ocean ...
 
 
 ------------------------------------------------------------------
