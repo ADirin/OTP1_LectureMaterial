@@ -66,11 +66,17 @@ Each method has its own use cases and benefits, so you can choose the one that b
 Sample pom.xml
 ```xml
 
+   
+    <properties>
+        <maven.compiler.release>23</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>5.8.1</version>
+            <version>5.11.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -79,15 +85,43 @@ Sample pom.xml
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
+
     <build>
+        <finalName>cal</finalName>
         <plugins>
-            <!-- JaCoCo plugin for code coverage -->
+            <!-- Maven Compiler Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <release>23</release>
+                    <compilerArgs>
+                        <arg>--enable-preview</arg>
+                    </compilerArgs>
+                </configuration>
+            </plugin>
+
+            <!-- Maven Jar Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.1</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>Cal</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+
+            <!-- JaCoCo Code Coverage Plugin -->
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.11</version>
+                <version>0.8.12</version>
                 <executions>
                     <execution>
                         <goals>
@@ -104,28 +138,20 @@ Sample pom.xml
                 </executions>
             </plugin>
 
-
+            <!-- Surefire Plugin for Running Tests -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.5</version>
+                <version>3.5.1</version>
                 <configuration>
                     <includes>
                         <include>**/*Test.java</include>
                     </includes>
                 </configuration>
             </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.4.0</version>
-            </plugin>
-
-
-
         </plugins>
     </build>
+
 
 ```
 
