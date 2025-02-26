@@ -1,3 +1,5 @@
+# (OPTIONAL)
+
 # Lecture Assignment: Weekly Sports Time Tracker Application
 ## Objective
 This assignment aims to help students develop a Java application that tracks the time spent on sports activities during the week. Students will also practice version control with GitHub, continuous integration and deployment using Jenkins, containerization with Docker, and running the application in a Linux environment within a virtual machine.
