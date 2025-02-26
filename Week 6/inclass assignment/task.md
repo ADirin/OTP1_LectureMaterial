@@ -112,8 +112,7 @@ docker run -it aikido-tracker
 ```
 ## Deliverables
 1. GitHub Repository (Code, Tests, Jenkinsfile, Dockerfile).
-2. Jenkins Setup (Screenshots of Jobs).
-3. Docker Image (Running Aikido Tracker).
+2. Docker Image (Running Aikido Tracker / screenshot of the created image from doecker decktop (images)).
 
 ## sample pom
 ```xml
