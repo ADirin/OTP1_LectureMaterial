@@ -1,7 +1,7 @@
 # **Aikido Practice Tracker: Java Application with Testing, CI/CD, and Docker**  
 
 ## **Objective**  
-Students will develop a **Java console-based application** to **track Aikido practice sessions** and determine eligibility for **Kyu graduation**. The project includes **unit testing, code coverage, GitHub integration, Jenkins automation, and Docker containerization**.  
+Develop a **Java console-based application** to **track Aikido practice sessions** and determine eligibility for **Kyu graduation**. The project includes **unit testing, code coverage, GitHub integration, Jenkins automation, and Docker containerization**.  
 
 ---
 
