@@ -10,7 +10,7 @@ Develop a **Java console-based application** to **track Aikido practice sessions
 ### **Application: Aikido Practice Tracker**  
 - Users can **log training sessions**.  
 - The system **calculates total practice time**.  
-- After **6 months or 100 sessions**, the user is eligible for **Kyu graduation**.  
+- After **6 months (Start and step date is enough to check) or 100 sessions**, the user is eligible for **Kyu graduation**.  
 
 ---
 
