@@ -868,22 +868,22 @@ Note:
 ```pipeline
 pipeline {
     agent any // IN THE LECTURE I WILL EXPLAIN THE SCRIPT AND THE WORKFLOW
-    
+
     environment {
         // Define Docker Hub credentials ID
-        DOCKERHUB_CREDENTIALS_ID = 'dockerhub-credentials'
+        DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
         // Define Docker Hub repository name
-        DOCKERHUB_REPO = 'amirdi/tempconverter'
+        DOCKERHUB_REPO = 'amirdirin/testdemo1'
         // Define Docker image tag
-        DOCKER_IMAGE_TAG = 'latest'
+        DOCKER_IMAGE_TAG = 'latest_v1'
     }
     stages {
         stage('Checkout') {
             steps {
                 // Checkout code from Git repository
-                git 'https://github.com/ADirin/TempConverter.git'
+                git 'https://github.com/ADirin/sep1_week6_timecal_demo.git'
             }
-        }  
+        }
         stage('Build Docker Image') {
             steps {
                 // Build Docker image
@@ -904,7 +904,6 @@ pipeline {
         }
     }
 }
-
 
 ```
 
