@@ -1,6 +1,6 @@
-# Instructions for Project Presentation
+# Instructions for Final Project Presentation
 
-## Use the Shared Template in Oma:
+## Use the Shared Template in Moodle:
 
 All teams are required to use the provided presentation template in Oma. This ensures consistency in the format and structure across all presentations.
 Make sure your slides are well-organized, clear, and focused on key points.
