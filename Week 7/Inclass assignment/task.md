@@ -33,5 +33,5 @@ This is a simple **Java console application** that asks the user for the number 
 - Submit the github repo link
 - Screenshot of the hub.docker.com image repo
 - Screenshot of the Lab demo execution (see the example in the classroom)
-- [Sample Report](images/sample_solution7.jpg)
+  See the [Sample Report](Images/sample_solution7.jpg)
 
