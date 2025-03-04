@@ -2,7 +2,7 @@
 
 ## Use the Shared Template in Moodle:
 
-All teams are required to use the provided presentation template in Oma. This ensures consistency in the format and structure across all presentations.
+All teams are required to use the *provided* **presentation template** in Oma/Moodle. This ensures consistency in the format and structure across all presentations.
 Make sure your slides are well-organized, clear, and focused on key points.
 
 ## Team Member Participation:
