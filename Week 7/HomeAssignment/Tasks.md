@@ -1,8 +1,7 @@
-# (OPTIONAL)
-
 # Lecture Assignment: Weekly Sports Time Tracker Application
+
 ## Objective
-This assignment aims to help students develop a Java application that tracks the time spent on sports activities during the week. Students will also practice version control with GitHub, continuous integration and deployment using Jenkins, containerization with Docker, and running the application in a Linux environment within a virtual machine.
+This assignment aims to help students develop a Java application that tracks the time spent on sports activities during the week. Students will also practice version control with GitHub, continuous integration and deployment using Jenkins, containerization with Docker, and running the application in a Virtual Machine / Linux environment or  [lab-play_webapp](https://labs.play-with-docker.com/).
 
 **How to do:**
 1. Develop the Java Application
@@ -22,7 +21,7 @@ This assignment aims to help students develop a Java application that tracks the
 - Create a Jenkins pipeline that:
     - Pulls the latest code from your GitHub repository.
     - Builds the Java application using Maven (if needed).
-    - Runs tests  using JUnit and JACOCO coverage.
+    - Runs tests  using JUnit and coverage report.
     - Creates a Docker image of the application.
 
 4. Containerization with Docker
@@ -30,10 +29,8 @@ This assignment aims to help students develop a Java application that tracks the
     - Build your Docker image with a command like:
     - Push the image to Docker Hub
 
-5. Running the Application in a Linux Virtual Machine
+5. Running the Application in a Linux in Virtual Machine or [lab-play_webapp](https://labs.play-with-docker.com/)
 
-    - Set up a Linux virtual machine using VirtualBox, VMware, or any other virtualization software.
-    - Install Docker on the Linux VM.
    
 - Pull your Docker image from Docker Hub
 ```cmd
@@ -55,4 +52,4 @@ Include a brief report (1 pages) summarizing your experience, challenges faced, 
 3. GitHub Practices: Are commits meaningful? Is the repository well-structured?
 4. Jenkins Pipeline: Is the pipeline correctly set up and functional?
 5. Docker Implementation: Is the Docker image created and running successfully in the VM?
-6. Documentation: Is the README clear and informative? Is there a summary report?
+
