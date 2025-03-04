@@ -32,5 +32,6 @@ This is a simple **Java console application** that asks the user for the number 
 ## 7. Submision 
 - Submit the github repo link
 - Screenshot of the hub.docker.com image repo
-- Screenshot of the Lab demo execution (see the example in the classroom) 
+- Screenshot of the Lab demo execution (see the example in the classroom)
+- Sample Report
 
