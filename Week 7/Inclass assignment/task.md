@@ -1,5 +1,5 @@
 # 1. Trip Cost Calculator
-[Demo](SEP1_Week7_Inclass_Solution)
+[Demo]([SEP1_Week7_Inclass_Solution](https://github.com/ADirin/DATABASE_Solution_Lecture/blob/main/SEP1_Week7_Inclass_Solution))
 
 This is a simple **Java console application** that asks the user for the number of kilometers to travel and the fuel price per liter. It then calculates the total cost of the trip, assuming a fixed fuel consumption rate.
 
