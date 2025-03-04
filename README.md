@@ -33,7 +33,7 @@ At the end of each sprint, the lecturers will be available online. All team memb
 | Sprint 1 (week3)  | 2025-01-13   | 2025-01-27     | 2025-01-27            | [Add Requirement]    |  
 | Sprint 2 (week5)  | 2025-01-27   | 2025-02-10     | 2025-02-10            | [Add Requirement]    |  
 | Sprint 3 (week7)  | 2025-02-10   | 2025-03-03     | 2025-03-03            | [Add Requirement]    |  
-| Sprint 4 (week10) | 2025-03-03   | 2025-03-14     | 2025-03-14            | [Add Requirement]    |  
+| Sprint 4 (week10) | 2025-03-03   | 2025-03-14     | 2025-03-18            | [Add Requirement]    |  
 
 
 - For English group
@@ -46,5 +46,5 @@ At the end of each sprint, the lecturers will be available online. All team memb
 | Sprint 1 (week3)  | 2025-01-15   | 2025-01-29     | 2025-01-29            | [Add Requirement]    |  
 | Sprint 2 (week5)  | 2025-01-29   | 2025-02-12     | 2025-02-12            | [Add Requirement]    |  
 | Sprint 3 (week7)  | 2025-02-12   | 2025-03-05     | 2025-03-05            | [Add Requirement]    |  
-| Sprint 4 (week10) | 2025-03-05   | 2025-03-14     | 2025-03-14            | [Add Requirement]    |  
+| Sprint 4 (week10) | 2025-03-05   | 2025-03-14     | 2025-03-18            | [Add Requirement]    |  
 
