@@ -1,3 +1,6 @@
+
+# NOTE: Students who have already submitted the Week 6 Home Assignment (Bank Account) may consider this week's assignment optional, since this is similar to last week's assignment 
+
 # Lecture Assignment: Weekly Sports Time Tracker Application
 
 ## Objective
