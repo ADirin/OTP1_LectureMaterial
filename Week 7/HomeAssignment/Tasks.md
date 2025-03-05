@@ -1,5 +1,5 @@
 
-# NOTE: Students who have already submitted the Week 6 Home Assignment (Bank Account) may consider this week's assignment optional, since this is similar to last week's assignment 
+# NOTE: Optional Assignmengt for all 
 
 # Lecture Assignment: Weekly Sports Time Tracker Application
 
@@ -47,7 +47,6 @@ docker run -it --rm your-dockerhub-username/sports-time-tracker:latest
 ## Deliverables
 - Submit the link to your GitHub repository with all the code and documentation.
 - Provide screenshots of the Jenkins pipeline, Docker image creation, and running the application in the virtual machine.
-Include a brief report (1 pages) summarizing your experience, challenges faced, and how you overcame them.
 
 ## Evaluation Criteria
 1. Functionality: Does the application work as intended?
