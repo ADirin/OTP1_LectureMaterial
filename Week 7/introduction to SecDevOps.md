@@ -85,17 +85,17 @@ src
 
 ```
 ```xml
-<build>
-        <finalName>Test</finalName>
+ <build>
+        <finalName>tripcalaculator</finalName>
         <plugins>
             <!-- Compiler Plugin for setting the Java version -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.12.1</version>
+                <version>3.13.0</version>
                 <configuration>
-                    <source>17</source>
-                    <target>17</target>
+                    <source>21</source>
+                    <target>21</target>
                 </configuration>
             </plugin>
 
@@ -103,32 +103,32 @@ src
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.3.0</version>
+                <version>3.4.2</version>
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>Calculator</mainClass> <!-- Correct main class -->
+                            <mainClass>TripCostCalculator</mainClass> <!-- Correct main class -->
                         </manifest>
                     </archive>
                 </configuration>
             </plugin>
 
 
-                    <!-- Other plugins like compiler, jar, jacoco... -->
+            <!-- Other plugins like compiler, jar, jacoco... -->
 
-                    <!-- Surefire Plugin for running tests -->
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.2.5</version> <!-- Latest stable version -->
-                        <configuration>
-                            <includes>
-                                <include>**/Test*.java</include>
-                                <include>**/*Test.java</include>
-                                <include>**/*Tests.java</include>
-                            </includes>
-                        </configuration>
-                    </plugin>
+            <!-- Surefire Plugin for running tests -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version> <!-- Latest stable version -->
+                <configuration>
+                    <includes>
+                        <include>**/Test*.java</include>
+                        <include>**/*Test.java</include>
+                        <include>**/*Tests.java</include>
+                    </includes>
+                </configuration>
+            </plugin>
 
 
             <!-- JaCoCo Plugin for code coverage -->
@@ -166,9 +166,10 @@ src
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>5.11.0-M2</version>
+            <version>5.11.1</version>
             <scope>compile</scope>
         </dependency>
+
     </dependencies>
 ```
 
