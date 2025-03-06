@@ -85,7 +85,8 @@ src
 
 ```
 
-## **Important Note** this is a sample pom and you have to customize based on your own calss name **<mainClass>** *"YOUR OWN Main Class"*  and also change the *<finalname>* modify it for your jar filename
+## **Important Note** 
+- this is a sample pom and you have to customize based on your own calss name **<mainClass>** *"YOUR OWN Main Class"*  and also change the *<finalname>* modify it for your jar filename
 ```xml
  <build>
         <finalName>tripcalaculator</finalName>
