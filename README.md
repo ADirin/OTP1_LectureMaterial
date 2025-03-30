@@ -19,6 +19,27 @@
 
 ````
 
+# 📅 Sprint Schedule  
+
+> **Legend:**  
+> - 🏁 *Sprint* (Italic) = Sprint Period  
+> - ✅ **Review** (Bold) = Review Meeting  
+> - 📚 Lectures = Topics Covered  
+> - 📌 Deadline = Important Submission Dates  
+
+| 📅 Date   | 📖 Topics | 🚀 *Sprint*   | 🔍 **Review** | 🎓 Lectures         | 📆 Deadline                                      |
+|----------|----------|-------------|--------------|--------------------|--------------------------------------------------|
+| 18.elo   |          | 🏁 *Sprint1* |              | Introduction SE    | 📌 Project Selection/ Group Setup / Jira/Trello |
+| 25.elo   |          |             |              | Introduction SE    | 📌 Project Vision/ Project Plan / Github        |
+| 1.syys   |          | 🏁 *Sprint2* | ✅ **Review 1** | Maven            |                                                  |
+| 8.syys   |          |             |              | JUnit/Coverage    | 📌 In-class                                      |
+| 15.syys  |          | 🏁 *Sprint3* | ✅ **Review 2** | Jenkins         |                                                  |
+| 22.syys  |          |             |              | Jenkins           | 📌 In-class                                      |
+| 29.syys  |          | 🏁 *Sprint4* | ✅ **Review 3** | Dockers         |                                                  |
+| 6.loka   |          |             |              | Dockers           | 📌 In-class                                      |
+|          |          |             |              |                    | 📌 Presentation / Exam / Github Readme          |
+| 20.loka  |          |             | ✅ **Review 4** |                    |                                                  |
+
 
 
 
