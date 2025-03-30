@@ -41,3 +41,18 @@ At the end of each sprint, the lecturers will be available online. All team memb
 |         |        |         |          |                     | Presentation / Exam / Github Readme      |
 | 20.loka |        |         | Review 4 |                     |                                          |
 
+
+
+| Date    | Topics  | Sprint  | Review   | Lectures           | Deadline                                |
+|---------|--------|---------|----------|---------------------|------------------------------------------|
+| 18.elo  |        | **Sprint1** |          | Introduction SE      | Project Selection/ Group Setup / setup Jira or Trello |
+| 25.elo  |        |         |          | Introduction SE      | Project Vision/ Project plan / Github   |
+| 1.syys  |        | **Sprint2** | **Review 1** | Maven               |                                          |
+| 8.syys  |        |         |          | Junit/Coverage      | In-class / update Github                 |
+| 15.syys |        | **Sprint3** | **Review 2** | Jenkins             |                                          |
+| 22.syys |        |         |          | Jenkins             | In-class                                 |
+| 29.syys |        | **Sprint4** | **Review 3** | Dockers             |                                          |
+| 6.loka  |        |         |          | Dockers             | In-class                                 |
+|         |        |         |          |                     | Presentation / Exam / Github Readme      |
+| 20.loka |        |         | **Review 4** |                     |                                          |
+
