@@ -204,7 +204,8 @@ We look forward to an engaging and productive semester, where you'll develop a s
 
 ```markdown
 
-````markdown| Date    | Topics | *Sprint*    | **Review**   | Lectures            | Deadline                                |
+````markdown
+| Date    | Topics | *Sprint*    | **Review**   | Lectures            | Deadline                                |
 |---------|--------|-------------|--------------|---------------------|------------------------------------------|
 | 18.elo  |        | *Sprint1*   |              | Introduction SE     | Project Selection/ Group Setup / setup Jira or Trello |
 | 25.elo  |        |             |              | Introduction SE     | Project Vision/ Project plan / Github   |
