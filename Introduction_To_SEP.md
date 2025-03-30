@@ -202,11 +202,23 @@ We look forward to an engaging and productive semester, where you'll develop a s
 
 # Sprint Schedule
 
-|   Sprint           |   Start Date   |       End Date       | Sprint Review Meeting |
-|:----------:|:--------------:|:--------------------:|:---------------------:|
-|  Sprint 1 (week3)  | 2025-01-13     | 2025-01-27           | 2025-01-27            |
-|  Sprint 2 (week5)  | 2025-01-27     | 2025-02-10           | 2024-02-10            |
-|  Sprint 3 (week7)  | 2025-02-10     | 2025-03-03           | 2025-03-03            |
-|  Sprint 4 (week10) | 2025-03-03     | 2025-03-14           | 2025-03-14            |
+```markdown
 
+````markdown| Date    | Topics | *Sprint*    | **Review**   | Lectures            | Deadline                                |
+|---------|--------|-------------|--------------|---------------------|------------------------------------------|
+| 18.elo  |        | *Sprint1*   |              | Introduction SE     | Project Selection/ Group Setup / setup Jira or Trello |
+| 25.elo  |        |             |              | Introduction SE     | Project Vision/ Project plan / Github   |
+| 1.syys  |        | *Sprint2*   | **Review 1** | Maven               |                                          |
+| 8.syys  |        |             |              | Junit/Coverage      | In-class / update Github                 |
+| 15.syys |        | *Sprint3*   | **Review 2** | Jenkins             |                                          |
+| 22.syys |        |             |              | Jenkins             | In-class                                 |
+| 29.syys |        | *Sprint4*   | **Review 3** | Dockers             |                                          |
+| 6.loka  |        |             |              | Dockers             | In-class                                 |
+|         |        |             |              |                     | Presentation / Exam / Github Readme      |
+| 20.loka |        |             | **Review 4** |                     |                                          |
+
+
+````
+
+```
 
