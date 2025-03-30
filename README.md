@@ -1,6 +1,8 @@
 **Note:** This is a generic version of the course material. The details of the topics and assignments will be elaborated upon during the **<ins>compulsory *face-to-face* lectures</ins>**. It is important to emphasize that in this course we focus on the process, not merely the project implementation. This means that in each sprint, we apply software engineering principles and methodologies to implement the project.
 
-````markdown| Date    | Topics | *Sprint*    | **Review**   | Lectures            | Deadline                                |
+````markdown
+
+| Date    | Topics | *Sprint*    | **Review**   | Lectures            | Deadline                                |
 |---------|--------|-------------|--------------|---------------------|------------------------------------------|
 | 18.elo  |        | *Sprint1*   |              | Introduction SE     | Project Selection/ Group Setup / setup Jira or Trello |
 | 25.elo  |        |             |              | Introduction SE     | Project Vision/ Project plan / Github   |
