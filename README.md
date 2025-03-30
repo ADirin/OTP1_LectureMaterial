@@ -22,10 +22,7 @@
 # 📅 Sprint Schedule  
 
 > **Legend:**  
-> - 🏁 *Sprint* (Italic) = Sprint Period  
-> - ✅ **Review** (Bold) = Review Meeting  
-> - 📚 Lectures = Topics Covered  
-> - 📌 Deadline = Important Submission Dates  
+
 
 | 📅 Date   | 📖 Topics | 🚀 *Sprint*   | 🔍 **Review** | 🎓 Lectures         | 📆 Deadline                                      |
 |----------|----------|-------------|--------------|--------------------|--------------------------------------------------|
