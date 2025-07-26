@@ -67,7 +67,7 @@ At the end of each sprint, the lecturers will be available online. All team memb
 ### Sprint Requirements  
 
 
-´´´mermaid
+```` mermaid
 [User] 
    |
    v
@@ -87,6 +87,6 @@ At the end of each sprint, the lecturers will be available online. All team memb
         v
    [Psychologist / Stakeholder]
 
-´´´
+````
 
 
