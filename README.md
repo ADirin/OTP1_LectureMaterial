@@ -67,26 +67,6 @@ At the end of each sprint, the lecturers will be available online. All team memb
 ### Sprint Requirements  
 
 
-```` mermaid
-[User] 
-   |
-   v
-[Frontend Interface (Web/Chatbot)]
-   |
-   v
-[AI Agent]
-   ├──> [Questionnaire Manager]
-   ├──> [Answer Collector]
-   ├──> [Preprocessor]
-   ├──> [Pattern Analyzer]
-   └──> [Report Generator]
-        |
-        v
-   [Visualization Dashboard]
-        |
-        v
-   [Psychologist / Stakeholder]
 
-````
 
 
