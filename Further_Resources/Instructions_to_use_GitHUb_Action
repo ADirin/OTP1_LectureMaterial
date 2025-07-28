@@ -66,6 +66,7 @@ public class AppTest {
 ## 4. Update pom.xml
 
 Make sure your pom.xml includes:
+
 ```xml
 <properties>
     <maven.compiler.source>11</maven.compiler.source>
@@ -117,9 +118,9 @@ Make sure your pom.xml includes:
     </dependency>
 </dependencies>
 
-
 ```
 ## 5. Create Dokerfile
+
 ``` dockerfile
 # Use OpenJDK base image
 FROM openjdk:17-jdk-slim
@@ -131,8 +132,6 @@ COPY target/MyApp-1.0-SNAPSHOT.jar app.jar
 
 # Run app
 ENTRYPOINT ["java", "-jar", "app.jar"]
-
-
 ```
 
 ## 6. GitHub Action CI/CD
@@ -213,9 +212,8 @@ Add: DOCKER_USERNAME and DOCKER_PASSWORD as shown bellow:
 
 ```bash
 minikube start --driver=docker
-
-
 ```
+
 Leave the terminal open.
 
 ### Step 2: Create Kubernetes Job Yaml
@@ -234,21 +232,22 @@ spec:
         image: amirdirin/myapp:latest
       restartPolicy: Never
   backoffLimit: 1
-
 ```
 
 ### step 3: Apply job
+
 ```bash
 kubectl apply -f job.yaml
 
 ```
 ### step 4: view Pod Logs
+
 ```bash
 kubectl get pods
 kubectl logs <pod-name>
-
 ```
 Expected output
+
 ```text
 Hello from Docker + K8s!
 
