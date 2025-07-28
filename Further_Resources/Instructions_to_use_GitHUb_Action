@@ -1,8 +1,14 @@
-# ☕ Java App with CI/CD, Docker, and Minikube (Step-by-Step) AI GENERATED INSTRUCTION
+# ☕ Java App with CI/CD, Docker, and Minikube (Step-by-Step)
+
+### 🔗 Sample code and the project structure available at:  
+[https://github.com/ADirin/weem5_sep1_CICDAction.git](https://github.com/ADirin/weem5_sep1_CICDAction.git)
+
+---
 
 ## 🚀 Overview
 
 This guide walks you through:
+
 - Creating a Java project in IntelliJ
 - Adding unit tests and code coverage
 - Building a Docker image and pushing it to Docker Hub via GitHub Actions
@@ -13,11 +19,11 @@ This guide walks you through:
 ## 1. 📦 Create Java App in IntelliJ
 
 1. Open **IntelliJ IDEA**
-2. Navigate to `File → New → Project`
-3. Choose `Maven`
+2. Go to `File → New → Project`
+3. Choose **Maven**
 4. Fill in:
-   - GroupId: `org.example`
-   - ArtifactId: `MyApp`
+   - **GroupId**: `org.example`
+   - **ArtifactId**: `MyApp`
 5. Click **Finish**
 
 ---
@@ -38,8 +44,7 @@ public class App {
         return a + b;
     }
 }
-
-
+```
 ## 3. Add Unit Test
 File: src/test/java/org/example/AppTest.java
 
