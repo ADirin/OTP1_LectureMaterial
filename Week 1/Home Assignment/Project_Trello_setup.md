@@ -111,7 +111,7 @@ Create a Trello workspace for managing your project, including setting up a prod
 
 ## Submission
 
-- Share the link to your Trello board with your instructor in [Group setup form](https://metropoliafi-my.sharepoint.com/:x:/g/personal/amirdi_metropolia_fi/ESuijE86mSREnMeKa-bWqj4BoOa4ZTlMBgG7MarRP4XFWw?e=jycdcw) (Only the scrum master for sprint1 should submit).
+- Share the link to your Trello board with your instructor in [Group setup form](see the form in the moodle site, week1--> Home Assignment-->link to group setup form) (Only the scrum master for sprint1 should submit).
 - Ensure the board is set to at least 'Workspace visible' so your instructor (amir.dirin@metropolia.fi) can access it.
 
 By following these steps, you will have a structured Trello workspace to manage your project's tasks and sprints effectively.
