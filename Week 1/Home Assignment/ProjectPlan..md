@@ -4,6 +4,12 @@
 In this assignment, you are required to develop a short project plan for your software engineering project. This plan should provide a clear and concise overview of how you intend to execute the project. The final project plan must be submitted in the designated Dropbox on *Moodle* by **25th August**.
 
 The project plan should be a well-structured document and should not exceed 10 pages in practice. However, in your project plan report, make sure all topics are thoroughly covered, as there are *no page limitations*.
+- Use clear and concise language.
+- Include any necessary diagrams or charts to support your plan.
+- Ensure your document is in PDF format before submission.
+
+ **If you have any questions, do not hesitate to contact me during the lecture hours**
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Assignment Requirements
 
@@ -15,22 +21,21 @@ The project plan should be a well-structured document and should not exceed 10 p
   - **Main Features/Components**: The main features or components of the project.
 
 ### 2. Project Objectives
-- List the key objectives of the project. These should be specific, measurable, achievable, relevant, and time-bound.
+- List the key objectives of the project. These should be specific, measurable, achievable, and relevant.
 
 ### 3. Scope and Deliverables
 - Clearly define the scope of your project by specifying what will be included and what will be excluded.
-- Identify the key deliverables you plan to produce as part of this project. For each deliverable, include a brief description.
 
 ### 4. Project Timeline (Use Jira or Trello)
 - Create a project timeline that outlines the key phases and milestones of the project. This timeline should include:
-  - Start and end dates for each phase (e.g., requirement gathering, design, development, testing, deployment).
-  - Key milestones and deadlines.
+  - Start and end dates for each phase (e.g., requirement gathering, design, development, testing, deployment, you may use the sprint schedule presented in course moodle site as template ).
+  - Key milestones and deadlines (see the course Sprint Schedule table for the deliverable and reveiw deadlines ).
   - Any dependencies between tasks.
 
 ### 5. Resource Allocation
 - Identify the resources required to complete the project. This could include:
-  - **Team Members and Roles**: 
-  - **Software, Hardware, and Tools**: 
+  - **Team Members and Roles**: write done who are the team members and what are their reponsibilities in the project. 
+  - **Software, Hardware, and Tools**:  plan in advance what kind of software, hardware or tools requires to implemented the project successfully...
   - **External Resources or Support**: Any external resources or support required.
 
 ### 6. Risk Management
@@ -48,16 +53,11 @@ The project plan should be a well-structured document and should not exceed 10 p
 
 ### 8. Documentation and Reporting
 - Specify the documentation you plan to produce throughout the project (e.g., user manuals, technical documentation).
-- Describe how you will report on project progress (e.g., weekly updates, meetings, reports).
+- Describe how you will report on project progress (e.g., weekly updates, meetings, reports, see the review report deadlines in the course moodle site).
 
 ### 9. Submission
-- Once your project plan is complete, submit the document in the designated Dropbox on Oma by **25th August**.
+- Once your project plan is complete, submit the document in the designated Dropbox on Moodle by **25th August**.
 
-## Submission Guidelines
-- The project plan should be a well-structured document, not exceeding more than 10 pages in real life. **In your project report, make sure all topics are thoroughly covered, as there are no page limitations*
-- Use clear and concise language.
-- Include any necessary diagrams or charts to support your plan.
-- Ensure your document is in PDF format before submission.
 
 ## Evaluation Criteria
 Your project plan will be evaluated based on the following criteria:
@@ -72,4 +72,3 @@ Your project plan will be evaluated based on the following criteria:
 
 
 
-**Good luck with your assignment!** If you have any questions, do not hesitate to contact me during the lecture hours.
