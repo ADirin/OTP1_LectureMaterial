@@ -3,7 +3,7 @@
 
 You have to create a team of four people. With this team, you are going to do a project for the next 16 weeks (8 sprints), with each sprint lasting 2 weeks. 
 The first four sprints will focus on the DevOps concept, and in the remaining four sprints, the focus will shift to UI, database localization, quality assurance, and software documentation.
- - **Note:** [Group Form](https://metropoliafi-my.sharepoint.com/:x:/g/personal/amirdi_metropolia_fi/ESuijE86mSREnMeKa-bWqj4BJVtefLxS4i8uBj59Dvi6jA?e=oX2Ahe)
+ - **Note:** [Group Form](See your respected course moodle site for the form)
  
    
 # Sprints Implementation process (**Important Read Carefully**)
