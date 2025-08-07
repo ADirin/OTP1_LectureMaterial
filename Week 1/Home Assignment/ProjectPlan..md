@@ -1,4 +1,4 @@
-# Home Assignment: Software Engineering **Project Plan** 
+# Home Assignment: Software Engineering *Project Plan*
 
  ## Assignment Overview
 In this assignment, you are required to develop a short project plan for your software engineering project. This plan should provide a clear and concise overview of how you intend to execute the project. The final project plan must be submitted in the designated Dropbox on *Moodle* by **25th August**.
