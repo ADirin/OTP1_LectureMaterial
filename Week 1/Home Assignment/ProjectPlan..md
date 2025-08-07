@@ -1,9 +1,7 @@
 # Home Assignment: Software Engineering Project Plan 
 
- ## **Note** you can use either template in you project wither the above mentioned template or the gxample given below:
-
-## Assignment Overview
-In this assignment, you are required to develop a short project plan for your software engineering project. This plan should provide a clear and concise overview of how you intend to execute the project. The final project plan must be submitted in the designated Dropbox on Oma by **25th August**.
+ ## Assignment Overview
+In this assignment, you are required to develop a short project plan for your software engineering project. This plan should provide a clear and concise overview of how you intend to execute the project. The final project plan must be submitted in the designated Dropbox on *Moodle* by **25th August**.
 
 ## Assignment Requirements
 
@@ -15,13 +13,13 @@ In this assignment, you are required to develop a short project plan for your so
   - **Main Features/Components**: The main features or components of the project.
 
 ### 2. Project Objectives
-- List the key objectives of the project. These should be specific, measurable, achievable, relevant, and time-bound (SMART).
+- List the key objectives of the project. These should be specific, measurable, achievable, relevant, and time-bound.
 
 ### 3. Scope and Deliverables
 - Clearly define the scope of your project by specifying what will be included and what will be excluded.
 - Identify the key deliverables you plan to produce as part of this project. For each deliverable, include a brief description.
 
-### 4. Project Timeline
+### 4. Project Timeline (Use Jira or Trello)
 - Create a project timeline that outlines the key phases and milestones of the project. This timeline should include:
   - Start and end dates for each phase (e.g., requirement gathering, design, development, testing, deployment).
   - Key milestones and deadlines.
@@ -54,7 +52,7 @@ In this assignment, you are required to develop a short project plan for your so
 - Once your project plan is complete, submit the document in the designated Dropbox on Oma by **25th August**.
 
 ## Submission Guidelines
-- The project plan should be a well-structured document, not exceeding 10 pages.
+- The project plan should be a well-structured document, not exceeding more than 10 pages in real life. **In your project report, make sure all topics are thoroughly covered, as there are no page limitations*
 - Use clear and concise language.
 - Include any necessary diagrams or charts to support your plan.
 - Ensure your document is in PDF format before submission.
@@ -72,4 +70,4 @@ Your project plan will be evaluated based on the following criteria:
 
 
 
-**Good luck with your assignment!** If you have any questions, please feel free to reach out for clarification.
+**Good luck with your assignment!** If you have any questions, do not hesitate to contact me during the lecture hours.
