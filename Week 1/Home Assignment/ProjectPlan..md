@@ -3,6 +3,8 @@
  ## Assignment Overview
 In this assignment, you are required to develop a short project plan for your software engineering project. This plan should provide a clear and concise overview of how you intend to execute the project. The final project plan must be submitted in the designated Dropbox on *Moodle* by **25th August**.
 
+The project plan should be a well-structured document and should not exceed 10 pages in practice. However, in your project plan report, make sure all topics are thoroughly covered, as there are *no page limitations*.
+
 ## Assignment Requirements
 
 ### 1. Project Overview
