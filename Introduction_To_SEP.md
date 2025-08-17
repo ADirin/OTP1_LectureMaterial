@@ -13,23 +13,24 @@
 - Weekly face-to-face lectures  
 - Lectures primarily focus on the **software development process**.  
 - Examples used in the lectures are predominantly in **Java**.  
-- Participation in the face-to-face lectures is **mandatory**.  
+- Participation in the face-to-face lectures is highly recommended specially inclass assignment.
+- Complementary weekly Quizes  
 
 ## Project Assignment  
 The project in this course is designed to impart knowledge of software engineering and the project development lifecycle. This includes:  
 - **Requirments analysis**
-- **Software architectural planning**  
-- **Design**  
-- **Implementation**
+- **Software architectural planning**  which you must do during software modling course which will be     implemented at the same time as software engineering project course
+- **Design**  such as FIGMA, 
+- **Implementation** "AI-based code is not accepted in any form"
 - **Testing**
 - **Documentation**
 
 **NOTE:** *The focus is *NOT* on the final product but rather on the process employed to achieve the project goals, which is a *functional product*. Therefore, it is advised to follow the lectures closely and carefully adhere to the sprint requirements each week.*  
 
 ### Project Management Tool: [Trello](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Project_Management_Trello/Introduction-To_Trello.md)  
-- **Trello** will be used for project management.  
-- Each group must collaborate with the teacher to establish their **product backlog** within Trello.  
-- During Sprint 1, the Scrum Master will share the Trello board with the teacher. The details will be provided during the first lecture.  
+- **Trello** will be used for project management as course tools, but you are most welcome yo use any other project managment tools such as Jira.  
+- Each group must collaborate with the teacher to establish their **product backlog** within Trello or, example, Jira.  
+- During Sprint 1, the Scrum Master will share the Trello or Jira board with the teacher. The details will be provided during the first lecture.  
 
 ### [Sprint Meetings](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Project_Scrum/Scrum_Agile/Spring_Review_Guidline.md)  
 At both the **beginning** and the **end** of each sprint, teams will conduct:  
