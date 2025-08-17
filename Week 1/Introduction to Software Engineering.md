@@ -1,3 +1,4 @@
+# Complementary material for face-to-face lectures (AI-generated and updated by the teacher)
 
 **Note:** It is important to ensure that all practical knowledge about the course is clear. Refer to the [Course Implementation](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Introduction_To_SEP.md) document for details.
 
