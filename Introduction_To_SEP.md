@@ -188,17 +188,12 @@ graph TD
 ### Assessment Criteria
 
 - **Course Completion:**
-  - Exam (50%)
-  - Group-based Project Assignment (50%)
+  - Quizes (40%)
+  - Group-based Project Assignment (60%)
   - Individual Assignments (Compulsory)
   - Peer Review and Self-Evaluation
 
-- **Formula for Passing:** `P = 0.50 × PA + 0.50 × E`
-
-**Note:** Attendance during scheduled hours is mandatory. Additional work outside of class is required to complete the project. Expect to invest approximately 12 hours per week (totaling about 100 hours) for this five-credit course.
-
-We look forward to an engaging and productive semester, where you'll develop a solid foundation in software engineering principles and practices.
-
+ 
 ---------------------------------------------------------------------
 
 # Sprint Schedule
@@ -210,11 +205,11 @@ We look forward to an engaging and productive semester, where you'll develop a s
 |---------|--------|-------------|--------------|---------------------|------------------------------------------|
 | 18.elo  |        | *Sprint1*   |              | Introduction SE     | Project Selection/ Group Setup / setup Jira or Trello |
 | 25.elo  |        |             |              | Introduction SE     | Project Vision/ Project plan / Github   |
-| 1.syys  |        | *Sprint2*   | **Review 1** | Maven               |                                          |
+| 2.syys  |        | *Sprint2*   | **Review 1** | Maven               |                                          |
 | 8.syys  |        |             |              | Junit/Coverage      | In-class / update Github                 |
-| 15.syys |        | *Sprint3*   | **Review 2** | Jenkins             |                                          |
+| 16.syys |        | *Sprint3*   | **Review 2** | Jenkins             |                                          |
 | 22.syys |        |             |              | Jenkins             | In-class                                 |
-| 29.syys |        | *Sprint4*   | **Review 3** | Dockers             |                                          |
+| 30.syys |        | *Sprint4*   | **Review 3** | Dockers             |                                          |
 | 6.loka  |        |             |              | Dockers             | In-class                                 |
 |         |        |             |              |                     | Presentation / Exam / Github Readme      |
 | 20.loka |        |             | **Review 4** |                     |                                          |
