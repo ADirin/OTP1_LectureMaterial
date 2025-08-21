@@ -196,7 +196,7 @@ For more in-depth understanding, consider the following resources:
 
 For a visual introduction to Software Project Management, watch this YouTube video:
 
-[![Introduction to Software Project Management](https://img.youtube.com/vi/nLGBEETtEPc/0.jpg)](https://www.youtube.com/watch?v=nLGBEETtEPc)
+[![Introduction to Agile and Software Project Management](https://www.youtube.com/watch?v=8eVXTyIZ1Hs)
 
 ---
 
