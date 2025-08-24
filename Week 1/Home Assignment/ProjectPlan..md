@@ -58,7 +58,7 @@ The project plan should be a well-structured document and should not exceed 10 p
 - Describe how you will report on project progress (e.g., weekly updates, meetings, reports, see the review report deadlines in the course moodle site).
 
 ### 9. Submission
-- Once your project plan is complete, submit the document in the designated Dropbox on Moodle by **25th August**.
+- Once your project plan is complete, submit the document in the designated Dropbox on Moodle by **31st August**.
 
 
 ## Evaluation Criteria
