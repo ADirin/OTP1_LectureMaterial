@@ -80,7 +80,7 @@
 - Please follow the provided template and complete all essential sections as indicated.
 
 **Do you have a more specific example?**
-- Yes. You may use a project vision document from a previous semester as a reference example (Link will be added ASAP).
+- Yes. You may use a project vision document from a previous semester as a [reference example] (https://github.com/jiakeke/SEP1/blob/main/docs/product_vision_group3.pdf).
 
 
 ### [Project Plan (Non-Technical)](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Week%201/Home%20Assignment/ProjectPlan..md)
@@ -98,7 +98,9 @@
   - Yes, you can update later if some changes occur during the project implementation
 
   **Why have we not created a product definition document?**
-  - In this course, we apply Agile principles. We create the product backlog directly from the product vision. Later in the course, we will consolidate all our reports. Therefore, a traditional list of requirements is replaced by the process of defining and refining the product backlog. [product documentation see the example](https://github.com/MahnoorFatima02/Luku/blob/main/doc/Software-Project-Documentation.pdf) 
+  - In this course, we apply Agile principles. We create the product backlog directly from the product vision. Later in the course, we will consolidate all our reports. Therefore, a traditional list of requirements is replaced by the process of defining and refining the product backlog.
+  - Final documentation which must be submited later in OTP"(https://github.com/MahnoorFatima02/Luku/blob/main/doc/Software-Project-Documentation.pdf)
+  - [Sample Project Plan] (https://github.com/jiakeke/SEP1/blob/main/docs/project_plan_group3_v3.pdf)
 
 
 ### High-Level Design
