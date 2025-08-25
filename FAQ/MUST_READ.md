@@ -1,11 +1,10 @@
-# Please Read prior carefuly to send an email
+# Frequently Asked Questions
+**Please Read carefuly prior to send an email**
 
-## Week 1: Frequently Asked Questions
-
-### Team & Project Basics
+## Team & Project Basics
 
 **What is the optimal team size?**  
-Four.
+- Four. A smaller team size is also possible, but you must ensure that everybody is involved in the development process.
 
 **Can I do the project alone?**  
 No. The ICT project requires team work.
@@ -15,6 +14,19 @@ Yes, but you must still comply with all course requirements.
 
 **Can I pass the course without completing the project?**  
 No.
+
+**Is participation in the sprint review compulsory?**
+Yes. Participation in sprint review meetings is compulsory for all team members, not just the Scrum Master.
+
+
+**Which dates for the in-class assignments or quizzes should we trust: Moodle or GitHub?** 
+All updates and deadlines listed on Moodle are the correct ones. You must adhere to the Moodle deadlines.
+
+**Can we use document templates provided in other courses (for example, a product definition template) for this course?**
+No. All documentation and reports must be based on the templates provided specifically for this course.
+
+
+## Week 1: 
 
 ### Assignments & Quizzes
 
@@ -45,7 +57,7 @@ Contact the teacher.
 
 ## Project Deliverables & Guidance
 
-### Product Vision
+### [Product Vision](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Week%201/Home%20Assignment/Product%20Vision.md)
 The project vision ensures all team members gain a common understanding of the project's potential. It serves as the initial kick-off for product concept development.
 
 ### Project Plan (Non-Technical)
