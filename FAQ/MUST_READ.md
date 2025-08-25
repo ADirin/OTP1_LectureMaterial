@@ -110,4 +110,4 @@ This can include tools like:
 - Yes.
 
 **I cannot install Docker Desktop on my Mac.**  
-Please follow the instructions in the GitHub repository thoroughly. If you still encounter issues, seek help from other resources like ChatGPT.
+Please follow the instructions in the GitHub repository thoroughly. If you still encounter issues, seek help from other [resources like ChatGPT] (https://github.com/ADirin/OTP1_LectureMaterial/tree/main/Further_Resources).
