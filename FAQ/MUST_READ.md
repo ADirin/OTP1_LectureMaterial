@@ -3,27 +3,33 @@
 
 ## Team & Project Basics
 
-**What is the optimal team size?**  
+**1. What is the optimal team size?**  
 - Four. A smaller team size is also possible, but you must ensure that everybody is involved in the development process.
 
-**Can I do the project alone?**  
+**2. Can I do the project alone?**  
 - No. The ICT project requires team work.
 
-**Can we use a technology other than Java?**  
+**3. Can we use a technology other than Java?**  
 - Yes, but you must still comply with all course requirements.
 
-**Can I pass the course without completing the project?**  
+**4. Can I pass the course without completing the project?**  
 - No.
 
-**Is participation in the sprint review compulsory?**
+**5. Is participation in the sprint review compulsory?**
 - Yes. Participation in sprint review meetings is compulsory for all team members, not just the Scrum Master.
 
 
-**Which dates for the in-class assignments or quizzes should we trust: Moodle or GitHub?** 
+**6. Which dates for the in-class assignments or quizzes should we trust: Moodle or GitHub?** 
 - All updates and deadlines listed on Moodle are the correct ones. You must adhere to the Moodle deadlines.
 
-**Can we use document templates provided in other courses (for example, a product definition template) for this course?**
+**7. Can we use document templates provided in other courses (for example, a product definition template) for this course?**
 - No. All documentation and reports must be based on the templates provided specifically for this course.
+
+**8.  Can our group use Jira instead of Trello?**
+- Yes, it is up to the team to select the project management tools.
+
+**9. Is there GitHub example for the OTP1 and OTP2?**
+- Yes, here you got [project example](https://github.com/MahnoorFatima02/Luku/tree/main)
 
 
 ## Week 1: 
