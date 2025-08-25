@@ -59,13 +59,26 @@ Contact the teacher.
 
 ### [Product Vision](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Week%201/Home%20Assignment/Product%20Vision.md)
 The project vision ensures all team members gain a common understanding of the project's potential. It serves as the initial kick-off for product concept development.
+**How detailed must the project vision be?**
+Please follow the provided template and complete all essential sections as indicated.
 
-### Project Plan (Non-Technical)
+**Do you have a more specific example?**
+Yes. You may use a project vision document from a previous semester as a reference example (Link will be added ASAP).
+
+
+### [Project Plan (Non-Technical)](https://github.com/ADirin/OTP1_LectureMaterial/blob/main/Week%201/Home%20Assignment/ProjectPlan..md)
 This plan should focus not only on technical aspects but also on team processes, handling obstacles, and risk management. It should include:
-*   **Applied Technology**
-*   **Risk Assessment**
-*   **Team Approach**
-*   **Product Requirements**
+*   **Project overview**
+*   **Project Objectives**
+*   **Scope and Deliverable**
+*   **Project Timeline**
+*   **Resource Allocation**
+*   **Risk Management**
+*   **Testing and Quality Assurance**
+*   **Documentation and Reporting**
+
+*    **Can we update the project plan?**
+  Yes, you can update later if some changes occur during the project implementation
 
 > **You must create a product backlog in Trello or Jira and share the link with the teacher.**
 
