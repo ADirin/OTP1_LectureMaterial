@@ -1,5 +1,5 @@
 # Frequently Asked Questions
-**Please Read carefuly prior to send an email**
+**Please Read carefuly prior to send an email to me or Vesa**
 
 ## Team & Project Basics
 
