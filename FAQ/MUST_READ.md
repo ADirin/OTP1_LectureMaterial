@@ -80,7 +80,9 @@ This plan should focus not only on technical aspects but also on team processes,
 *    **Can we update the project plan?**
   Yes, you can update later if some changes occur during the project implementation
 
-> **You must create a product backlog in Trello or Jira and share the link with the teacher.**
+*  **Why have we not created a product definition document?**
+  In this course, we apply Agile principles. We create the product backlog directly from the product vision. Later in the course, we will consolidate all our reports. Therefore, a traditional list of requirements is replaced by the process of defining and refining the product backlog. [product documentation see the example](https://github.com/MahnoorFatima02/Luku/blob/main/doc/Software-Project-Documentation.pdf) 
+
 
 ### High-Level Design
 This can include tools like:
