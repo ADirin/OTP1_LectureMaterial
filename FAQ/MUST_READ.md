@@ -29,7 +29,7 @@
 - Yes, it is up to the team to select the project management tools.
 
 **9. Is there GitHub example for the OTP1 and OTP2?**
-- Yes, here you got [project example](https://github.com/MahnoorFatima02/Luku/tree/main)
+- Yes, here you got [GitHub Repository example for project](https://github.com/MahnoorFatima02/Luku/tree/main)
 
 
 ## Week 1: 
