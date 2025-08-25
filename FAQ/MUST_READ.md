@@ -87,8 +87,12 @@ This plan should focus not only on technical aspects but also on team processes,
 ### High-Level Design
 This can include tools like:
 *   **Figma** (for UI/UX mockups)
-*   **UML** (Unified Modeling Language diagrams)
-*   **ER** (Entity-Relationship diagrams for databases)
+*   **UML** (Unified Modeling Language diagrams) *this depends on the Modleing course implemetation*
+*   **ER** (Entity-Relationship diagrams for databases) *this depends on the Modleing course implemetation*
+  
+*   **We don't know UML and ER yet. What should we do?**
+  No problem. You will add the software architecture and database design later during OTP2, after you have studied those topics in your courses.
+
 
 ### Tech Stack Guidance
 
