@@ -31,6 +31,17 @@
 **9. Is there GitHub example for the OTP1 and OTP2?**
 - Yes, here you got [GitHub Repository example for project](https://github.com/MahnoorFatima02/Luku/tree/main)
 
+**10.  Which platform should we use for in-class assignments, GitHub or Moodle?**
+- All assignments, deadlines, and information are based on Moodle. It will be updated on a weekly basis. Only use GitHub if the teacher specifically advises you to do so.
+
+**11.  Can we have our own project topic?**
+- Yes, but you need to confirm with the teacher in advance
+
+**12. Can we use a non-SQL (NoSQL) database?**
+- No. You must use an SQL database, as we will cover database localization during OTP2 and you will need to localize your project's database.
+
+**13. Can we write the reports in Finnish?**
+- Yes. Reports must be written either in Finnish or in English.
 
 ## Week 1: 
 
