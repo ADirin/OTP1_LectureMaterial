@@ -34,8 +34,7 @@ Below is a basic setup guideline for installing Git, Jenkins, Docker, and Kubern
 ![Minikube](/Images/minikube.gif)
    - **Download Minikube:**
      - Visit the official Minikube GitHub repository:
-     - [Minikube Releases]([https://github.com/kubernetes/minikube/releases]
-     - (https://kubernetes.io/releases/download/))
+     - [Minikube install](https://minikube.sigs.k8s.io/docs/start/?arch=%2Fwindows%2Fx86-64%2Fstable%2F.exe+download)
      - Download the latest Minikube executable (.exe) file.
    - **Installation:**
      - Move the downloaded executable to a directory in your system PATH.
